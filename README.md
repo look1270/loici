@@ -1,6 +1,6 @@
-# LoiCI — Observatoire citoyen des lois de Côte d'Ivoire
+# LoiCI - Observatoire citoyen des lois de Côte d'Ivoire
 
-LoiCI recense les textes législatifs ivoiriens — projets de loi, propositions de loi, ratifications d'ordonnances,
+LoiCI recense les textes législatifs ivoiriens - projets de loi, propositions de loi, ratifications d'ordonnances,
 lois promulguées — et leur parcours au Parlement, qu'ils soient en cours d'examen, adoptés, rejetés ou retirés.
 
 🌐 **Site : https://look1270.github.io/loici/** · 📖 **[Wiki](https://github.com/look1270/loici/wiki)** · 📦 **[Données JSON](https://look1270.github.io/loici/api/v1/textes.json)**
