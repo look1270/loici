@@ -1,0 +1,59 @@
+{
+  "id": "pl-2022-evaluation-des-politiques-publiques",
+  "titre_officiel": "Projet de loi relative à l'évaluation des politiques publiques",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Le Sénat a adopté ce texte en séance publique le 26 septembre 2022, selon le tableau des trente-huit projets de loi adoptés en 2022 publié dans son rapport annuel d'activités 2022 (tableau des projets de loi adoptés en séance publique, pages 20-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "themes": [
+    "institutions"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-senat-rapport-activites-2022",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-senat-rapport-activites-2022"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-senat-2022-09-26",
+      "date": "2022-09-26",
+      "statut": "adopte_en_pleniere",
+      "chambre": "senat",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption par le Sénat en séance plénière",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": null,
+        "source_ids": [
+          "src-senat-rapport-activites-2022"
+        ]
+      },
+      "source_ids": [
+        "src-senat-rapport-activites-2022"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-senat-rapport-activites-2022"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

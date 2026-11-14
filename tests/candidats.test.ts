@@ -93,3 +93,13 @@ test("texte déjà recensé : repéré, mais jamais confondu avec une autre ann�
   assert.equal(c.find((x) => x.titre.includes("2025"))!.deja_recense, null);
   assert.equal(ressemblance("loi 2025 budget etat", "loi 2027 budget etat"), 0);
 });
+
+test("texte déjà recensé : entre deux fiches au même intitulé, celle de la bonne année", () => {
+  const titre = "Projet de loi modifiant la loi n°2018-975 du 27 décembre 2018 portant Code de procédure pénale";
+  const existants = [
+    { id: "pl-2022-code-procedure-penale", titre_officiel: titre },
+    { id: "pl-2024-code-procedure-penale", titre_officiel: titre },
+  ];
+  const c = regrouper([ligne(titre, { date_derniere_etape: "2024-06-11" })], existants, "2026-11-14");
+  assert.equal(c[0]!.deja_recense, "pl-2024-code-procedure-penale");
+});

@@ -242,7 +242,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-orientation-relatif-a-la-jeunesse"
     },
     {
       "cle": "projet de loi de finances portant budget de l etat de cote d ivoire pour l annee 2027",
@@ -870,7 +870,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-code-de-l-eau"
     },
     {
       "cle": "projet de loi portant code de l environnement",
@@ -905,7 +905,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-code-de-l-environnement"
     },
     {
       "cle": "projet de loi portant code de l hygiene et de la salubrite",
@@ -940,7 +940,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-code-de-l-hygiene-et-de-la-salubrite"
     },
     {
       "cle": "projet de loi portant code de la sante publique veterinaire",
@@ -1117,7 +1117,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-promotion-des-startups-numeriques"
     },
     {
       "cle": "ordonnance-2018-437",
@@ -2156,7 +2156,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-statut-du-corps-diplomatique"
     },
     {
       "cle": "projet de loi portant statut general de la fonction publique",
@@ -2191,7 +2191,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2023-statut-general-de-la-fonction-publique"
     },
     {
       "cle": "ordonnance-2019-1088",
@@ -2769,7 +2769,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2022-evaluation-des-politiques-publiques"
     },
     {
       "cle": "projet de loi de finances portant budget de l etat pour l annee 2025",
@@ -2811,7 +2811,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plf-2024-finances-portant-budget-de-l-etat-pour-l-annee-2025"
     },
     {
       "cle": "projet de loi portant code de deontologie et exercice de la profession de sage femme et de maieuticien",
@@ -2862,7 +2862,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-code-de-deontologie-et-exercice-de-la-profession-de-sage-fem"
     },
     {
       "cle": "projet de loi portant exercice de la medecine",
@@ -2916,7 +2916,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-exercice-de-la-medecine"
     },
     {
       "cle": "projet de loi portant gestion de la faune",
@@ -2961,7 +2961,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-gestion-de-la-faune"
     },
     {
       "cle": "projet de loi portant organisation et fonctionnement de l ordre national des chirurgiens dentistes de cote d ivoire",
@@ -3003,7 +3003,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-organisation-et-fonctionnement-de-l-ordre-national-des-chiru"
     },
     {
       "cle": "projet de loi portant politique nationale d endettement et de gestion de la dette publique",
@@ -3045,7 +3045,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-politique-nationale-d-endettement-et-de-gestion-de-la-dette"
     },
     {
       "cle": "projet de loi portant protection de l elephant en cote d ivoire",
@@ -3099,7 +3099,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-protection-de-l-elephant-en-cote-d-ivoire"
     },
     {
       "cle": "projet de loi portant reglement du budget de l etat pour l annee 2023",
@@ -3141,7 +3141,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-reglement-du-budget-de-l-etat-pour-l-annee-2023"
     },
     {
       "cle": "projet de loi relatif a l entraide judiciaire en matiere penale",
@@ -3183,7 +3183,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-entraide-judiciaire-en-matiere-penale"
     },
     {
       "cle": "projet de loi relatif a l extradition",
@@ -3225,7 +3225,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-extradition"
     },
     {
       "cle": "projet de loi relatif a la protection des emblemes de la croix rouge du croissant rouge et du cristal rouge",
@@ -3270,7 +3270,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-protection-des-emblemes-de-la-croix-rouge-du-croissant-rouge"
     },
     {
       "cle": "projet de loi relatif au commerce international des especes de faune",
@@ -3357,7 +3357,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-communications-electroniques"
     },
     {
       "cle": "projet de loi relatif aux professions d ingenieurs et d ingenieurs conseils du secteur du batiment et des travaux publics",
@@ -3402,7 +3402,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2024-professions-d-ingenieurs-et-d-ingenieurs-conseils-du-secteur"
     },
     {
       "cle": "projet de loi de finances portant budget de l etat",

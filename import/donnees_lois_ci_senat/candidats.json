@@ -1,0 +1,3583 @@
+{
+  "fichier": "donnees_lois_ci.json",
+  "importe_le": "2026-11-14",
+  "candidats": [
+    {
+      "cle": "ordonnance-2025-290",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2025-290 du 07 mai 2025 portant modification de l’article 51 du Code Électoral",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2025-290 du 07 mai 2025 portant modification de l’article 51 du Code Électoral",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "365b5100-1794671605604_UPLOAD_DOCS_SITE_1791994735_DISCOURS_DE_LA_PR_SIDENTE_DU_S_NAT_OUVERTURE_2I_ME_SESSION_ORDINAIRE_2026.PDF",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant reglementation de l amelioration genetique animale en cote d ivoire",
+      "titre": "Projet de loi portant règlementation de l'amélioration génétique animale en Côte d'Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant règlementation de l'amélioration génétique animale en Côte d'Ivoire",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "365b5100-1794671605604_UPLOAD_DOCS_SITE_1791994735_DISCOURS_DE_LA_PR_SIDENTE_DU_S_NAT_OUVERTURE_2I_ME_SESSION_ORDINAIRE_2026.PDF",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2026-amelioration-genetique-animale"
+    },
+    {
+      "cle": "loi favorisant la representation de la femme dans les assemblees elues",
+      "titre": "Loi favorisant la représentation de la femme dans les assemblées élues",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2019-870",
+      "date_promulgation": "2019-10-14",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi favorisant la représentation de la femme dans les assemblées élues",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2019-10-14",
+          "chambre": "senat",
+          "fiabilite": "verifiee",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "loi-2019-870-representation-femme-assemblees-elues"
+    },
+    {
+      "cle": "loi sur l evaluation des politiques publiques",
+      "titre": "Loi sur l'évaluation des politiques publiques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2022-966",
+      "date_promulgation": "2022-12-14",
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi sur l'évaluation des politiques publiques",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi autorisant le president de la republique a faire adherer la cote d ivoire a la convention internationale pour la protection de les les u le 20 toutes personnes contre disparitions forcees adoptee decembre 2006 a new york",
+      "titre": "Projet de loi autorisant le Président de la République à faire adhérer la Côte d'Ivoire à la Convention Internationale pour la protection de les les u / le 20 toutes personnes contre disparitions forcées, adoptée décembre 2006, à New York",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant le Président de la République à faire adhérer la Côte d'Ivoire à la Convention Internationale pour la protection de les les u / le 20 toutes personnes contre disparitions forcées, adoptée décembre 2006, à New York",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-ratification-convention-internationale-pour-la-protection-de"
+    },
+    {
+      "cle": "projet de loi autorisant le president de la republique a ratifier l accord portant creation de la banque europeenne pour la reconstruction et le developpement berd signe le 29 mai 1990 a paris tel que modifie en octobre 2006 en septembre 2012 et en septembre 2013",
+      "titre": "Projet de loi autorisant le Président de la République à ratifier l'Accord portant création de la Banque Européenne pour la Reconstruction et le Développement (BERD), signé le 29 mai 1990 à Paris, tel que modifié en octobre 2006, en septembre 2012 et en septembre 2013",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant le Président de la République à ratifier l'Accord portant création de la Banque Européenne pour la Reconstruction et le Développement (BERD), signé le 29 mai 1990 à Paris, tel que modifié en octobre 2006, en septembre 2012 et en septembre 2013",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-10-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-ratification-accord-portant-creation-de-la-banque-europeenne"
+    },
+    {
+      "cle": "projet de loi autorisant le president de la republique a ratifier l accord portant creation de la facilite africaine de soutien juridique",
+      "titre": "Projet de loi autorisant le Président de la République à ratifier l'accord portant création de la Facilité africaine de soutien juridique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant le Président de la République à ratifier l'accord portant création de la Facilité africaine de soutien juridique",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-ratification-accord-portant-creation-de-la-facilite-africain"
+    },
+    {
+      "cle": "projet de loi autorisant le president de la republique a ratifier la convention multilaterale pour la mise en uvre des mesures relatives aux conventions fiscales pour prevenir l erosion de la base d imposition et le transfert de benefices signee novembre le 24 janvier 2018 a paris france",
+      "titre": "Projet de loi autorisant le Président de la République à ratifier la Convention multilatérale pour la mise en œuvre des mesures relatives aux conventions fiscales pour prévenir l'érosion de la base d'imposition et le transfert de bénéfices, signée novembre le 24 janvier 2018 à Paris (France)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant le Président de la République à ratifier la Convention multilatérale pour la mise en œuvre des mesures relatives aux conventions fiscales pour prévenir l'érosion de la base d'imposition et le transfert de bénéfices, signée novembre le 24 janvier 2018 à Paris (France)",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-11-22",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-convention-multilaterale-pour-la-mise-en-uvre-d"
+    },
+    {
+      "cle": "projet de loi autorisant le president de la republique a ratifier le protocole a p4 1 03 de la communaute economique des etats de l afrique de l ouest novemete b cedeao sur l energie signe le 31 janvier 2003 a dakar senegal",
+      "titre": "Projet de loi autorisant le Président de la République à ratifier le Protocole A/P4/1/03 de la Communauté Economique des Etats de l'Afrique de l'Ouest NOVEMETE b (CEDEAO) sur l'Energie, signé le 31 janvier 2003 à Dakar (Sénégal)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant le Président de la République à ratifier le Protocole A/P4/1/03 de la Communauté Economique des Etats de l'Afrique de l'Ouest NOVEMETE b (CEDEAO) sur l'Energie, signé le 31 janvier 2003 à Dakar (Sénégal)",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-protocole-a-p4-1-03-de-la-communaute-economique"
+    },
+    {
+      "cle": "projet de loi d orientation de l enseignement et la formation techniques et professionnels",
+      "titre": "Projet de loi d'orientation de l'enseignement et la formation techniques et professionnels",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi d'orientation de l'enseignement et la formation techniques et professionnels",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-09-26",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-orientation-de-l-enseignement-et-la-formation-techniques-et"
+    },
+    {
+      "cle": "projet de loi d orientation de la jeunesse",
+      "titre": "Projet de loi d'orientation de la jeunesse",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi d'orientation de la jeunesse",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi d orientation relatif a la jeunesse",
+      "titre": "Projet de loi d'orientation relatif à la Jeunesse",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi d'orientation relatif à la Jeunesse",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-orientation-relatif-a-la-jeunesse"
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l annee 2023",
+      "titre": "Projet de loi de finances portant Budget de l’année 2023",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant Budget de l’année 2023",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat pour l annee 2020",
+      "titre": "Projet de loi de finances portant Budget de l’Etat pour l’année 2020",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant Budget de l’Etat pour l’année 2020",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat pour l annee 2024",
+      "titre": "Projet de loi de finances portant budget de l'Etat pour l'année 2024",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l'Etat pour l'année 2024",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-12-18",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plf-2023-finances-portant-budget-de-l-etat-pour-l-annee-2024"
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat pour l annee 2025",
+      "titre": "Projet de loi de Finances portant Budget de l'Etat pour l'année 2025",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de Finances portant Budget de l'Etat pour l'année 2025",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plf-2024-finances-portant-budget-de-l-etat-pour-l-annee-2025"
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat pour l annee 2027",
+      "titre": "Projet de loi de finances portant Budget de l'État pour l'année 2027",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant Budget de l'État pour l'année 2027",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": "2026-11-10",
+          "chambre": null,
+          "fiabilite": "verifiee",
+          "alertes": []
+        }
+      ],
+      "sources": [],
+      "deja_recense": "plf-2027-budget-etat"
+    },
+    {
+      "cle": "projet de loi de finances rectificative de l annee 2023",
+      "titre": "Projet de loi de finances rectificative de l'année 2023",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances rectificative de l'année 2023",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-12-18",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plf-2023-finances-rectificative-de-l-annee-2023"
+    },
+    {
+      "cle": "projet de loi de finances rectificative portant budget de l etat pour l annee 2022",
+      "titre": "Projet de loi de Finances rectificative portant Budget de l'Etat pour l'année 2022",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de Finances rectificative portant Budget de l'Etat pour l'année 2022",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plf-2022-finances-rectificative-portant-budget-de-l-etat-pour-l-annee"
+    },
+    {
+      "cle": "ordonnance-2020-602",
+      "titre": "Projet de loi de ratification de l'ordonnance n°2020-602 du 05 aout 2020 modifiant l'ordonnance n°2018-437 du 03 mai 2018 portant répression de la commercialisation et de l'exportation illicites des produits agricoles soumises à septembre agrément",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de ratification de l'ordonnance n°2020-602 du 05 aout 2020 modifiant l'ordonnance n°2018-437 du 03 mai 2018 portant répression de la commercialisation et de l'exportation illicites des produits agricoles soumises à septembre agrément",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2020-602"
+    },
+    {
+      "cle": "projet de loi de reglement du budget de l etat pour l annee 2021",
+      "titre": "Projet de loi de Règlement du Budget de l'Etat pour l'année 2021",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de Règlement du Budget de l'Etat pour l'année 2021",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-reglement-du-budget-de-l-etat-pour-l-annee-2021"
+    },
+    {
+      "cle": "projet de loi instituant le service civique",
+      "titre": "Projet de loi instituant le Service Civique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi instituant le Service Civique",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2011-367",
+      "titre": "Projet de loi modifiant l’ordonnance n°2011-367 du 03 novembre 2011 portant règlementation des systèmes financiers décentralisés",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant l’ordonnance n°2011-367 du 03 novembre 2011 portant règlementation des systèmes financiers décentralisés",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 2017 867 du 27 decembre 2017 portant regime juridique de la presse",
+      "titre": "Projet de loi modifiant la loi n° 2017-867 du 27 décembre 2017 portant régime juridique de la Presse",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n° 2017-867 du 27 décembre 2017 portant régime juridique de la Presse",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-modifiant-la-loi-n-2017-867-du-27-decembre-2017-portant-regi"
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 2017 868 du 27 decembre 2017 portant regime juridique de la communication audiovisuelle",
+      "titre": "Projet de loi modifiant la loi n° 2017-868 du 27 décembre 2017 portant régime juridique de la Communication Audiovisuelle",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n° 2017-868 du 27 décembre 2017 portant régime juridique de la Communication Audiovisuelle",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-modifiant-la-loi-n-2017-868-du-27-decembre-2017-portant-regi"
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 2018 975 du 27 decembre 2018 portant code de procedure penale",
+      "titre": "Projet de loi modifiant la loi n°2018-975 du 27 décembre 2018 portant Code de procédure pénale",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n°2018-975 du 27 décembre 2018 portant Code de procédure pénale",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-modifiant-la-loi-n2018-975-du-27-decembre-2018-portant-code"
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 2019 574 du 26 juin 2019 portant code penal",
+      "titre": "Projet de loi modifiant la loi n°2019-574 du 26 juin 2019 portant Code pénal",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n°2019-574 du 26 juin 2019 portant Code pénal",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-modifiant-la-loi-n2019-574-du-26-juin-2019-portant-code-pena"
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 2020 624 du 14 aout 2020 instituant code de at de l urbanisme et du domaine foncier urbain",
+      "titre": "Projet de loi modifiant la loi n°2020-624 du 14 août 2020 instituant Code dE at de l'Urbanisme et du Domaine Foncier Urbain",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n°2020-624 du 14 août 2020 instituant Code dE at de l'Urbanisme et du Domaine Foncier Urbain",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-modifiant-la-loi-n2020-624-du-14-aout-2020-instituant-code-d"
+    },
+    {
+      "cle": "projet de loi organique determinant l organisation et le fonctionnement du conseil constitutionnel",
+      "titre": "Projet de loi organique déterminant l'organisation et le fonctionnement du Conseil Constitutionnel",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique déterminant l'organisation et le fonctionnement du Conseil Constitutionnel",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plo-2022-determinant-l-organisation-et-le-fonctionnement-du-conseil-c"
+    },
+    {
+      "cle": "projet de loi organique determinant la composition l organisation et le fonctionnement du conseil superieur de la magistrature",
+      "titre": "Projet de loi organique déterminant la composition, l'organisation et le fonctionnement du Conseil Supérieur de la Magistrature",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique déterminant la composition, l'organisation et le fonctionnement du Conseil Supérieur de la Magistrature",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plo-2022-determinant-la-composition-l-organisation-et-le-fonctionneme"
+    },
+    {
+      "cle": "projet de loi organique fixant les attributions l organisation et le fonctionnement du mediateur ll de la republique",
+      "titre": "Projet de loi organique fixant les attributions, l'organisation et le fonctionnement du Médiateur LL de la République",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique fixant les attributions, l'organisation et le fonctionnement du Médiateur LL de la République",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plo-2022-fixant-les-attributions-l-organisation-et-le-fonctionnement"
+    },
+    {
+      "cle": "projet de loi organique portant statut des parlementaires",
+      "titre": "Projet de loi organique portant statut des parlementaires",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique portant statut des parlementaires",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "plo-2020-statut-des-parlementaires"
+    },
+    {
+      "cle": "projet de loi portant code de deontologie et exercice de la profession de sage femme et de maieuticien",
+      "titre": "Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-11-05",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-code-de-deontologie-et-exercice-de-la-profession-de-sage-fem"
+    },
+    {
+      "cle": "projet de loi portant code de l aviation civile",
+      "titre": "Projet de loi portant Code de l'Aviation Civile",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l'Aviation Civile",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-11-22",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-code-de-l-aviation-civile"
+    },
+    {
+      "cle": "projet de loi portant code de l eau",
+      "titre": "Projet de loi portant Code de l'Eau",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l'Eau",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-code-de-l-eau"
+    },
+    {
+      "cle": "projet de loi portant code de l environnement",
+      "titre": "Projet de loi portant Code de l'Environnement",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l'Environnement",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-code-de-l-environnement"
+    },
+    {
+      "cle": "projet de loi portant code de l hygiene et de la salubrite",
+      "titre": "Projet de loi portant Code de l'hygiène et de la salubrité",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l'hygiène et de la salubrité",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-code-de-l-hygiene-et-de-la-salubrite"
+    },
+    {
+      "cle": "projet de loi portant code des douanes",
+      "titre": "Projet de loi portant Code des Douanes",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code des Douanes",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-code-des-douanes"
+    },
+    {
+      "cle": "projet de loi portant code electoral",
+      "titre": "Projet de loi portant code électoral",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant code électoral",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant creation du registre des beneficiaires effectifs des personnes morales et des constructions juridiques",
+      "titre": "Projet de loi portant création du registre des bénéficiaires effectifs des personnes morales et des constructions juridiques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant création du registre des bénéficiaires effectifs des personnes morales et des constructions juridiques",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-creation-du-registre-des-beneficiaires-effectifs-des-personn"
+    },
+    {
+      "cle": "projet de loi portant creation attributions organisation et fonctionnement de l ordre national des infirmiers et infirmieres de cote d ivoire",
+      "titre": "Projet de loi portant création, attributions, organisation et fonctionnement de l'ordre national des infirmiers et infirmières de Côte d'Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant création, attributions, organisation et fonctionnement de l'ordre national des infirmiers et infirmières de Côte d'Ivoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-09-26",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-creation-attributions-organisation-et-fonctionnement-de-l-or"
+    },
+    {
+      "cle": "projet de loi portant creation competence organisation et fonctionnement du pole penal economique et financier",
+      "titre": "Projet de loi portant création, compétence, organisation et fonctionnement du pôle pénal économique et financier",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant création, compétence, organisation et fonctionnement du pôle pénal économique et financier",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-creation-competence-organisation-et-fonctionnement-du-pole-p"
+    },
+    {
+      "cle": "projet de loi portant exercice de la medecine",
+      "titre": "Projet de loi portant exercice de la Médecine",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant exercice de la Médecine",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-exercice-de-la-medecine"
+    },
+    {
+      "cle": "projet de loi portant gestion de la faune",
+      "titre": "Projet de loi portant gestion de la faune",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant gestion de la faune",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-gestion-de-la-faune"
+    },
+    {
+      "cle": "projet de loi portant institution d un systeme national de metrologie en cote d lvoire",
+      "titre": "Projet de loi portant institution d’un système national de métrologie en Côte d’lvoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant institution d’un système national de métrologie en Côte d’lvoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant livre de procedures des recettes non fiscales",
+      "titre": "Projet de loi portant livre de procédures des recettes non fiscales",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant livre de procédures des recettes non fiscales",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-12-18",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-livre-de-procedures-des-recettes-non-fiscales"
+    },
+    {
+      "cle": "projet de loi portant lutte contre le trafic et l usage illicites des stupefiants des 10 substances psychotropes et leurs precurseurs en cote d ivoire",
+      "titre": "Projet de loi portant lutte contre le trafic et l'usage illicites des stupéfiants, des 10 substances psychotropes et leurs précurseurs en Côte d'Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant lutte contre le trafic et l'usage illicites des stupéfiants, des 10 substances psychotropes et leurs précurseurs en Côte d'Ivoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant modification de la loi n 2001 634 du 9 octobre 2001 portant composition organisation attributions et fonctionnement de la commission electorale independante",
+      "titre": "Projet de loi portant modification de la loi n°2001-634 du 9 octobre 2001 portant composition, organisation, attributions et fonctionnement de la Commission Electorale Indépendante",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant modification de la loi n°2001-634 du 9 octobre 2001 portant composition, organisation, attributions et fonctionnement de la Commission Electorale Indépendante",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-11-22",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-modification-de-la-loi-n2001-634-du-9-octobre-2001-portant-c"
+    },
+    {
+      "cle": "projet de loi portant organisation et fonctionnement de l ordre national 23 avril 2024 des chirurgiens dentistes de cote d ivoire",
+      "titre": "Projet de loi portant organisation et fonctionnement de l'Ordre national 23 avril 2024 des Chirurgiens-Dentistes de Côte d'Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant organisation et fonctionnement de l'Ordre national 23 avril 2024 des Chirurgiens-Dentistes de Côte d'Ivoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant plan national de developpement 2026 2030",
+      "titre": "Projet de loi portant Plan National de Développement 2026-2030",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": "Loi n° 2026-280",
+      "date_promulgation": "2026-05-07",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Plan National de Développement 2026-2030",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2026-05-07",
+          "chambre": null,
+          "fiabilite": "verifiee",
+          "alertes": []
+        }
+      ],
+      "sources": [],
+      "deja_recense": "pl-2026-plan-national-developpement-2026-2030"
+    },
+    {
+      "cle": "projet de loi portant politique nationale d endettement et de gestion de la dette publique",
+      "titre": "Projet de loi portant politique nationale d'endettement et de gestion de la dette publique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant politique nationale d'endettement et de gestion de la dette publique",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-politique-nationale-d-endettement-et-de-gestion-de-la-dette"
+    },
+    {
+      "cle": "projet de loi portant promotion des startups numeriques",
+      "titre": "Projet de loi portant promotion des startups numériques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant promotion des startups numériques",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-promotion-des-startups-numeriques"
+    },
+    {
+      "cle": "projet de loi portant protection de l elephant en cote d ivoire",
+      "titre": "Projet de loi portant protection de l'éléphant en Côte d'Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant protection de l'éléphant en Côte d'Ivoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-protection-de-l-elephant-en-cote-d-ivoire"
+    },
+    {
+      "cle": "projet de loi portant ratification de l ordonnance 2021 755 du 1er decembre 2021 portant modification de la loi organique n 2018 867 du 19 novembre 2018 determinant la composition et le fonctionnement du conseil economique social environnemental et culturel",
+      "titre": "Projet de loi portant ratification de l'ordonnance 2021-755 du 1er décembre 2021 portant modification de la loi organique N°2018-867 du 19 novembre 2018 déterminant la composition et le fonctionnement du Conseil économique, Social, Environnemental et Culturel",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance 2021-755 du 1er décembre 2021 portant modification de la loi organique N°2018-867 du 19 novembre 2018 déterminant la composition et le fonctionnement du Conseil économique, Social, Environnemental et Culturel",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-755"
+    },
+    {
+      "cle": "ordonnance-2018-517",
+      "titre": "Projet de loi portant ratification de l’ordonnance n° 2018-517 du 30 mai 2018 relative au pouvoir disciplinaire des Ministres chargés de la Douane, des Eaux et Forêts, des Affaires Maritimes",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n° 2018-517 du 30 mai 2018 relative au pouvoir disciplinaire des Ministres chargés de la Douane, des Eaux et Forêts, des Affaires Maritimes",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2021-858",
+      "titre": "Projet de loi portant ratification de l'ordonnance N° 2021-858 du 15 décembre 2021 instituant des taxes parafiscales sur certains matériaux de construction au profit de décembre, l'Habitat social",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance N° 2021-858 du 15 décembre 2021 instituant des taxes parafiscales sur certains matériaux de construction au profit de décembre, l'Habitat social",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-858"
+    },
+    {
+      "cle": "ordonnance-2022-300",
+      "titre": "Projet de loi portant ratification de l'ordonnance N° 2022-300 du 04 mai 2022 portant exonération du droit de douane sur les importations de blé dans le cadre de décembre, la lutte la chère contre vie",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance N° 2022-300 du 04 mai 2022 portant exonération du droit de douane sur les importations de blé dans le cadre de décembre, la lutte la chère contre vie",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2022-300"
+    },
+    {
+      "cle": "ordonnance-2017-769",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2017-769 du 22 novembre 2017 modifiant les articles 151, 166, 277 et 623 du code général des impôts",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2017-769 du 22 novembre 2017 modifiant les articles 151, 166, 277 et 623 du code général des impôts",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2017-770",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2017-770 du 22 novembre 2017 portant exonération des droits domaniaux et de publicité foncière en faveur de Côte d’lvoire Energies, en abrégé CI-Energies",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2017-770 du 22 novembre 2017 portant exonération des droits domaniaux et de publicité foncière en faveur de Côte d’lvoire Energies, en abrégé CI-Energies",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2017-822",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2017-822 du 14 décembre 2017 instituant une taxe sur les exportations de noix brutes de cajou pour le soutien au développement durable de la filière anacarde",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2017-822 du 14 décembre 2017 instituant une taxe sur les exportations de noix brutes de cajou pour le soutien au développement durable de la filière anacarde",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-641",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2018-641 du 1er août 2018 portant modification de l’article 5 de l’ordonnance n°2017-500 du 02 août 2017 relative aux échanges électroniques entre les usagers et les autorités administratives et entre Les autorités administratives",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2018-641 du 1er août 2018 portant modification de l’article 5 de l’ordonnance n°2017-500 du 02 août 2017 relative aux échanges électroniques entre les usagers et les autorités administratives et entre Les autorités administratives",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-644",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2018-644 du 1 août 2018 portant modification de l’article 1 de l’ordonnance n°2015-182 du 24 mars 2015 instituant un identifiant unique pour l’immatriculation des entreprises en Côte d’lvoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2018-644 du 1 août 2018 portant modification de l’article 1 de l’ordonnance n°2015-182 du 24 mars 2015 instituant un identifiant unique pour l’immatriculation des entreprises en Côte d’lvoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-289",
+      "titre": "Projet de loi portant ratification de l'ordonnance N°2019-289 du 03 avril 2019 fixant le taux de Droit Unique de Sortie sur les exportations de noix de cajou",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance N°2019-289 du 03 avril 2019 fixant le taux de Droit Unique de Sortie sur les exportations de noix de cajou",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-389",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2019-389 du 08 Mai 2019 modifiant l'ordonnance N°2013-662 du 20 Septembre 2013 relative à la concurrence",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-389 du 08 Mai 2019 modifiant l'ordonnance N°2013-662 du 20 Septembre 2013 relative à la concurrence",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-391",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2019-391 du 08 mai 2019 portant exonération de droits de douanes et de la taxe sur la valeur ajoutée sur les équipements nécessaires à la réception du signal de Télévision Numérique Terrestre",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-391 du 08 mai 2019 portant exonération de droits de douanes et de la taxe sur la valeur ajoutée sur les équipements nécessaires à la réception du signal de Télévision Numérique Terrestre",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-586",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2019-586 du 03 juillet 2019 modifiant la loi N°72-833 du 21 Décembre 1972 portant code de procédure civile, commerciale et administrative",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-586 du 03 juillet 2019 modifiant la loi N°72-833 du 21 Décembre 1972 portant code de procédure civile, commerciale et administrative",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2021-189",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2021-189 du 28 avril 2021 portant création, attributions, organisation et fonctionnement d'un Centre Sportif, Culturel et des TIC lvoiro Coréen Alassane OUATTARA",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2021-189 du 28 avril 2021 portant création, attributions, organisation et fonctionnement d'un Centre Sportif, Culturel et des TIC lvoiro Coréen Alassane OUATTARA",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-06-10",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-189"
+    },
+    {
+      "cle": "ordonnance-2021-431",
+      "titre": "Projet de loi portant ratification de l'ordonnance N°2021-431 du 08 septembre 2021 portant création d'une Académie internationale de Lutte contre le Terrorisme",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance N°2021-431 du 08 septembre 2021 portant création d'une Académie internationale de Lutte contre le Terrorisme",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-431"
+    },
+    {
+      "cle": "ordonnance-2021-432",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2021-432 du 08 septembre 2021 portant règles applicables en matière de transport intelligent",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2021-432 du 08 septembre 2021 portant règles applicables en matière de transport intelligent",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-11-22",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-432"
+    },
+    {
+      "cle": "ordonnance-2021-433",
+      "titre": "Projet de loi portant ratification de l'ordonnance N°2021-433 du 08 septembre 2021 portant légalisation du régime fiscal et douanier de la Convention de concession de la ligne 1 du Métro d'Abidjan",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance N°2021-433 du 08 septembre 2021 portant légalisation du régime fiscal et douanier de la Convention de concession de la ligne 1 du Métro d'Abidjan",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-433"
+    },
+    {
+      "cle": "ordonnance-2021-672",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2021-672 du 03 novembre 2021 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, l'exploitation et le transfert de propriété de l'Aménagement Hydroélectrique de Singrobo-Ahouaty d'une puissance installée de 44MW, sur le fleuve Bandaman (la « Convention",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2021-672 du 03 novembre 2021 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, l'exploitation et le transfert de propriété de l'Aménagement Hydroélectrique de Singrobo-Ahouaty d'une puissance installée de 44MW, sur le fleuve Bandaman (la « Convention",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2021-672"
+    },
+    {
+      "cle": "ordonnance-2022-584",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2022-584 du 03 août 2022 portant modification de la loi n°2014-452 portant mode de création, attributions, organisation et fonctionnement du District Autonome",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2022-584 du 03 août 2022 portant modification de la loi n°2014-452 portant mode de création, attributions, organisation et fonctionnement du District Autonome",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-11-22",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-ratification-ordonnance-2022-584"
+    },
+    {
+      "cle": "ordonnance-2022-908",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2022-908 du 30 novembre 2022 portant augmentation du plafond des avals et garanties accordés par l'Etat pour l'année 2022",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2022-908 du 30 novembre 2022 portant augmentation du plafond des avals et garanties accordés par l'Etat pour l'année 2022",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-12-18",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-ratification-ordonnance-2022-908"
+    },
+    {
+      "cle": "ordonnance-2023-23",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2023-23 du 18 janvier 2023 instituant un juge unique pour connaître des délits en matière de police de la circulation et ceux résultant des accidents de la voie publique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2023-23 du 18 janvier 2023 instituant un juge unique pour connaître des délits en matière de police de la circulation et ceux résultant des accidents de la voie publique",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-ratification-ordonnance-2023-23"
+    },
+    {
+      "cle": "ordonnance-2023-672",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2023-672 du 12 juillet 2023 instituant des dispositions dérogatoires au Code électoral par 23 avril 2024 réaménagement de ses articles 107, 111, 120, 141, 142, 162, 170, 191, 199 et 203 en vue de la tenue des élections locales et sénatoriales de 2023",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2023-672 du 12 juillet 2023 instituant des dispositions dérogatoires au Code électoral par 23 avril 2024 réaménagement de ses articles 107, 111, 120, 141, 142, 162, 170, 191, 199 et 203 en vue de la tenue des élections locales et sénatoriales de 2023",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2023-719",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2023-719 du 13 septembre 2023 portant réforme des impôts sur traitements, salaires, pensions et rentes viagères à la charge des salariés",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2023-719 du 13 septembre 2023 portant réforme des impôts sur traitements, salaires, pensions et rentes viagères à la charge des salariés",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-ratification-ordonnance-2023-719"
+    },
+    {
+      "cle": "ordonnance-2023-875",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2023-875 du 23 novembre 2023 relative à la lutte contre le blanchiment de capitaux, 11 J juin 2024 le financement du terrorisme et de la prolifération des armes de destruction massive",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2023-875 du 23 novembre 2023 relative à la lutte contre le blanchiment de capitaux, 11 J juin 2024 le financement du terrorisme et de la prolifération des armes de destruction massive",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant recomposition de la commission electorale independante cei",
+      "titre": "Projet de loi portant recomposition de la Commission Electorale Indépendante (CEI)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant recomposition de la Commission Electorale Indépendante (CEI)",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant reglement du budget de l etat pour l annee 2022",
+      "titre": "Projet de loi portant Règlement du budget de l'Etat pour l'année 2022",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Règlement du budget de l'Etat pour l'année 2022",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-12-18",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-reglement-du-budget-de-l-etat-pour-l-annee-2022"
+    },
+    {
+      "cle": "projet de loi portant reglement du budget de l etat pour l annee 2023",
+      "titre": "Projet de loi portant Règlement du Budget de l'Etat pour l'année 2023",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [
+        "titres voisins regroupés : vérifier qu'il s'agit bien du même texte"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Règlement du Budget de l'Etat pour l'année 2023",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi de Finances portant Budget de l'Etat pour l'année 2023",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-12-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-reglement-du-budget-de-l-etat-pour-l-annee-2023"
+    },
+    {
+      "cle": "projet de loi portant statut de la magistrature",
+      "titre": "Projet de loi portant statut de la Magistrature",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant statut de la Magistrature",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-03-07",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-statut-de-la-magistrature"
+    },
+    {
+      "cle": "projet de loi portant statut de refugie",
+      "titre": "Projet de loi portant statut de réfugié",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant statut de réfugié",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant statut du corps diplomatique",
+      "titre": "Projet de loi portant Statut du Corps Diplomatique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Statut du Corps Diplomatique",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-statut-du-corps-diplomatique"
+    },
+    {
+      "cle": "projet de loi portant statut general de la fonction publique",
+      "titre": "Projet de loi portant Statut général de la Fonction Publique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Statut général de la Fonction Publique",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2023-statut-general-de-la-fonction-publique"
+    },
+    {
+      "cle": "ordonnance-2018-646",
+      "titre": "Projet de loi ratifiant l’ordonnance n°2018-646 du 1er août 2018 portant Code des Investissements",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance n°2018-646 du 1er août 2018 portant Code des Investissements",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-495",
+      "titre": "Projet de loi ratifiant l’ordonnance N°2019-495 du 12 Juin 2019 portant institution d’un dispositif de contrôle des flux de communications électroniques des entreprises de télécommunications/TIC",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance N°2019-495 du 12 Juin 2019 portant institution d’un dispositif de contrôle des flux de communications électroniques des entreprises de télécommunications/TIC",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a l adoption",
+      "titre": "Projet de loi relatif à l’adoption",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l’adoption",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a l enseignement superieur a la recherche et a l innovation",
+      "titre": "Projet de loi relatif à l'Enseignement Supérieur, à la Recherche et à l'Innovation",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l'Enseignement Supérieur, à la Recherche et à l'Innovation",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a l entraide judiciaire en matiere penale",
+      "titre": "Projet de loi relatif à l'entraide judiciaire en matière pénale",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l'entraide judiciaire en matière pénale",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-entraide-judiciaire-en-matiere-penale"
+    },
+    {
+      "cle": "projet de loi relatif a l extradition",
+      "titre": "Projet de loi relatif à l'extradition",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l'extradition",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-extradition"
+    },
+    {
+      "cle": "projet de loi relatif a la protection des emblemes de la croix rouge du croissant rouge et du cristal rouge",
+      "titre": "Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-protection-des-emblemes-de-la-croix-rouge-du-croissant-rouge"
+    },
+    {
+      "cle": "projet de loi relatif au commerce international des especes s de faune 11 et de flore sauvages menacees d extinction",
+      "titre": "Projet de loi relatif au commerce international des espèces s de faune 11 et de flore sauvages menacées d'extinction",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif au commerce international des espèces s de faune 11 et de flore sauvages menacées d'extinction",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-24",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif au systeme national de metrologie en cote d lvoire",
+      "titre": "Projet de loi relatif au système national de métrologie en Côte d’lvoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif au système national de métrologie en Côte d’lvoire",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif aux communications electroniques",
+      "titre": "Projet de loi relatif aux communications électroniques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux communications électroniques",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2024-communications-electroniques"
+    },
+    {
+      "cle": "projet de loi relatif aux professions d ingenieurs et d ingenieurs conseils du 23 avril 2024 secteur du batiment et des travaux publics",
+      "titre": "Projet de loi relatif aux professions d'Ingénieurs et d'Ingénieurs-Conseils du 23 avril 2024 secteur du bâtiment et des travaux publics",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux professions d'Ingénieurs et d'Ingénieurs-Conseils du 23 avril 2024 secteur du bâtiment et des travaux publics",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relative a l absence et a la disparition",
+      "titre": "Projet de loi relative à l'absence et à la disparition",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relative à l'absence et à la disparition",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-11-22",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-absence-et-a-la-disparition"
+    },
+    {
+      "cle": "projet de loi relative a l application de la convention du 10 avril 1972 sur l interdiction de la mise au point de la fabrication et du stockage des armes bacteriologiques biologiques ou a toxines et sur leur destruction",
+      "titre": "Projet de loi relative à l'application de la convention du 10 avril 1972 sur l'interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relative à l'application de la convention du 10 avril 1972 sur l'interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-09-26",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-application-de-la-convention-du-10-avril-1972-sur-l-interdic"
+    },
+    {
+      "cle": "projet de loi relative a l evaluation des politiques publiques",
+      "titre": "Projet de loi relative à l'évaluation des politiques publiques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2022-966",
+      "date_promulgation": "2022-12-14",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relative à l'évaluation des politiques publiques",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-09-26",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        },
+        {
+          "titre_brut": "Loi relative à l'évaluation des politiques publiques et sur le guide d'évaluation des politiques publiques",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-evaluation-des-politiques-publiques"
+    },
+    {
+      "cle": "projet de loi relative au contenu local dans les activites petrolieres et gazieres",
+      "titre": "Projet de loi relative au contenu local dans les activités pétrolières et gazières",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relative au contenu local dans les activités pétrolières et gazières",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-06-10",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-contenu-local-dans-les-activites-petrolieres-et-gazieres"
+    },
+    {
+      "cle": "projet de loi relative au divorce et a la separation de corps",
+      "titre": "Projet de loi relative au divorce et à la séparation de corps",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relative au divorce et à la séparation de corps",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2022-09-26",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": "pl-2022-divorce-et-a-la-separation-de-corps"
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 2015 493 du 07 juillet 2015 portant repression du terrorisme telle que modifiee par la loi n 2018 864 du",
+      "titre": "Projet de loi modifiant la loi n°2015-493 du 07 juillet 2015 portant répression du terrorisme, telle que modifiée par la loi n°2018-864 du",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n°2015-493 du 07 juillet 2015 portant répression du terrorisme, telle que modifiée par la loi n°2018-864 du 19 novembre 2018",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 61 415 du 14 decembre 1961 portant code de la nationalite telle que modifiee par les lois n 72 852 23 avril 2024 du 21 decembre 1972 n 2004 662 du 17 decembre 2004 et n 2013 654 du",
+      "titre": "Projet de loi modifiant la loi n°61-415 du 14 décembre 1961 portant Code de la nationalité telle que modifiée par les lois n°72-852 23 avril 2024 du 21 décembre 1972, n°2004-662 du 17 décembre 2004 et n°2013-654 du",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n°61-415 du 14 décembre 1961 portant Code de la nationalité telle que modifiée par les lois n°72-852 23 avril 2024 du 21 décembre 1972, n°2004-662 du 17 décembre 2004 et n°2013-654 du 13 décembre 2013",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi modifiant la loi n 98 750 du 23 decembre 1998 relative au domaine foncier rural telle que modifiee par les lois n 2004 412 du 14 aout 2004 et n 2013 655 du",
+      "titre": "Projet de loi modifiant la loi n°98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par les lois n° 2004-412 du 14 août 2004 et n°2013-655 du",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant la loi n°98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par les lois n° 2004-412 du 14 août 2004 et n°2013-655 du 13 septembre 2013",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-477",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2018-477 du 16 mai 2018 modifiant l’article 94 de l’ordonnance N°2013-660 du 20 septembre 2013 relative à la prévention et à la lutte contre la corruption et les infractions assimilées telle que modifiée par les ordonnances N°2015-176 du 24 mars 2015 et N°2018-25 du",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2018-477 du 16 mai 2018 modifiant l’article 94 de l’ordonnance N°2013-660 du 20 septembre 2013 relative à la prévention et à la lutte contre la corruption et les infractions assimilées telle que modifiée par les ordonnances N°2015-176 du 24 mars 2015 et N°2018-25 du 17 Janvier 2018",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-390",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2019-390 du 08 mai 2019 portant légalisation du régime fiscal et douanier prévu par le contrat de",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-390 du 08 mai 2019 portant légalisation du régime fiscal et douanier prévu par le contrat de",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2023-718",
+      "titre": "Projet de loi portant ratification de l'ordonnance n°2023-718 du 13 septembre 2023 portant modification de l'article 10 de la loi n°2014-812 du 16 décembre 2014 d'orientation du transport intérieur, telle que 05 novembre 2024 modifiée par les ordonnances n°2018-09 du 10 janvier 2018 et n°2019-99 du",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l'ordonnance n°2023-718 du 13 septembre 2023 portant modification de l'article 10 de la loi n°2014-812 du 16 décembre 2014 d'orientation du transport intérieur, telle que 05 novembre 2024 modifiée par les ordonnances n°2018-09 du 10 janvier 2018 et n°2019-99 du 30 janvier 2019",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2017-500",
+      "titre": "Projet de Loi ratifiant l’ordonnance n°2017-500 du 2 août 2017 relative aux",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de Loi ratifiant l’ordonnance n°2017-500 du 2 août 2017 relative aux",
+          "statut_extrait": "adopte_senat",
+          "statut_loici": null,
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "statut inconnu « adopte_senat »"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    }
+  ]
+}

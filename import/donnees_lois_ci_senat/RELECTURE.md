@@ -1,0 +1,610 @@
+# File de relecture — donnees_lois_ci.json
+
+Extraction automatique du 2026-11-14 : **109 lignes**, regroupées en **107 textes distincts**.
+
+> **Rien de cette liste n'est publié.** Chaque texte doit être vérifié dans sa source, puis saisi dans `donnees/`
+> selon le guide [Ajouter un texte](https://github.com/look1270/loici/wiki/Ajouter-un-texte) : titre officiel exact,
+> résumé neutre, étapes datées et sourcées, source archivée sur la Wayback Machine.
+> Les statuts et dates ci-dessous sont ceux de l'extraction : ils peuvent être faux.
+
+| Catégorie | Nombre |
+|---|---|
+| Candidats avec une source précise | 1 |
+| Candidats avec seulement une source générique | 31 |
+| Titres à corriger avant saisie | 7 |
+| Déjà recensés dans LoiCI | 68 |
+| Écartés (pas des textes) | 0 |
+
+Une fois un texte saisi (ou écarté après vérification), cochez sa case.
+
+## 1. Candidats avec une source précise (1)
+
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2025-290 du 07 mai 2025 portant modification de l’article 51 du Code Électoral**
+  - Ratification d'ordonnance · statut observé : En commission
+  - source : <365b5100-1794671605604_UPLOAD_DOCS_SITE_1791994735_DISCOURS_DE_LA_PR_SIDENTE_DU_S_NAT_OUVERTURE_2I_ME_SESSION_ORDINAIRE_2026.PDF>
+
+## 2. Candidats avec seulement une source générique (31)
+
+La source est une page d'accueil, un rapport d'activité ou un document de synthèse : trouvez la page ou le PDF du texte lui-même.
+
+- [ ] **Loi sur l'évaluation des politiques publiques**
+  - Projet de loi · ordinaire · statut observé : non renseigné · Loi n° 2022-966 · promulguée le 2022-12-14
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+- [ ] **Projet de loi d'orientation de la jeunesse**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+- [ ] **Projet de loi de finances portant Budget de l’année 2023**
+  - Projet de loi · finances · statut observé : En commission
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+- [ ] **Projet de loi de finances portant Budget de l’Etat pour l’année 2020**
+  - Projet de loi · finances · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi instituant le Service Civique**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi modifiant l’ordonnance n°2011-367 du 03 novembre 2011 portant règlementation des systèmes financiers décentralisés**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant code électoral**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant institution d’un système national de métrologie en Côte d’lvoire**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant lutte contre le trafic et l'usage illicites des stupéfiants, des 10 substances psychotropes et leurs précurseurs en Côte d'Ivoire**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+- [ ] **Projet de loi portant organisation et fonctionnement de l'Ordre national 23 avril 2024 des Chirurgiens-Dentistes de Côte d'Ivoire**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance n° 2018-517 du 30 mai 2018 relative au pouvoir disciplinaire des Ministres chargés de la Douane, des Eaux et Forêts, des Affaires Maritimes**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2017-769 du 22 novembre 2017 modifiant les articles 151, 166, 277 et 623 du code général des impôts**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2017-770 du 22 novembre 2017 portant exonération des droits domaniaux et de publicité foncière en faveur de Côte d’lvoire Energies, en abrégé CI-Energies**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2017-822 du 14 décembre 2017 instituant une taxe sur les exportations de noix brutes de cajou pour le soutien au développement durable de la filière anacarde**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2018-641 du 1er août 2018 portant modification de l’article 5 de l’ordonnance n°2017-500 du 02 août 2017 relative aux échanges électroniques entre les usagers et les autorités administratives et entre Les autorités administratives**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2018-644 du 1 août 2018 portant modification de l’article 1 de l’ordonnance n°2015-182 du 24 mars 2015 instituant un identifiant unique pour l’immatriculation des entreprises en Côte d’lvoire**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l'ordonnance N°2019-289 du 03 avril 2019 fixant le taux de Droit Unique de Sortie sur les exportations de noix de cajou**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-389 du 08 Mai 2019 modifiant l'ordonnance N°2013-662 du 20 Septembre 2013 relative à la concurrence**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-391 du 08 mai 2019 portant exonération de droits de douanes et de la taxe sur la valeur ajoutée sur les équipements nécessaires à la réception du signal de Télévision Numérique Terrestre**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-586 du 03 juillet 2019 modifiant la loi N°72-833 du 21 Décembre 1972 portant code de procédure civile, commerciale et administrative**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2023-672 du 12 juillet 2023 instituant des dispositions dérogatoires au Code électoral par 23 avril 2024 réaménagement de ses articles 107, 111, 120, 141, 142, 162, 170, 191, 199 et 203 en vue de la tenue des élections locales et sénatoriales de 2023**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2023-875 du 23 novembre 2023 relative à la lutte contre le blanchiment de capitaux, 11 J juin 2024 le financement du terrorisme et de la prolifération des armes de destruction massive**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de loi portant recomposition de la Commission Electorale Indépendante (CEI)**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant statut de réfugié**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+- [ ] **Projet de loi ratifiant l’ordonnance n°2018-646 du 1er août 2018 portant Code des Investissements**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi ratifiant l’ordonnance N°2019-495 du 12 Juin 2019 portant institution d’un dispositif de contrôle des flux de communications électroniques des entreprises de télécommunications/TIC**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi relatif à l’adoption**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi relatif à l'Enseignement Supérieur, à la Recherche et à l'Innovation**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+- [ ] **Projet de loi relatif au commerce international des espèces s de faune 11 et de flore sauvages menacées d'extinction**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-24
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de loi relatif au système national de métrologie en Côte d’lvoire**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi relatif aux professions d'Ingénieurs et d'Ingénieurs-Conseils du 23 avril 2024 secteur du bâtiment et des travaux publics**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+
+## 3. Titres à corriger avant saisie (7)
+
+Le titre extrait est coupé ou mélangé avec un texte voisin : recopiez l'intitulé exact depuis la source.
+
+- [ ] **Projet de loi modifiant la loi n°2015-493 du 07 juillet 2015 portant répression du terrorisme, telle que modifiée par la loi n°2018-864 du**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de loi modifiant la loi n°61-415 du 14 décembre 1961 portant Code de la nationalité telle que modifiée par les lois n°72-852 23 avril 2024 du 21 décembre 1972, n°2004-662 du 17 décembre 2004 et n°2013-654 du**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de loi modifiant la loi n°98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par les lois n° 2004-412 du 14 août 2004 et n°2013-655 du**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2018-477 du 16 mai 2018 modifiant l’article 94 de l’ordonnance N°2013-660 du 20 septembre 2013 relative à la prévention et à la lutte contre la corruption et les infractions assimilées telle que modifiée par les ordonnances N°2015-176 du 24 mars 2015 et N°2018-25 du**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-390 du 08 mai 2019 portant légalisation du régime fiscal et douanier prévu par le contrat de**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2023-718 du 13 septembre 2023 portant modification de l'article 10 de la loi n°2014-812 du 16 décembre 2014 d'orientation du transport intérieur, telle que 05 novembre 2024 modifiée par les ordonnances n°2018-09 du 10 janvier 2018 et n°2019-99 du**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+- [ ] **Projet de Loi ratifiant l’ordonnance n°2017-500 du 2 août 2017 relative aux**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ titre incomplet
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+
+## 4. Déjà recensés dans LoiCI (68)
+
+Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche existante.
+
+- [ ] **Projet de loi portant règlementation de l'amélioration génétique animale en Côte d'Ivoire**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - source : <365b5100-1794671605604_UPLOAD_DOCS_SITE_1791994735_DISCOURS_DE_LA_PR_SIDENTE_DU_S_NAT_OUVERTURE_2I_ME_SESSION_ORDINAIRE_2026.PDF>
+  - fiche existante : `donnees/textes/pl-2026-amelioration-genetique-animale.json`
+- [ ] **Loi favorisant la représentation de la femme dans les assemblées élues**
+  - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2019-870 · promulguée le 2019-10-14
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-10-14
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+  - fiche existante : `donnees/textes/loi-2019-870-representation-femme-assemblees-elues.json`
+- [ ] **Projet de loi autorisant le Président de la République à faire adhérer la Côte d'Ivoire à la Convention Internationale pour la protection de les les u / le 20 toutes personnes contre disparitions forcées, adoptée décembre 2006, à New York**
+  - Projet de loi · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-ratification-convention-internationale-pour-la-protection-de.json`
+- [ ] **Projet de loi autorisant le Président de la République à ratifier l'Accord portant création de la Banque Européenne pour la Reconstruction et le Développement (BERD), signé le 29 mai 1990 à Paris, tel que modifié en octobre 2006, en septembre 2012 et en septembre 2013**
+  - Projet de loi · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-10-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-ratification-accord-portant-creation-de-la-banque-europeenne.json`
+- [ ] **Projet de loi autorisant le Président de la République à ratifier l'accord portant création de la Facilité africaine de soutien juridique**
+  - Projet de loi · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-ratification-accord-portant-creation-de-la-facilite-africain.json`
+- [ ] **Projet de loi autorisant le Président de la République à ratifier la Convention multilatérale pour la mise en œuvre des mesures relatives aux conventions fiscales pour prévenir l'érosion de la base d'imposition et le transfert de bénéfices, signée novembre le 24 janvier 2018 à Paris (France)**
+  - Projet de loi · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-11-22
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-convention-multilaterale-pour-la-mise-en-uvre-d.json`
+- [ ] **Projet de loi autorisant le Président de la République à ratifier le Protocole A/P4/1/03 de la Communauté Economique des Etats de l'Afrique de l'Ouest NOVEMETE b (CEDEAO) sur l'Energie, signé le 31 janvier 2003 à Dakar (Sénégal)**
+  - Projet de loi · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-protocole-a-p4-1-03-de-la-communaute-economique.json`
+- [ ] **Projet de loi d'orientation de l'enseignement et la formation techniques et professionnels**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-09-26
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-orientation-de-l-enseignement-et-la-formation-techniques-et.json`
+- [ ] **Projet de loi d'orientation relatif à la Jeunesse**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-orientation-relatif-a-la-jeunesse.json`
+- [ ] **Projet de loi de finances portant budget de l'Etat pour l'année 2024**
+  - Projet de loi · finances · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-12-18
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/plf-2023-finances-portant-budget-de-l-etat-pour-l-annee-2024.json`
+- [ ] **Projet de loi de Finances portant Budget de l'Etat pour l'année 2025**
+  - Projet de loi · finances · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-12-17
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/plf-2024-finances-portant-budget-de-l-etat-pour-l-annee-2025.json`
+- [ ] **Projet de loi de finances portant Budget de l'État pour l'année 2027**
+  - Projet de loi · finances · statut observé : En commission
+  - dates relevées (sens inconnu : étape, date citée…) : 2026-11-10
+  - fiche existante : `donnees/textes/plf-2027-budget-etat.json`
+- [ ] **Projet de loi de finances rectificative de l'année 2023**
+  - Projet de loi · finances · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-12-18
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/plf-2023-finances-rectificative-de-l-annee-2023.json`
+- [ ] **Projet de loi de Finances rectificative portant Budget de l'Etat pour l'année 2022**
+  - Projet de loi · finances · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/plf-2022-finances-rectificative-portant-budget-de-l-etat-pour-l-annee.json`
+- [ ] **Projet de loi de ratification de l'ordonnance n°2020-602 du 05 aout 2020 modifiant l'ordonnance n°2018-437 du 03 mai 2018 portant répression de la commercialisation et de l'exportation illicites des produits agricoles soumises à septembre agrément**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2020-602.json`
+- [ ] **Projet de loi de Règlement du Budget de l'Etat pour l'année 2021**
+  - Projet de loi · finances · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-reglement-du-budget-de-l-etat-pour-l-annee-2021.json`
+- [ ] **Projet de loi modifiant la loi n° 2017-867 du 27 décembre 2017 portant régime juridique de la Presse**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-modifiant-la-loi-n-2017-867-du-27-decembre-2017-portant-regi.json`
+- [ ] **Projet de loi modifiant la loi n° 2017-868 du 27 décembre 2017 portant régime juridique de la Communication Audiovisuelle**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-modifiant-la-loi-n-2017-868-du-27-decembre-2017-portant-regi.json`
+- [ ] **Projet de loi modifiant la loi n°2018-975 du 27 décembre 2018 portant Code de procédure pénale**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2024-modifiant-la-loi-n2018-975-du-27-decembre-2018-portant-code.json`
+- [ ] **Projet de loi modifiant la loi n°2019-574 du 26 juin 2019 portant Code pénal**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-modifiant-la-loi-n2019-574-du-26-juin-2019-portant-code-pena.json`
+- [ ] **Projet de loi modifiant la loi n°2020-624 du 14 août 2020 instituant Code dE at de l'Urbanisme et du Domaine Foncier Urbain**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-modifiant-la-loi-n2020-624-du-14-aout-2020-instituant-code-d.json`
+- [ ] **Projet de loi organique déterminant l'organisation et le fonctionnement du Conseil Constitutionnel**
+  - Projet de loi · organique · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/plo-2022-determinant-l-organisation-et-le-fonctionnement-du-conseil-c.json`
+- [ ] **Projet de loi organique déterminant la composition, l'organisation et le fonctionnement du Conseil Supérieur de la Magistrature**
+  - Projet de loi · organique · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/plo-2022-determinant-la-composition-l-organisation-et-le-fonctionneme.json`
+- [ ] **Projet de loi organique fixant les attributions, l'organisation et le fonctionnement du Médiateur LL de la République**
+  - Projet de loi · organique · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/plo-2022-fixant-les-attributions-l-organisation-et-le-fonctionnement.json`
+- [ ] **Projet de loi organique portant statut des parlementaires**
+  - Projet de loi · organique · statut observé : Déposé
+  - source (générique : chercher la page précise) : <8485584d-1794671605604_UPLOAD_DOCS_SITE_1765793411_UPLOAD_DOCS_SITE_1765390992_UPLOAD_DOCS_SITE_1764689392_RAPPORT_ANNUEL_DACTIVIT_S_2019_DU_S_NAT_VERSION_FINALE.PDF>
+  - fiche existante : `donnees/textes/plo-2020-statut-des-parlementaires.json`
+- [ ] **Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-11-05
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-code-de-deontologie-et-exercice-de-la-profession-de-sage-fem.json`
+- [ ] **Projet de loi portant Code de l'Aviation Civile**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-11-22
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-code-de-l-aviation-civile.json`
+- [ ] **Projet de loi portant Code de l'Eau**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-code-de-l-eau.json`
+- [ ] **Projet de loi portant Code de l'Environnement**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-code-de-l-environnement.json`
+- [ ] **Projet de loi portant Code de l'hygiène et de la salubrité**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-code-de-l-hygiene-et-de-la-salubrite.json`
+- [ ] **Projet de loi portant Code des Douanes**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-code-des-douanes.json`
+- [ ] **Projet de loi portant création du registre des bénéficiaires effectifs des personnes morales et des constructions juridiques**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-creation-du-registre-des-beneficiaires-effectifs-des-personn.json`
+- [ ] **Projet de loi portant création, attributions, organisation et fonctionnement de l'ordre national des infirmiers et infirmières de Côte d'Ivoire**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-09-26
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-creation-attributions-organisation-et-fonctionnement-de-l-or.json`
+- [ ] **Projet de loi portant création, compétence, organisation et fonctionnement du pôle pénal économique et financier**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-creation-competence-organisation-et-fonctionnement-du-pole-p.json`
+- [ ] **Projet de loi portant exercice de la Médecine**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-exercice-de-la-medecine.json`
+- [ ] **Projet de loi portant gestion de la faune**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-gestion-de-la-faune.json`
+- [ ] **Projet de loi portant livre de procédures des recettes non fiscales**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-12-18
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-livre-de-procedures-des-recettes-non-fiscales.json`
+- [ ] **Projet de loi portant modification de la loi n°2001-634 du 9 octobre 2001 portant composition, organisation, attributions et fonctionnement de la Commission Electorale Indépendante**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-11-22
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-modification-de-la-loi-n2001-634-du-9-octobre-2001-portant-c.json`
+- [ ] **Projet de loi portant Plan National de Développement 2026-2030**
+  - Projet de loi · statut observé : Promulgué · Loi n° 2026-280 · promulguée le 2026-05-07
+  - dates relevées (sens inconnu : étape, date citée…) : 2026-05-07
+  - fiche existante : `donnees/textes/pl-2026-plan-national-developpement-2026-2030.json`
+- [ ] **Projet de loi portant politique nationale d'endettement et de gestion de la dette publique**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-politique-nationale-d-endettement-et-de-gestion-de-la-dette.json`
+- [ ] **Projet de loi portant promotion des startups numériques**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-promotion-des-startups-numeriques.json`
+- [ ] **Projet de loi portant protection de l'éléphant en Côte d'Ivoire**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-protection-de-l-elephant-en-cote-d-ivoire.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance 2021-755 du 1er décembre 2021 portant modification de la loi organique N°2018-867 du 19 novembre 2018 déterminant la composition et le fonctionnement du Conseil économique, Social, Environnemental et Culturel**
+  - Ratification d'ordonnance · organique · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-755.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance N° 2021-858 du 15 décembre 2021 instituant des taxes parafiscales sur certains matériaux de construction au profit de décembre, l'Habitat social**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-858.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance N° 2022-300 du 04 mai 2022 portant exonération du droit de douane sur les importations de blé dans le cadre de décembre, la lutte la chère contre vie**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2022-300.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2021-189 du 28 avril 2021 portant création, attributions, organisation et fonctionnement d'un Centre Sportif, Culturel et des TIC lvoiro Coréen Alassane OUATTARA**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-06-10
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-189.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance N°2021-431 du 08 septembre 2021 portant création d'une Académie internationale de Lutte contre le Terrorisme**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-431.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2021-432 du 08 septembre 2021 portant règles applicables en matière de transport intelligent**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-11-22
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-432.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance N°2021-433 du 08 septembre 2021 portant légalisation du régime fiscal et douanier de la Convention de concession de la ligne 1 du Métro d'Abidjan**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-433.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2021-672 du 03 novembre 2021 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, l'exploitation et le transfert de propriété de l'Aménagement Hydroélectrique de Singrobo-Ahouaty d'une puissance installée de 44MW, sur le fleuve Bandaman (la « Convention**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2021-672.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2022-584 du 03 août 2022 portant modification de la loi n°2014-452 portant mode de création, attributions, organisation et fonctionnement du District Autonome**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-11-22
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-ratification-ordonnance-2022-584.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2022-908 du 30 novembre 2022 portant augmentation du plafond des avals et garanties accordés par l'Etat pour l'année 2022**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-12-18
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-ratification-ordonnance-2022-908.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2023-23 du 18 janvier 2023 instituant un juge unique pour connaître des délits en matière de police de la circulation et ceux résultant des accidents de la voie publique**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-ratification-ordonnance-2023-23.json`
+- [ ] **Projet de loi portant ratification de l'ordonnance n°2023-719 du 13 septembre 2023 portant réforme des impôts sur traitements, salaires, pensions et rentes viagères à la charge des salariés**
+  - Ratification d'ordonnance · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-12-17
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-ratification-ordonnance-2023-719.json`
+- [ ] **Projet de loi portant Règlement du budget de l'Etat pour l'année 2022**
+  - Projet de loi · finances · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-12-18
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-reglement-du-budget-de-l-etat-pour-l-annee-2022.json`
+- [ ] **Projet de loi portant Règlement du Budget de l'Etat pour l'année 2023**
+  - Projet de loi · finances · statut observé : non renseigné
+  - ⚠ titres voisins regroupés : vérifier qu'il s'agit bien du même texte
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-19, 2024-12-17
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-reglement-du-budget-de-l-etat-pour-l-annee-2023.json`
+- [ ] **Projet de loi portant statut de la Magistrature**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-03-07
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-statut-de-la-magistrature.json`
+- [ ] **Projet de loi portant Statut du Corps Diplomatique**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-statut-du-corps-diplomatique.json`
+- [ ] **Projet de loi portant Statut général de la Fonction Publique**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-11-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <6c909c48-1794671590543_UPLOAD_DOCS_SITE_1765794119_UPLOAD_DOCS_SITE_1765392544_UPLOAD_DOCS_SITE_1708601098_RAPPORT_DACTIVIT_S_2E_SESSION_ORDINAIRE_2023_1.PDF>
+  - fiche existante : `donnees/textes/pl-2023-statut-general-de-la-fonction-publique.json`
+- [ ] **Projet de loi relatif à l'entraide judiciaire en matière pénale**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-entraide-judiciaire-en-matiere-penale.json`
+- [ ] **Projet de loi relatif à l'extradition**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-extradition.json`
+- [ ] **Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-protection-des-emblemes-de-la-croix-rouge-du-croissant-rouge.json`
+- [ ] **Projet de loi relatif aux communications électroniques**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2024-communications-electroniques.json`
+- [ ] **Projet de loi relative à l'absence et à la disparition**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-11-22
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-absence-et-a-la-disparition.json`
+- [ ] **Projet de loi relative à l'application de la convention du 10 avril 1972 sur l'interdiction de la mise au point, de la fabrication et du stockage des armes bactériologiques (biologiques) ou à toxines et sur leur destruction**
+  - Projet de loi · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-09-26
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-application-de-la-convention-du-10-avril-1972-sur-l-interdic.json`
+- [ ] **Projet de loi relative à l'évaluation des politiques publiques**
+  - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2022-966 · promulguée le 2022-12-14
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-09-26
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - source (générique : chercher la page précise) : <cbb31733-1794671590543_UPLOAD_DOCS_SITE_1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT_D_ACTIVITES_2024_DU_SENAT_VERSION_WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2022-evaluation-des-politiques-publiques.json`
+- [ ] **Projet de loi relative au contenu local dans les activités pétrolières et gazières**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-06-10
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-contenu-local-dans-les-activites-petrolieres-et-gazieres.json`
+- [ ] **Projet de loi relative au divorce et à la séparation de corps**
+  - Projet de loi · ordinaire · statut observé : non renseigné
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-09-26
+  - ⚠ statut inconnu « adopte_senat »
+  - source (générique : chercher la page précise) : <f54a25d2-1794671590542_UPLOAD_DOCS_SITE_1765793983_UPLOAD_DOCS_SITE_1765392442_UPLOAD_DOCS_SITE_1764689571_RAPPORT_ANNUEL_DACTIVIT_S_2022_DU_S_NAT_MIN.PDF>
+  - fiche existante : `donnees/textes/pl-2022-divorce-et-a-la-separation-de-corps.json`
+
+## 5. Écartés (0)
+
+Phrases du règlement ou du guide de la procédure prises pour des textes. À ne pas saisir.
+

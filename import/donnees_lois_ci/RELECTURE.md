@@ -9,15 +9,15 @@ Extraction automatique du 2026-11-14 : **164 lignes**, regroupées en **107 text
 
 | Catégorie | Nombre |
 |---|---|
-| Candidats avec une source précise | 23 |
-| Candidats avec seulement une source générique | 17 |
+| Candidats avec une source précise | 16 |
+| Candidats avec seulement une source générique | 3 |
 | Titres à corriger avant saisie | 16 |
-| Déjà recensés dans LoiCI | 41 |
+| Déjà recensés dans LoiCI | 62 |
 | Écartés (pas des textes) | 10 |
 
 Une fois un texte saisi (ou écarté après vérification), cochez sa case.
 
-## 1. Candidats avec une source précise (23)
+## 1. Candidats avec une source précise (16)
 
 - [ ] **Loi portant Code minier**
   - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2014-138 · promulguée le 2014-03-24
@@ -44,11 +44,6 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2018-575 · promulguée le 2018-06-13
   - dates relevées (sens inconnu : étape, date citée…) : 2018-06-13
   - source : <https://www.assnat.ci/?l-integralite-du-projet-de-loi-instituant-code-de-la-construction-et-de-l-habitat-14-06-19>
-- [ ] **Projet de loi d’orientation relatif à la jeunesse**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
 - [ ] **Projet de loi instituant Code de la construction et de l’habitat**
   - Projet de loi · ordinaire · statut observé : Déposé → Adopté en plénière
   - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
@@ -66,21 +61,6 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2015-07-20
   - source : <https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843>
-- [ ] **Projet de loi portant Code de l’Eau**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi portant Code de l’Environnement**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi portant Code de l’hygiène et de la salubrité**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
 - [ ] **Projet de loi portant modification de l’article 18 de la loi n° 2015-535 du20 juillet 2015 portant organisation de l’Ordre National des Pharmaciens de Côte d’Ivoire**
   - Projet de loi · ordinaire · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -92,27 +72,12 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - dates relevées (sens inconnu : étape, date citée…) : 1962-07-31
   - ⚠ date 1962-07-31 invraisemblable
   - source : <https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843>
-- [ ] **Projet de loi portant promotion des startups numériques**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
 - [ ] **Projet de loi portant ratification de l’ordonnance n°2024-886 du 16 octobre 2024 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément**
   - Ratification d'ordonnance · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2015-07-20
   - ⚠ date 2015-07-20 antérieure à l'ordonnance ratifiée (2024-10-16)
   - source : <https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843>
-- [ ] **Projet de loi portant statut du Corps Diplomatique**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi portant statut général de la Fonction publique**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
-  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
 - [ ] **Projet de loi relatif à l’amélioration génétique animale**
   - Projet de loi · ordinaire · statut observé : Déposé → En commission
   - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
@@ -135,7 +100,7 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - dates relevées (sens inconnu : étape, date citée…) : 2019-09-18
   - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
 
-## 2. Candidats avec seulement une source générique (17)
+## 2. Candidats avec seulement une source générique (3)
 
 La source est une page d'accueil, un rapport d'activité ou un document de synthèse : trouvez la page ou le PDF du texte lui-même.
 
@@ -149,90 +114,11 @@ La source est une page d'accueil, un rapport d'activité ou un document de synth
   - dates relevées (sens inconnu : étape, date citée…) : 2003-07-07
   - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1775208284_Rapport-de-synthese-et-Recommandations-Symposium2026.pdf>
   - 3 lignes de l'extraction regroupées
-- [ ] **Loi relative à l’évaluation des politiques publiques et sur le guide d’évaluation des politiques publiques**
-  - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2022-966 · promulguée le 2022-12-14
-  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-14
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-- [ ] **Projet de loi de Finances portant Budget de l’Etat pour l’année 2025**
-  - Projet de loi · finances · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-12-17
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien**
-  - Projet de loi · ordinaire · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-11-05
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 3 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant exercice de la Médecine**
-  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-01-31, 2024-04-23
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 3 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant gestion de la faune**
-  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant organisation et fonctionnement de l’Ordre national des Chirurgiens-Dentistes de Côte d’Ivoire**
-  - Projet de loi · ordinaire · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant politique nationale d’endettement et de gestion de la dette publique**
-  - Projet de loi · ordinaire · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2013-12-13, 2024-04-23
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant protection de l’éléphant en Côte d’Ivoire**
-  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-01-31, 2024-06-11
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 3 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant Règlement du Budget de l’Etat pour l’année 2023**
-  - Projet de loi · finances · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-12-17
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif à l’entraide judiciaire en matière pénale**
-  - Projet de loi · ordinaire · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2018-11-19, 2024-06-11
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif à l’extradition**
-  - Projet de loi · ordinaire · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge**
-  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
 - [ ] **Projet de loi relatif au commerce international des espèces de faune**
   - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
   - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
   - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
   - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif aux communications électroniques**
-  - Projet de loi · ordinaire · statut observé : Déposé
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif aux professions d’Ingénieurs et d’Ingénieurs-Conseils du secteur du bâtiment et des travaux publics**
-  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
   - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
   - 2 lignes de l'extraction regroupées
 
@@ -337,10 +223,16 @@ Le titre extrait est coupé ou mélangé avec un texte voisin : recopiez l'intit
   - dates relevées (sens inconnu : étape, date citée…) : 2024-01-31
   - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
 
-## 4. Déjà recensés dans LoiCI (41)
+## 4. Déjà recensés dans LoiCI (62)
 
 Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche existante.
 
+- [ ] **Projet de loi d’orientation relatif à la jeunesse**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-orientation-relatif-a-la-jeunesse.json`
 - [ ] **Projet de loi de finances portant budget de l’État de Côte d’Ivoire pour l’année 2027**
   - Projet de loi · finances · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -415,6 +307,24 @@ Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche 
   - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
   - 2 lignes de l'extraction regroupées
   - fiche existante : `donnees/textes/plo-2020-statut-des-parlementaires.json`
+- [ ] **Projet de loi portant Code de l’Eau**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-code-de-l-eau.json`
+- [ ] **Projet de loi portant Code de l’Environnement**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-code-de-l-environnement.json`
+- [ ] **Projet de loi portant Code de l’hygiène et de la salubrité**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-code-de-l-hygiene-et-de-la-salubrite.json`
 - [ ] **Projet de loi portant Code de la santé publique vétérinaire**
   - Projet de loi · ordinaire · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -427,6 +337,12 @@ Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche 
   - dates relevées (sens inconnu : étape, date citée…) : 2020-06-30
   - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
   - fiche existante : `donnees/textes/pl-2020-societes-d-etat.json`
+- [ ] **Projet de loi portant promotion des startups numériques**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-promotion-des-startups-numeriques.json`
 - [ ] **Projet de loi portant ratification de l’ordonnance N° 2018- 437 du 03 Mai 2018 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément**
   - Ratification d'ordonnance · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -590,6 +506,18 @@ Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche 
   - dates relevées (sens inconnu : étape, date citée…) : 2026-11-10
   - source : <https://www.senat.ci/actualites/397/la-crste-examine-le-projet-de-loi-relatif-a-l-amelioration-genetique-animale>
   - fiche existante : `donnees/textes/pl-2026-amelioration-genetique-animale.json`
+- [ ] **Projet de loi portant statut du Corps Diplomatique**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-statut-du-corps-diplomatique.json`
+- [ ] **Projet de loi portant statut général de la Fonction publique**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
+  - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
+  - fiche existante : `donnees/textes/pl-2023-statut-general-de-la-fonction-publique.json`
 - [ ] **Projet de loi ratifiant l’ordonnance n° 2019-1088 du 18 décembre 2019 modifiant l’ordonnance n° 2018- 646 du 1er Août 2018 portant Code des investissements**
   - Ratification d'ordonnance · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -639,6 +567,99 @@ Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche 
   - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
   - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
   - fiche existante : `donnees/textes/pl-2020-societes-participation-financiere-publique.json`
+- [ ] **Loi relative à l’évaluation des politiques publiques et sur le guide d’évaluation des politiques publiques**
+  - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2022-966 · promulguée le 2022-12-14
+  - dates relevées (sens inconnu : étape, date citée…) : 2022-12-14
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - fiche existante : `donnees/textes/pl-2022-evaluation-des-politiques-publiques.json`
+- [ ] **Projet de loi de Finances portant Budget de l’Etat pour l’année 2025**
+  - Projet de loi · finances · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-12-17
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/plf-2024-finances-portant-budget-de-l-etat-pour-l-annee-2025.json`
+- [ ] **Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-11-05
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 3 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-code-de-deontologie-et-exercice-de-la-profession-de-sage-fem.json`
+- [ ] **Projet de loi portant exercice de la Médecine**
+  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-01-31, 2024-04-23
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 3 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-exercice-de-la-medecine.json`
+- [ ] **Projet de loi portant gestion de la faune**
+  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-gestion-de-la-faune.json`
+- [ ] **Projet de loi portant organisation et fonctionnement de l’Ordre national des Chirurgiens-Dentistes de Côte d’Ivoire**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-organisation-et-fonctionnement-de-l-ordre-national-des-chiru.json`
+- [ ] **Projet de loi portant politique nationale d’endettement et de gestion de la dette publique**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2013-12-13, 2024-04-23
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-politique-nationale-d-endettement-et-de-gestion-de-la-dette.json`
+- [ ] **Projet de loi portant protection de l’éléphant en Côte d’Ivoire**
+  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-01-31, 2024-06-11
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 3 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-protection-de-l-elephant-en-cote-d-ivoire.json`
+- [ ] **Projet de loi portant Règlement du Budget de l’Etat pour l’année 2023**
+  - Projet de loi · finances · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-12-17
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-reglement-du-budget-de-l-etat-pour-l-annee-2023.json`
+- [ ] **Projet de loi relatif à l’entraide judiciaire en matière pénale**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2018-11-19, 2024-06-11
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-entraide-judiciaire-en-matiere-penale.json`
+- [ ] **Projet de loi relatif à l’extradition**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-extradition.json`
+- [ ] **Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge**
+  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-11
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-protection-des-emblemes-de-la-croix-rouge-du-croissant-rouge.json`
+- [ ] **Projet de loi relatif aux communications électroniques**
+  - Projet de loi · ordinaire · statut observé : Déposé
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-06-04
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-communications-electroniques.json`
+- [ ] **Projet de loi relatif aux professions d’Ingénieurs et d’Ingénieurs-Conseils du secteur du bâtiment et des travaux publics**
+  - Projet de loi · ordinaire · statut observé : Déposé → Adopté définitivement
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2024-04-23
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2024-professions-d-ingenieurs-et-d-ingenieurs-conseils-du-secteur.json`
 
 ## 5. Écartés (10)
 

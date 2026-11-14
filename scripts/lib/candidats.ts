@@ -370,7 +370,11 @@ export function regrouper(
     g.raisons = [...new Set([...c.raisons, ...g.raisons])];
     g.statuts_observes.sort((a, b) => ORDRE.indexOf(a) - ORDRE.indexOf(b));
     const n = normaliser(g.titre);
-    g.deja_recense = existants.find((e) => e.n === n || ressemblance(e.n, n) >= 0.8)?.id ?? null;
+    // Plusieurs fiches au même intitulé (ex. trois lois modifiant le Code de procédure pénale) :
+    // on préfère celle dont l'identifiant porte une année observée dans l'extraction.
+    const proches = existants.filter((e) => e.n === n || ressemblance(e.n, n) >= 0.8);
+    const annees = new Set(g.observations.map((o) => o.date?.slice(0, 4)).filter(Boolean));
+    g.deja_recense = (proches.find((e) => [...annees].some((a) => e.id.includes(`-${a}-`))) ?? proches[0])?.id ?? null;
     return g;
   });
 
