@@ -1,0 +1,64 @@
+{
+  "id": "plf-2027-budget-etat",
+  "titre_officiel": "Projet de loi de finances portant Budget de l'État pour l'année 2027",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": "finances",
+  "statut": "en_commission",
+  "legislature_id": null,
+  "resume": "Ce projet de loi fixe le budget de l'État pour l'année 2027 ; il est accompagné d'une annexe fiscale. Selon le communiqué du Conseil des ministres, il s'équilibre en ressources et en charges à 18 466,1 milliards de francs CFA, contre 17 350,2 milliards en 2026, avec un déficit budgétaire global de 3,5 % du PIB. Il est structuré en 27 dotations et 160 programmes, dont 40 comptes spéciaux du Trésor.",
+  "themes": [
+    "finances-publiques"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-gouv-ccm-2026-10-14",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": "Adama Coulibaly",
+        "ministere": "Ministère de l'Economie, des Finances et du Budget"
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-gouv-ccm-2026-10-14",
+        "src-koaci-plf-2027-caef-2026-11-10"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "conseil-des-ministres",
+      "date": "2026-10-14",
+      "statut": null,
+      "chambre": null,
+      "organe": "gouvernement",
+      "commission_id": null,
+      "libelle": "Adoption du projet de loi et de son annexe fiscale en Conseil des ministres",
+      "vote": null,
+      "source_ids": [
+        "src-gouv-ccm-2026-10-14"
+      ]
+    },
+    {
+      "id": "commission-an",
+      "date": "2026-11-10",
+      "statut": "en_commission",
+      "chambre": "assemblee_nationale",
+      "organe": "commission",
+      "commission_id": "an-caef",
+      "libelle": "Début de l'examen en commission des Affaires économiques et financières, avec la présentation du projet par le ministre de l'Économie, des Finances et du Budget",
+      "vote": null,
+      "source_ids": [
+        "src-koaci-plf-2027-caef-2026-11-10"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-gouv-ccm-2026-10-14",
+    "src-koaci-plf-2027-caef-2026-11-10"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

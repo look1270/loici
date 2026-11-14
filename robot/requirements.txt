@@ -1,0 +1,4 @@
+# Dépendances du robot de collecte (Python 3.12 en CI ; compatible 3.9+).
+requests==2.32.3
+beautifulsoup4==4.12.3
+pdfplumber==0.11.4

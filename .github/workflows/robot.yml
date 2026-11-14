@@ -1,0 +1,112 @@
+# Robot de collecte : chaque jour, lit les sources officielles et PROPOSE des sources par pull request.
+# Il ne publie jamais directement : un humain relit et fusionne.
+#
+# Jeton : par défaut, le jeton GitHub Actions. Une pull request ouverte avec ce jeton ne déclenche pas
+# la CI automatiquement (limite de GitHub) ; pour l'obtenir, enregistrez un jeton dédié dans le secret
+# LOICI_ROBOT_TOKEN (droits : contents, pull requests, issues). Voir CONTRIBUTING.md.
+name: Robot de collecte
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # tous les jours à 05 h 17 UTC (heure d'Abidjan)
+  workflow_dispatch:
+    inputs:
+      essai:
+        description: "Essai : ne demande aucune archive et n'écrit rien"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: robot-collecte
+  cancel-in-progress: false
+
+jobs:
+  collecte:
+    name: Collecte et proposition
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ secrets.LOICI_ROBOT_TOKEN || github.token }}
+      LOICI_DEPOT_URL: ${{ github.server_url }}/${{ github.repository }}
+      BRANCHE_PRINCIPALE: ${{ github.event.repository.default_branch }}
+      ESSAI: ${{ inputs.essai || false }}
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.LOICI_ROBOT_TOKEN || github.token }}
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: robot/requirements.txt
+
+      - name: Installer les dépendances du robot
+        run: pip install -r robot/requirements.txt
+
+      - name: Tester le robot
+        working-directory: robot
+        run: python -m unittest
+
+      - name: Collecter
+        id: collecte
+        run: |
+          set +e
+          OPTIONS=""
+          if [ "$ESSAI" = "true" ]; then OPTIONS="--essai"; fi
+          PYTHONPATH=robot python -m loici_robot --rapport rapport-robot.md --issue issue-robot.md $OPTIONS
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+
+      - name: Afficher le rapport
+        if: always() && hashFiles('rapport-robot.md') != ''
+        run: cat rapport-robot.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Installer Node.js (pour la validation)
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Installer les dépendances de validation
+        run: npm ci --ignore-scripts
+
+      # Les propositions passent par la même validation que toute contribution humaine.
+      - name: Valider les propositions
+        id: validation
+        continue-on-error: true
+        run: |
+          set -o pipefail
+          npm run --silent valider 2>&1 | tee validation.txt
+
+      - name: Ouvrir ou mettre à jour la pull request
+        if: steps.validation.outcome == 'success' && steps.collecte.outputs.code != '1' && env.ESSAI != 'true'
+        run: bash robot/ouvrir-pr.sh rapport-robot.md
+
+      - name: Signaler un site qui a changé de structure
+        if: steps.collecte.outputs.code == '2' && env.ESSAI != 'true'
+        run: |
+          bash robot/signaler-issue.sh "Robot de collecte : un site source a changé" issue-robot.md
+
+      - name: Signaler des propositions invalides
+        if: steps.validation.outcome == 'failure' && env.ESSAI != 'true'
+        run: |
+          {
+            echo "Le robot a produit des données refusées par la validation : aucune pull request n'a été ouverte."
+            echo
+            echo '```'
+            tail -n 60 validation.txt
+            echo '```'
+          } > issue-validation.md
+          bash robot/signaler-issue.sh "Robot de collecte : propositions invalides" issue-validation.md
+
+      - name: Échouer si le robot a planté
+        if: steps.collecte.outputs.code == '1' || steps.validation.outcome == 'failure'
+        run: exit 1

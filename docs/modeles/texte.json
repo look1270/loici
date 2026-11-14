@@ -1,0 +1,37 @@
+{
+  "id": "pl-AAAA-A-REMPLACER",
+  "titre_officiel": "Projet de loi portant … (intitulé exact, recopié de la source officielle)",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "depose",
+  "legislature_id": null,
+  "resume": "Trois à cinq lignes factuelles : ce que le texte prévoit, sans adjectif ni jugement. Chaque fait doit se retrouver dans les sources citées. Entre 150 et 700 caractères.",
+  "themes": [],
+  "numero_loi": null,
+  "document_principal_source_id": "src-A-REMPLACER",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": { "genre": "gouvernement", "ministre": null, "ministere": "Ministère … (intitulé exact à la date du texte)" },
+      "commission_id": null,
+      "source_ids": ["src-A-REMPLACER"]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "depot",
+      "date": "AAAA-MM-JJ",
+      "statut": "depose",
+      "chambre": "assemblee_nationale",
+      "organe": "bureau",
+      "commission_id": null,
+      "libelle": "Dépôt du projet de loi",
+      "vote": null,
+      "source_ids": ["src-A-REMPLACER"]
+    }
+  ],
+  "revisions": [],
+  "source_ids": ["src-A-REMPLACER"],
+  "mis_a_jour_le": "AAAA-MM-JJ"
+}

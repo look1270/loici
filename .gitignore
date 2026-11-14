@@ -1,0 +1,16 @@
+node_modules/
+.nuxt/
+.output/
+.data/
+dist/
+# Généré à partir de donnees/ par scripts/construire-api.ts : jamais versionné
+public/api/
+.env
+.DS_Store
+__pycache__/
+rapport-robot.md
+issue-robot.md
+issue-validation.md
+validation.txt
+sources-modifiees.txt
+*.tsbuildinfo

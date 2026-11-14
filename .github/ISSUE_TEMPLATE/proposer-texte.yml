@@ -1,0 +1,50 @@
+name: Proposer un texte
+description: Un projet ou une proposition de loi manque sur le site.
+title: "Texte à ajouter : "
+labels: ["texte-a-ajouter"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Vous n'avez pas besoin de connaître GitHub : donnez-nous les sources, l'équipe s'occupe de la saisie.
+        Si vous préférez ajouter le texte vous-même, suivez le guide CONTRIBUTING.md.
+  - type: input
+    id: titre
+    attributes:
+      label: Intitulé du texte
+      placeholder: Projet de loi portant …
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Projet de loi (Gouvernement)
+        - Proposition de loi (parlementaires)
+        - Ratification d'ordonnance
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Une adresse par ligne. Les sources officielles d'abord (assnat.ci, senat.ci, gouv.ci, Journal officiel…).
+      placeholder: |
+        https://www.gouv.ci/publications/conseils-des-ministres/…
+        https://www.assnat.ci/…
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes connues (facultatif)
+      description: Dates de dépôt, de passage en commission, de vote… avec la source de chacune.
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Vérification
+      options:
+        - label: J'ai vérifié que ce texte n'est pas déjà sur le site.
+          required: true

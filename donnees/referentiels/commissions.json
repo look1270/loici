@@ -1,0 +1,30 @@
+[
+  {
+    "id": "an-caef",
+    "chambre": "assemblee_nationale",
+    "nom": "Commission des Affaires économiques et financières",
+    "sigle": "CAEF",
+    "source_ids": [
+      "src-koaci-plf-2027-caef-2026-11-10",
+      "src-plan-communique-2026-04-07"
+    ]
+  },
+  {
+    "id": "an-casc",
+    "chambre": "assemblee_nationale",
+    "nom": "Commission des Affaires sociales et culturelles",
+    "sigle": null,
+    "source_ids": [
+      "src-abidjannet-aip-quota-femmes-2021-01-05"
+    ]
+  },
+  {
+    "id": "senat-caef",
+    "chambre": "senat",
+    "nom": "Commission des Affaires économiques et financières",
+    "sigle": null,
+    "source_ids": [
+      "src-plan-communique-2026-05-05"
+    ]
+  }
+]

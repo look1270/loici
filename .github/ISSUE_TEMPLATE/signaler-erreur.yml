@@ -1,0 +1,55 @@
+name: Signaler une erreur
+description: Une information du site est fausse, incomplète ou mal sourcée.
+title: "Erreur : "
+labels: ["erreur-donnee"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Chaque correction doit s'appuyer sur une **source vérifiable** (de préférence officielle).
+        Une correction sans source ne peut pas être acceptée, même si elle paraît évidente.
+  - type: input
+    id: page
+    attributes:
+      label: Page concernée
+      description: Adresse de la fiche sur le site (texte ou parlementaire).
+      placeholder: https://…/textes/…
+    validations:
+      required: true
+  - type: textarea
+    id: erreur
+    attributes:
+      label: Information erronée
+      description: Recopiez ce qui est affiché.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction proposée
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source de la correction
+      description: Adresse de la page ou du document qui prouve la correction.
+      placeholder: https://www.assnat.ci/…
+    validations:
+      required: true
+  - type: dropdown
+    id: type_source
+    attributes:
+      label: Type de source
+      options:
+        - Officielle (Assemblée nationale, Sénat, Gouvernement, Journal officiel, Conseil constitutionnel)
+        - Presse
+    validations:
+      required: true
+  - type: checkboxes
+    id: neutralite
+    attributes:
+      label: Engagement
+      options:
+        - label: Je signale un fait vérifiable, pas une opinion (voir le code de conduite).
+          required: true

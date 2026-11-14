@@ -1,0 +1,14 @@
+[
+  {
+    "id": "elections-et-vie-politique",
+    "libelle": "Élections et vie politique"
+  },
+  {
+    "id": "finances-publiques",
+    "libelle": "Finances publiques"
+  },
+  {
+    "id": "planification-et-developpement",
+    "libelle": "Planification et développement"
+  }
+]

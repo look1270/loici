@@ -1,0 +1,18 @@
+[
+  {
+    "domaine": "assnat.ci",
+    "institution": "Assemblée nationale"
+  },
+  {
+    "domaine": "senat.ci",
+    "institution": "Sénat"
+  },
+  {
+    "domaine": "gouv.ci",
+    "institution": "Gouvernement (portail et sous-domaines ministériels)"
+  },
+  {
+    "domaine": "conseil-constitutionnel.ci",
+    "institution": "Conseil constitutionnel"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "name": "loici",
+  "version": "0.1.0",
+  "private": true,
+  "description": "LoiCI — Observatoire citoyen des lois de Côte d'Ivoire",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "api": "tsx scripts/construire-api.ts",
+    "dev": "npm run api && nuxt dev",
+    "generate": "npm run api && nuxt generate",
+    "preview": "npx serve .output/public",
+    "postinstall": "nuxt prepare",
+    "verifier:types": "tsc -p tsconfig.scripts.json",
+    "test": "tsx --test tests/*.test.ts",
+    "valider": "tsx scripts/valider-donnees.ts",
+    "verifier:archives": "tsx scripts/verifier-archives.ts"
+  },
+  "dependencies": {
+    "@iconify-json/lucide": "^1.2.154",
+    "@nuxt/ui": "^4.12.0",
+    "nuxt": "^4.6.4",
+    "tailwindcss": "^4.3.5",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.0",
+    "vue-tsc": "^3.3.14"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

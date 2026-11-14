@@ -1,0 +1,118 @@
+{
+  "id": "loi-2019-870-representation-femme-assemblees-elues",
+  "titre_officiel": "Loi favorisant la représentation de la femme dans les assemblées élues",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": "Ce texte institue des mesures pour favoriser la représentation des femmes dans les assemblées totalement ou partiellement élues : Assemblée nationale, Sénat, conseils régionaux, conseils de district et conseils municipaux. Il exige au moins 30 % de femmes parmi les candidats aux scrutins uninominaux ou de listes et impose l'alternance des sexes sur les listes. Il prévoit un financement public supplémentaire pour tout parti ou groupement politique dont la liste compte au moins 50 % de femmes candidates.",
+  "themes": [
+    "elections-et-vie-politique"
+  ],
+  "numero_loi": "Loi n° 2019-870",
+  "document_principal_source_id": "src-assnat-loi-representation-femme-pdf",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": "Bakayoko-Ly Ramata",
+        "ministere": "Ministère de la Famille, de la Femme et de l'Enfant"
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-gouv-ccm-2019-03-06",
+        "src-abidjannet-projet-loi-femmes-2019-07-14"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "conseil-des-ministres",
+      "date": "2019-03-06",
+      "statut": null,
+      "chambre": null,
+      "organe": "gouvernement",
+      "commission_id": null,
+      "libelle": "Adoption du projet de loi en Conseil des ministres",
+      "vote": null,
+      "source_ids": [
+        "src-gouv-ccm-2019-03-06"
+      ]
+    },
+    {
+      "id": "commission-an",
+      "date": "2019-07-16",
+      "statut": "adopte_en_commission",
+      "chambre": "assemblee_nationale",
+      "organe": "commission",
+      "commission_id": "an-casc",
+      "libelle": "Adoption en commission des Affaires sociales et culturelles, à l'unanimité des membres présents",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-abidjannet-aip-quota-femmes-2021-01-05"
+        ]
+      },
+      "source_ids": [
+        "src-abidjannet-aip-quota-femmes-2021-01-05"
+      ]
+    },
+    {
+      "id": "pleniere-an",
+      "date": null,
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption par l'Assemblée nationale",
+      "vote": null,
+      "source_ids": [
+        "src-faolex-loi-2019-870",
+        "src-abidjannet-aip-quota-femmes-2021-01-05"
+      ]
+    },
+    {
+      "id": "senat",
+      "date": null,
+      "statut": "adopte_definitivement",
+      "chambre": "senat",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption par le Sénat",
+      "vote": null,
+      "source_ids": [
+        "src-faolex-loi-2019-870"
+      ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2019-10-14",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-870 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-faolex-loi-2019-870",
+        "src-cc-decision-053-2021"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-loi-representation-femme-page",
+    "src-assnat-loi-representation-femme-pdf",
+    "src-cc-decision-053-2021",
+    "src-gouv-ccm-2019-03-06",
+    "src-faolex-loi-2019-870"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

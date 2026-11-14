@@ -1,0 +1,161 @@
+{
+  "id": "pl-2026-plan-national-developpement-2026-2030",
+  "titre_officiel": "Projet de loi portant Plan National de Développement 2026-2030",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": "Ce texte donne valeur de loi au Plan national de développement (PND) 2026-2030, cadre de référence de la stratégie de développement du pays sur cinq ans. Selon le ministère du Plan et du Développement, il prévoit une enveloppe globale de 114 838,5 milliards de francs CFA, dont 70,2 % portés par le secteur privé, une croissance annuelle ciblée de 7,2 % et un revenu par habitant de 4 500 dollars américains à l'horizon 2030.",
+  "themes": [
+    "planification-et-developpement"
+  ],
+  "numero_loi": "Loi n° 2026-280",
+  "document_principal_source_id": "src-plan-communique-2026-05-05",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": "Souleymane Diarrassouba",
+        "ministere": "Ministère du Plan et du Développement"
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-plan-communique-2026-04-07",
+        "src-abidjannet-senat-commission-pnd-2026-04-28"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "conseil-des-ministres",
+      "date": "2026-02-04",
+      "statut": null,
+      "chambre": null,
+      "organe": "gouvernement",
+      "commission_id": null,
+      "libelle": "Conseil des ministres : adoption d'une communication relative au Plan National de Développement 2026-2030",
+      "vote": null,
+      "source_ids": [
+        "src-gouv-ccm-2026-02-04"
+      ]
+    },
+    {
+      "id": "commission-an",
+      "date": "2026-04-07",
+      "statut": "adopte_en_commission",
+      "chambre": "assemblee_nationale",
+      "organe": "commission",
+      "commission_id": "an-caef",
+      "libelle": "Adoption à l'unanimité en commission des Affaires économiques et financières",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-plan-communique-2026-04-07"
+        ]
+      },
+      "source_ids": [
+        "src-plan-communique-2026-04-07",
+        "src-plan-communique-2026-05-05"
+      ]
+    },
+    {
+      "id": "pleniere-an",
+      "date": "2026-04-14",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption à l'unanimité en séance plénière",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-plan-communique-2026-05-05",
+          "src-aip-pnd-pleniere-2026-04-15"
+        ]
+      },
+      "source_ids": [
+        "src-plan-communique-2026-05-05",
+        "src-aip-pnd-pleniere-2026-04-15"
+      ]
+    },
+    {
+      "id": "commission-senat",
+      "date": "2026-04-27",
+      "statut": "au_senat",
+      "chambre": "senat",
+      "organe": "commission",
+      "commission_id": "senat-caef",
+      "libelle": "Examen et adoption à l'unanimité en commission des Affaires économiques et financières du Sénat",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-abidjannet-senat-commission-pnd-2026-04-28"
+        ]
+      },
+      "source_ids": [
+        "src-plan-communique-2026-05-05",
+        "src-abidjannet-senat-commission-pnd-2026-04-28"
+      ]
+    },
+    {
+      "id": "pleniere-senat",
+      "date": "2026-05-05",
+      "statut": "adopte_definitivement",
+      "chambre": "senat",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption à l'unanimité en séance plénière du Sénat, à Yamoussoukro",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-plan-communique-2026-05-05"
+        ]
+      },
+      "source_ids": [
+        "src-plan-communique-2026-05-05"
+      ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2026-05-07",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2026-280, publiée au Journal officiel n° 47 du 11 juin 2026",
+      "vote": null,
+      "source_ids": [
+        "src-ivoire-juriste-textes-juin-2026"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-plan-communique-2026-05-05",
+    "src-plan-communique-2026-04-07",
+    "src-gouv-ccm-2026-02-04"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}
