@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-ratification-ordonnance-recomposition-cei",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance portant modification des articles 5, 15, 16, et 17 de la loi n° 2019-708 du 05 août 2019 portant recomposition de la Commission Electorale Indépendante",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance modifiant les articles 5, 15, 16 et 17 de la loi du 5 août 2019 portant recomposition de la Commission électorale indépendante (CEI). Elle attribue un siège, au titre des partis politiques, à un parti de l'opposition significative représenté au Parlement : la commission centrale passe de 15 à 16 membres et les commissions locales de 7 à 8.",
+  "themes": [
+    "elections-et-vie-politique"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-05-28",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-05-28"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-05-28",
+      "date": "2020-05-28",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité des députés présents, sous la présidence de M. Amadou Soumahoro, président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-05-28"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-05-28"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-05-28"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

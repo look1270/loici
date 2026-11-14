@@ -26,5 +26,14 @@
     "source_ids": [
       "src-plan-communique-2026-05-05"
     ]
+  },
+  {
+    "id": "senat-crste",
+    "chambre": "senat",
+    "nom": "Commission de la Recherche, de la Science, de la Technologie et de l'Environnement",
+    "sigle": "CRSTE",
+    "source_ids": [
+      "src-senat-crste-2026-11-10"
+    ]
   }
 ]

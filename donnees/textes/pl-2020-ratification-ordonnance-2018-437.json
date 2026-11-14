@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2018-437",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance N° 2018-437 du 03 Mai 2018 portant répression de la commercialisation et de l'exportation illicites des produits agricoles soumises à agrément",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance n° 2018-437 portant répression de la commercialisation et de l'exportation illicites des produits agricoles soumis à agrément. Elle prévoit des sanctions contre les manquements aux règles de commercialisation, notamment l'exportation illicite par voie terrestre, qui privent l'État et les filières de recettes fiscales et parafiscales. L'article de l'Assemblée nationale date l'ordonnance du 3 mai 2018 dans sa liste et du 3 mars 2018 dans son détail.",
+  "themes": [
+    "agriculture-et-elevage"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-08-05",
+      "date": "2020-08-05",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Traoré Idrissa, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-08-05"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-08-05"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

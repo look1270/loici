@@ -1,0 +1,59 @@
+{
+  "id": "pl-2026-amelioration-genetique-animale",
+  "titre_officiel": "Projet de loi portant réglementation de l'amélioration génétique animale en Côte d'Ivoire",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "adopte_en_commission",
+  "legislature_id": null,
+  "resume": "Ce projet de loi encadre l'utilisation du matériel génétique animal et protège les acteurs du secteur et leurs investissements. Il prévoit une traçabilité fondée sur l'étiquetage obligatoire et un système électronique de suivi, des sanctions administratives comme la mise en fourrière des animaux ou le retrait d'autorisation, un délai de 24 mois pour se mettre en conformité, et des peines d'un à trois ans d'emprisonnement et jusqu'à 5 millions de FCFA d'amende pour une activité sans autorisation.",
+  "themes": [
+    "agriculture-et-elevage"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-senat-crste-2026-11-10",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": "Sidi Tiémoko Touré",
+        "ministere": "Ministère des Ressources Animales et Halieutiques"
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-senat-crste-2026-11-10"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "commission-senat",
+      "date": "2026-11-10",
+      "statut": "adopte_en_commission",
+      "chambre": "senat",
+      "organe": "commission",
+      "commission_id": "senat-crste",
+      "libelle": "Examen par la commission de la Recherche, de la Science, de la Technologie et de l'Environnement (CRSTE) à Yamoussoukro et adoption à l'unanimité des membres présents, par vote électronique",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-senat-crste-2026-11-10"
+        ]
+      },
+      "source_ids": [
+        "src-senat-crste-2026-11-10"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-senat-crste-2026-11-10"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

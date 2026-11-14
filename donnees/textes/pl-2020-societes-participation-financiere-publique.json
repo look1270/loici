@@ -1,0 +1,96 @@
+{
+  "id": "pl-2020-societes-participation-financiere-publique",
+  "titre_officiel": "Projet de loi relatif aux sociétés à participation financière publique",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi encadre les sociétés à participation financière publique. Selon l'Assemblée nationale, il améliore leur gestion en introduisant des mécanismes de gouvernance alignés sur les meilleures pratiques internationales. Le Sénat l'a amendé aux articles 52 et 53 : « Assemblée nationale » y devient « Parlement » et « la loi de règlement » devient « la loi de finance initiale ».",
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-06-25",
+      "date": "2020-06-25",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Diawara Mamadou, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-06-25"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-06-25"
+      ]
+    },
+    {
+      "id": "senat",
+      "date": null,
+      "statut": null,
+      "chambre": "senat",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Examen par le Sénat, qui amende les articles 52 et 53",
+      "vote": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    },
+    {
+      "id": "seconde-lecture-an",
+      "date": "2020-10-13",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en seconde lecture, à l'unanimité des députés présents, des amendements du Sénat",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-10-13"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-06-25",
+    "src-assnat-pleniere-2020-10-13"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

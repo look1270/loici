@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2020-355",
+  "titre_officiel": "Projet de loi ratifiant l'ordonnance N°2020-355 du 08 avril 2020 portant suspension des délais en matière de procédure judiciaire et administrative",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance du 8 avril 2020 suspendant les délais en matière de procédure judiciaire et administrative. Selon l'Assemblée nationale, cette ordonnance vise à protéger les droits des plaideurs, alors que des mesures prises en urgence dans le cadre de la lutte contre la COVID-19 ont eu des effets sur les délais des procédures judiciaires.",
+  "themes": [
+    "justice"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-08-05",
+      "date": "2020-08-05",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Traoré Idrissa, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-08-05"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-08-05"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

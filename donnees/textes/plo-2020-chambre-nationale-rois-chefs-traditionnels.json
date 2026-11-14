@@ -1,0 +1,96 @@
+{
+  "id": "plo-2020-chambre-nationale-rois-chefs-traditionnels",
+  "titre_officiel": "Projet de loi organique portant composition, attribution et fonctionnement de la Chambre Nationale des Rois et Chefs Traditionnels",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": "organique",
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi organique fixe la composition, les attributions et le fonctionnement de la Chambre nationale des rois et chefs traditionnels, dont les organes sont l'Assemblée, le Directoire et les comités régionaux. Le Sénat l'a amendé aux articles 15, 17 et 20, notamment pour rendre renouvelables les mandats des membres et des vice-présidents du Directoire, et pour organiser l'intérim de son président.",
+  "themes": [
+    "institutions"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-05-28",
+      "date": "2020-05-28",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à la majorité des députés présents, sous la présidence de M. Amadou Soumahoro, président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": null,
+        "source_ids": [
+          "src-assnat-pleniere-2020-05-28"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-05-28"
+      ]
+    },
+    {
+      "id": "senat",
+      "date": null,
+      "statut": null,
+      "chambre": "senat",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Examen par le Sénat, qui amende les articles 15, 17 et 20",
+      "vote": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    },
+    {
+      "id": "seconde-lecture-an",
+      "date": "2020-10-13",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en seconde lecture, à l'unanimité des députés présents, des amendements du Sénat",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-10-13"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-05-28",
+    "src-assnat-pleniere-2020-10-13"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

@@ -15,12 +15,22 @@ export const formatSource = z.enum(["page_web", "pdf"]);
  * Normalise une URL pour comparer l'original et l'URL archivée :
  * la Wayback Machine peut changer http/https, « www. » ou la barre finale.
  */
-const normaliserUrl = (url: string) =>
-  url
-    .replace(/^https?:\/\//, "")
-    .replace(/^www\./, "")
-    .replace(/\/+$/, "")
-    .toLowerCase();
+/**
+ * Adresses déplacées par leur site, vérifiées à la main (même article, même contenu) : l'ancienne adresse
+ * archivée vaut la nouvelle. Ex. l'Assemblée nationale a déplacé ses articles de /assembleenationale/?… vers /?….
+ */
+const DEPLACEMENTS: [RegExp, string][] = [[/^assnat\.ci\/assembleenationale\//, "assnat.ci/"]];
+
+export const normaliserUrl = (url: string) =>
+  DEPLACEMENTS.reduce(
+    (u, [ancien, nouveau]) => u.replace(ancien, nouveau),
+    url
+      .replace(/^https?:\/\//, "")
+      .replace(/^www\./, "")
+      .replace(/^([^/]+):(80|443)(?=\/|$)/, "$1")
+      .replace(/\/+$/, "")
+      .toLowerCase(),
+  );
 
 /** Extrait l'URL d'origine d'un lien https://web.archive.org/web/AAAAMMJJhhmmss/<origine>. */
 const urlOrigineArchive = (urlArchive: string) => urlArchive.replace(/^https:\/\/web\.archive\.org\/web\/\d{14}\//, "");

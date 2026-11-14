@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-code-urbanisme-domaine-foncier-urbain",
+  "titre_officiel": "Projet de loi instituant code de l'urbanisme et du domaine foncier urbain",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi institue un code de l'urbanisme et du domaine foncier urbain. Selon l'Assemblée nationale, il vise à réduire fortement le volume des litiges, à faire respecter les règles d'urbanisme et à mettre fin à la prolifération des quartiers précaires.",
+  "themes": [
+    "urbanisme-et-habitat"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-06-25"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-06-25",
+      "date": "2020-06-25",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Diawara Mamadou, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-06-25"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-06-25"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-06-25"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

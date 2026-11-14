@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2020-386",
+  "titre_officiel": "Projet de loi de ratification de l'ordonnance n°2020-386 du 15 avril 2020 portant suspension des procédures d'expulsion des locataires et de révision à la hausse du loyer des baux d'habitation",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance suspendant, dans le contexte de la COVID-19, les procédures d'expulsion des locataires et la révision à la hausse des loyers des baux d'habitation, pour la période du 1er avril au 30 juin 2020. Selon l'Assemblée nationale, il a été soumis aux députés pour ratification en application de l'article 106 de la Constitution.",
+  "themes": [
+    "urbanisme-et-habitat"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-06-25"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-06-25",
+      "date": "2020-06-25",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Diawara Mamadou, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-06-25"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-06-25"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-06-25"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

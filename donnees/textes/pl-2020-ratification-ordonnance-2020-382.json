@@ -1,0 +1,60 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2020-382",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2020-382 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds Spécial de Solidarité et de Soutien d'Urgence Humanitaire dénommé Fonds spécial de solidarité Covid-19",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance créant le Fonds spécial de solidarité et de soutien d'urgence humanitaire, dit Fonds spécial de solidarité Covid-19. Ce fonds finance exclusivement les interventions de solidarité du Gouvernement envers les personnes affectées par la COVID-19, notamment leur approvisionnement en vivres et non-vivres. Il est alimenté par des dotations budgétaires et par des dons de particuliers, de pays, d'institutions et d'entreprises.",
+  "themes": [
+    "sante",
+    "finances-publiques"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-08-05",
+      "date": "2020-08-05",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Traoré Idrissa, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-08-05"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-08-05"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

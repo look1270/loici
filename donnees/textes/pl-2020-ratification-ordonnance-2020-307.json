@@ -1,0 +1,60 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2020-307",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2020-307 du 04 mars 2020 portant légalisation du régime fiscal et douanier applicable au réseau d'évacuation associé à la Centrale Thermique de Production d'Électricité à cycle combiné de 390 MW",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance légalisant les dispositions fiscales et douanières applicables au réseau d'évacuation de l'énergie de la centrale thermique à cycle combiné de 390 MW de Taboth, à Jacqueville. L'ordonnance accorde également à Côte d'Ivoire Energie le bénéfice du régime fiscal et douanier prévu par les clauses fiscales de la convention ATINKOU.",
+  "themes": [
+    "environnement-et-energie",
+    "finances-publiques"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-10-13",
+      "date": "2020-10-13",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité des députés présents, sous la présidence de M. Amadou Soumahoro, président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-10-13"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-10-13"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

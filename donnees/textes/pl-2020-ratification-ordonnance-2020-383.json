@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2020-383",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2020-383 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Grandes Entreprises, dénommé FSGE Covid-19",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance créant le Fonds de soutien aux grandes entreprises, dit FSGE Covid-19, et fixant ses attributions, son organisation et son fonctionnement. Le fonds met à la disposition des grandes entreprises une enveloppe de 150 milliards de francs CFA, destinée à préserver les outils de production et l'emploi et à offrir aux entreprises en difficulté une garantie d'accès au financement.",
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-08-05",
+      "date": "2020-08-05",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Traoré Idrissa, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-08-05"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-08-05"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

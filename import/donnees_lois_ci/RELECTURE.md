@@ -9,15 +9,15 @@ Extraction automatique du 2026-11-14 : **164 lignes**, regroupées en **107 text
 
 | Catégorie | Nombre |
 |---|---|
-| Candidats avec une source précise | 63 |
+| Candidats avec une source précise | 23 |
 | Candidats avec seulement une source générique | 17 |
 | Titres à corriger avant saisie | 16 |
-| Déjà recensés dans LoiCI | 1 |
+| Déjà recensés dans LoiCI | 41 |
 | Écartés (pas des textes) | 10 |
 
 Une fois un texte saisi (ou écarté après vérification), cochez sa case.
 
-## 1. Candidats avec une source précise (63)
+## 1. Candidats avec une source précise (23)
 
 - [ ] **Loi portant Code minier**
   - Projet de loi · ordinaire · statut observé : Promulgué · Loi n° 2014-138 · promulguée le 2014-03-24
@@ -49,65 +49,12 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
   - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi fixant les règles générales relatives aux Etablissements Publics Nationaux (EPN) portant création de catégories d’Etablissements publics**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - ⚠ titres voisins regroupés : vérifier qu'il s'agit bien du même texte
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15, 2020-06-30
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi instituant code de l’urbanisme et du domaine foncier urbain**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2018-06-27
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
 - [ ] **Projet de loi instituant Code de la construction et de l’habitat**
   - Projet de loi · ordinaire · statut observé : Déposé → Adopté en plénière
   - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - source : <https://www.assnat.ci/spip.php?page=recherche&recherche=projet+de+loi>
   - source : <https://www.assnat.ci/?l-integralite-du-projet-de-loi-instituant-code-de-la-construction-et-de-l-habitat-14-06-19>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi modifiant et complétant la loi N°2013-537 du 30 juillet 2013 portant organisation du système statistique national**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2018-08-01
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement de la Cour de Cassation**
-  - Projet de loi · organique · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-09-29
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Conseil d’Etat**
-  - Projet de loi · organique · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du parquet général près la Cour de Cassation et le Conseil d’Etat**
-  - Projet de loi · organique · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Tribunal des conflits**
-  - Projet de loi · organique · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-- [ ] **Projet de loi organique portant composition, attribution et fonctionnement de la Chambre Nationale des Rois et Chefs Traditionnels (seconde lecture)**
-  - Projet de loi · organique · statut observé : Adopté en plénière → Adopté définitivement
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05, 2020-05-06
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
-  - 4 lignes de l'extraction regroupées
-- [ ] **Projet de loi organique portant statut des parlementaires**
-  - Projet de loi · organique · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05
-  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
   - 2 lignes de l'extraction regroupées
 - [ ] **Projet de loi portant Code de déontologie médicale**
   - Projet de loi · ordinaire · statut observé : Adopté en plénière
@@ -134,16 +81,6 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
   - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi portant Code de la santé publique vétérinaire**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-10-13
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-- [ ] **Projet de loi portant définition et organisation des sociétés d’Etat**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-06-30
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
 - [ ] **Projet de loi portant modification de l’article 18 de la loi n° 2015-535 du20 juillet 2015 portant organisation de l’Ordre National des Pharmaciens de Côte d’Ivoire**
   - Projet de loi · ordinaire · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -160,153 +97,12 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
   - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi portant ratification de l’ordonnance N° 2018- 437 du 03 Mai 2018 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2013-07-30
-  - ⚠ date 2013-07-30 antérieure à l'ordonnance ratifiée (2018-05-03)
-  - ⚠ date 2013-07-30 antérieure à l'année de l'ordonnance n° 2018-437
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N° 2018- 756 du 26 septembre 2018 modifiant l’ordonnance N° 2011-481 du 28 décembre 2011 fixant les règles relatives à la commercialisation du café et du cacao et à la régulation de la filière café-cacao**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2018-03-03, 2018-05-03
-  - ⚠ date 2018-05-03 antérieure à l'ordonnance ratifiée (2018-09-26)
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N° 2019-679 du 24 juillet 2019 portant Code des marchés publics**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-- [ ] **Projet de loi portant ratification de l’ordonnance N° 2019-754 du 18 septembre 2019 portant légalisation du régime fiscal et douanier prévu par l’annexe 4.5 de la convention pour la construction, l’exploitation et le transfert de la propriété d’une centrale thermique de production d’électricité à cycle combiné de 390 MW**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-07-24
-  - ⚠ date 2019-07-24 antérieure à l'ordonnance ratifiée (2019-09-18)
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2018-144 du 14 février 2018 modifiant l’article 169 e) de la loi n° 2014-138 du 24 mars 2014 portant Code minier**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-08, 2020-04-15
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2018-593 du 27 juin 2018 portant création et organisation du Fonds pour la Science, la Technologie et l’Innovation, dénommé FONSTI**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-12-11, 2020-06-25
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-1087 du 18 décembre 2019 modifiant les modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-09-18
-  - ⚠ date 2019-09-18 antérieure à l'ordonnance ratifiée (2019-12-18)
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-80 du 23 janvier 2019 portant mise en œuvre de la première phase du démantèlement tarifaire dans le cadre de l’Accord de Partenariat Economique entre la Côte d’Ivoire et l’Union Européenne**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-01-08
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2020- 358 du 8 avril 2020 portant exonération des droits et taxes de douanes sur les équipements de santé, matériels et autres intrants sanitaires entrant dans le cadre de la lutte contre la maladie à coronavirus**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-08
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2020-273 du 26 février 2020 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, la détention en pleine propriété, l’exploitation et le transfert d’une centrale thermique à biomasse de 2x 23 MW d’Ayebo (Aboisso)**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-307 du 04 mars 2020 portant légalisation du régime fiscal et douanier applicable au réseau d’évacuation associé à la Centrale Thermique de Production d’Électricité à cycle combiné de 390 MW**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-10-13
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2020-357 du 8 avril 2020 relative aux mesures fiscales dans le cadre du plan de riposte à la pandémie de coronavirus (COVID-19)**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2014-03-24
-  - ⚠ date 2014-03-24 antérieure à l'ordonnance ratifiée (2020-04-08)
-  - ⚠ date 2014-03-24 antérieure à l'année de l'ordonnance n° 2020-357
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance N°2020-381 du 15 avril 2020 modifiant les articles 47 et 265 du Code de procédure civile, commerciale et administrative**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2011-12-28, 2020-04-08
-  - ⚠ date 2020-04-08 antérieure à l'ordonnance ratifiée (2020-04-15)
-  - ⚠ date 2011-12-28 antérieure à l'année de l'ordonnance n° 2020-381
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-382 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds Spécial de Solidarité et de Soutien d’Urgence Humanitaire dénommé Fonds spécial de solidarité Covid-19**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-08
-  - ⚠ date 2020-04-08 antérieure à l'ordonnance ratifiée (2020-04-15)
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-383 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Grandes Entreprises, dénommé FSGE Covid-19**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-384 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Petites et Moyennes Entreprises, dénommé FSPME Covid-19**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-385 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du fonds d’appui aux acteurs du secteur informel**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-440 du 06 mai 2020 portant dérogation aux dispositions du Code des marchés publics relatives aux pénalités de retard en matière de marchés et commandes publics**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-03-04
-  - ⚠ date 2020-03-04 antérieure à l'ordonnance ratifiée (2020-05-06)
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-  - 2 lignes de l'extraction regroupées
 - [ ] **Projet de loi portant ratification de l’ordonnance n°2024-886 du 16 octobre 2024 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément**
   - Ratification d'ordonnance · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2015-07-20
   - ⚠ date 2015-07-20 antérieure à l'ordonnance ratifiée (2024-10-16)
   - source : <https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843>
-- [ ] **Projet de loi portant ratification de l’ordonnance portant modification des articles 5, 15, 16, et 17 de la loi n° 2019- 708 du 05 août 2019 portant recomposition de la Commission Electorale Indépendante**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-28
-  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant ratification de l’ordonnance portant révision du code électoral**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05, 2020-05-28
-  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant régime financier des Collectivités Territoriales et des Districts Autonomes**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière → Promulgué · Loi n° 2020-885 · promulguée le 2020-10-21
-  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06, 2020-10-21
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
-  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1775208284_Rapport-de-synthese-et-Recommandations-Symposium2026.pdf>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi portant réglementation de l’amélioration génétique animale en Côte d’Ivoire**
-  - Projet de loi · ordinaire · statut observé : En commission
-  - dates relevées (sens inconnu : étape, date citée…) : 2026-11-10
-  - source : <https://www.senat.ci/actualites/397/la-crste-examine-le-projet-de-loi-relatif-a-l-amelioration-genetique-animale>
 - [ ] **Projet de loi portant statut du Corps Diplomatique**
   - Projet de loi · ordinaire · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
@@ -317,25 +113,6 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2023-06-20
   - source : <https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere>
-- [ ] **Projet de loi ratifiant l’ordonnance n° 2019-1088 du 18 décembre 2019 modifiant l’ordonnance n° 2018- 646 du 1er Août 2018 portant Code des investissements**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-12-18, 2020-02-26
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi ratifiant l’ordonnance N°2019-1047 du 11 décembre 2019 portant prorogation du prélèvement compensatoire sur les importations en Côte d’Ivoire de volailles mortes de basse–cour et leurs abats comestibles frais, réfrigérés ou congelés**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-01-23
-  - ⚠ date 2019-01-23 antérieure à l'ordonnance ratifiée (2019-12-11)
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi ratifiant l’ordonnance N°2020-355 du 08 avril 2020 portant suspension des délais en matière de procédure judiciaire et administrative**
-  - Ratification d'ordonnance · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15, 2020-08-05
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
 - [ ] **Projet de loi relatif à l’amélioration génétique animale**
   - Projet de loi · ordinaire · statut observé : Déposé → En commission
   - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
@@ -352,34 +129,11 @@ Une fois un texte saisi (ou écarté après vérification), cochez sa case.
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2020-06-30
   - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-- [ ] **Projet de loi relatif au domicile**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05
-  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif au nom**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05
-  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
-  - 2 lignes de l'extraction regroupées
-- [ ] **Projet de loi relatif aux libéralités**
-  - Projet de loi · ordinaire · statut observé : Adopté en plénière
-  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-08-05
-  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
 - [ ] **Projet de loi relatif aux modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier**
   - Projet de loi · ordinaire · statut observé : Adopté en plénière
   - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
   - dates relevées (sens inconnu : étape, date citée…) : 2019-09-18
   - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-- [ ] **Projet de loi relatif aux sociétés à participation financière publique**
-  - Projet de loi · ordinaire · statut observé : Adopté définitivement
-  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
-  - dates relevées (sens inconnu : étape, date citée…) : 2020-09-29
-  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
-  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
 
 ## 2. Candidats avec seulement une source générique (17)
 
@@ -583,7 +337,7 @@ Le titre extrait est coupé ou mélangé avec un texte voisin : recopiez l'intit
   - dates relevées (sens inconnu : étape, date citée…) : 2024-01-31
   - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF>
 
-## 4. Déjà recensés dans LoiCI (1)
+## 4. Déjà recensés dans LoiCI (41)
 
 Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche existante.
 
@@ -599,6 +353,292 @@ Vérifier si l'extraction apporte une étape ou une source nouvelle à la fiche 
   - source : <https://www.assnat.ci/?les-credits-budgetaires-de-trois-ministeres-adoptes-a-l-unanimite-par-la-commission-des-affaires-economiques-et-financieres-caef>
   - 5 lignes de l'extraction regroupées
   - fiche existante : `donnees/textes/plf-2027-budget-etat.json`
+- [ ] **Projet de loi fixant les règles générales relatives aux Etablissements Publics Nationaux (EPN) portant création de catégories d’Etablissements publics**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - ⚠ titres voisins regroupés : vérifier qu'il s'agit bien du même texte
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15, 2020-06-30
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-etablissements-publics-nationaux.json`
+- [ ] **Projet de loi instituant code de l’urbanisme et du domaine foncier urbain**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2018-06-27
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-code-urbanisme-domaine-foncier-urbain.json`
+- [ ] **Projet de loi modifiant et complétant la loi N°2013-537 du 30 juillet 2013 portant organisation du système statistique national**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2018-08-01
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-systeme-statistique-national.json`
+- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement de la Cour de Cassation**
+  - Projet de loi · organique · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-09-29
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - fiche existante : `donnees/textes/plo-2020-cour-de-cassation.json`
+- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Conseil d’Etat**
+  - Projet de loi · organique · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - fiche existante : `donnees/textes/plo-2020-conseil-d-etat.json`
+- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du parquet général près la Cour de Cassation et le Conseil d’Etat**
+  - Projet de loi · organique · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - fiche existante : `donnees/textes/plo-2020-parquet-general-cour-de-cassation-conseil-d-etat.json`
+- [ ] **Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Tribunal des conflits**
+  - Projet de loi · organique · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - fiche existante : `donnees/textes/plo-2020-tribunal-des-conflits.json`
+- [ ] **Projet de loi organique portant composition, attribution et fonctionnement de la Chambre Nationale des Rois et Chefs Traditionnels (seconde lecture)**
+  - Projet de loi · organique · statut observé : Adopté en plénière → Adopté définitivement
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05, 2020-05-06
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
+  - 4 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/plo-2020-chambre-nationale-rois-chefs-traditionnels.json`
+- [ ] **Projet de loi organique portant statut des parlementaires**
+  - Projet de loi · organique · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05
+  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/plo-2020-statut-des-parlementaires.json`
+- [ ] **Projet de loi portant Code de la santé publique vétérinaire**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-10-13
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-code-sante-publique-veterinaire.json`
+- [ ] **Projet de loi portant définition et organisation des sociétés d’Etat**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-06-30
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-societes-d-etat.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N° 2018- 437 du 03 Mai 2018 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2013-07-30
+  - ⚠ date 2013-07-30 antérieure à l'ordonnance ratifiée (2018-05-03)
+  - ⚠ date 2013-07-30 antérieure à l'année de l'ordonnance n° 2018-437
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2018-437.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N° 2018- 756 du 26 septembre 2018 modifiant l’ordonnance N° 2011-481 du 28 décembre 2011 fixant les règles relatives à la commercialisation du café et du cacao et à la régulation de la filière café-cacao**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2018-03-03, 2018-05-03
+  - ⚠ date 2018-05-03 antérieure à l'ordonnance ratifiée (2018-09-26)
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2018-756.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N° 2019-679 du 24 juillet 2019 portant Code des marchés publics**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2019-679.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N° 2019-754 du 18 septembre 2019 portant légalisation du régime fiscal et douanier prévu par l’annexe 4.5 de la convention pour la construction, l’exploitation et le transfert de la propriété d’une centrale thermique de production d’électricité à cycle combiné de 390 MW**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-07-24
+  - ⚠ date 2019-07-24 antérieure à l'ordonnance ratifiée (2019-09-18)
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2019-754.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2018-144 du 14 février 2018 modifiant l’article 169 e) de la loi n° 2014-138 du 24 mars 2014 portant Code minier**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-08, 2020-04-15
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2018-144.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2018-593 du 27 juin 2018 portant création et organisation du Fonds pour la Science, la Technologie et l’Innovation, dénommé FONSTI**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-12-11, 2020-06-25
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2018-593.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-1087 du 18 décembre 2019 modifiant les modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-09-18
+  - ⚠ date 2019-09-18 antérieure à l'ordonnance ratifiée (2019-12-18)
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2019-1087.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2019-80 du 23 janvier 2019 portant mise en œuvre de la première phase du démantèlement tarifaire dans le cadre de l’Accord de Partenariat Economique entre la Côte d’Ivoire et l’Union Européenne**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-01-08
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2019-80.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2020- 358 du 8 avril 2020 portant exonération des droits et taxes de douanes sur les équipements de santé, matériels et autres intrants sanitaires entrant dans le cadre de la lutte contre la maladie à coronavirus**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-08
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-358.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2020-273 du 26 février 2020 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, la détention en pleine propriété, l’exploitation et le transfert d’une centrale thermique à biomasse de 2x 23 MW d’Ayebo (Aboisso)**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-273.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-307 du 04 mars 2020 portant légalisation du régime fiscal et douanier applicable au réseau d’évacuation associé à la Centrale Thermique de Production d’Électricité à cycle combiné de 390 MW**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-10-13
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-307.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2020-357 du 8 avril 2020 relative aux mesures fiscales dans le cadre du plan de riposte à la pandémie de coronavirus (COVID-19)**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2014-03-24
+  - ⚠ date 2014-03-24 antérieure à l'ordonnance ratifiée (2020-04-08)
+  - ⚠ date 2014-03-24 antérieure à l'année de l'ordonnance n° 2020-357
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-357.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance N°2020-381 du 15 avril 2020 modifiant les articles 47 et 265 du Code de procédure civile, commerciale et administrative**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2011-12-28, 2020-04-08
+  - ⚠ date 2020-04-08 antérieure à l'ordonnance ratifiée (2020-04-15)
+  - ⚠ date 2011-12-28 antérieure à l'année de l'ordonnance n° 2020-381
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-381.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-382 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds Spécial de Solidarité et de Soutien d’Urgence Humanitaire dénommé Fonds spécial de solidarité Covid-19**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-08
+  - ⚠ date 2020-04-08 antérieure à l'ordonnance ratifiée (2020-04-15)
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-382.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-383 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Grandes Entreprises, dénommé FSGE Covid-19**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-383.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-384 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Petites et Moyennes Entreprises, dénommé FSPME Covid-19**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-384.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-385 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du fonds d’appui aux acteurs du secteur informel**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-385.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance n°2020-440 du 06 mai 2020 portant dérogation aux dispositions du Code des marchés publics relatives aux pénalités de retard en matière de marchés et commandes publics**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-03-04
+  - ⚠ date 2020-03-04 antérieure à l'ordonnance ratifiée (2020-05-06)
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-440.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance portant modification des articles 5, 15, 16, et 17 de la loi n° 2019- 708 du 05 août 2019 portant recomposition de la Commission Electorale Indépendante**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-28
+  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-recomposition-cei.json`
+- [ ] **Projet de loi portant ratification de l’ordonnance portant révision du code électoral**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05, 2020-05-28
+  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-revision-code-electoral.json`
+- [ ] **Projet de loi portant régime financier des Collectivités Territoriales et des Districts Autonomes**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière → Promulgué · Loi n° 2020-885 · promulguée le 2020-10-21
+  - ⚠ statuts contradictoires dans l'extraction : vérifier le dernier état réel
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-05-06, 2020-10-21
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - source (générique : chercher la page précise) : <https://www.senat.ci/upload/docs_site/1775208284_Rapport-de-synthese-et-Recommandations-Symposium2026.pdf>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-regime-financier-collectivites-territoriales-districts.json`
+- [ ] **Projet de loi portant réglementation de l’amélioration génétique animale en Côte d’Ivoire**
+  - Projet de loi · ordinaire · statut observé : En commission
+  - dates relevées (sens inconnu : étape, date citée…) : 2026-11-10
+  - source : <https://www.senat.ci/actualites/397/la-crste-examine-le-projet-de-loi-relatif-a-l-amelioration-genetique-animale>
+  - fiche existante : `donnees/textes/pl-2026-amelioration-genetique-animale.json`
+- [ ] **Projet de loi ratifiant l’ordonnance n° 2019-1088 du 18 décembre 2019 modifiant l’ordonnance n° 2018- 646 du 1er Août 2018 portant Code des investissements**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-12-18, 2020-02-26
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2019-1088.json`
+- [ ] **Projet de loi ratifiant l’ordonnance N°2019-1047 du 11 décembre 2019 portant prorogation du prélèvement compensatoire sur les importations en Côte d’Ivoire de volailles mortes de basse–cour et leurs abats comestibles frais, réfrigérés ou congelés**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-01-23
+  - ⚠ date 2019-01-23 antérieure à l'ordonnance ratifiée (2019-12-11)
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2019-1047.json`
+- [ ] **Projet de loi ratifiant l’ordonnance N°2020-355 du 08 avril 2020 portant suspension des délais en matière de procédure judiciaire et administrative**
+  - Ratification d'ordonnance · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-04-15, 2020-08-05
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-ratification-ordonnance-2020-355.json`
+- [ ] **Projet de loi relatif au domicile**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05
+  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-domicile.json`
+- [ ] **Projet de loi relatif au nom**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2019-08-05
+  - source : <https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere>
+  - 2 lignes de l'extraction regroupées
+  - fiche existante : `donnees/textes/pl-2020-nom.json`
+- [ ] **Projet de loi relatif aux libéralités**
+  - Projet de loi · ordinaire · statut observé : Adopté en plénière
+  - ⚠ « adopté à l'Assemblée » : vérifier s'il s'agit de la plénière
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-08-05
+  - source : <https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-liberalites.json`
+- [ ] **Projet de loi relatif aux sociétés à participation financière publique**
+  - Projet de loi · ordinaire · statut observé : Adopté définitivement
+  - ⚠ « adopté par le Parlement » : vérifier l'adoption par les deux chambres
+  - dates relevées (sens inconnu : étape, date citée…) : 2020-09-29
+  - source : <https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere>
+  - source : <https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere>
+  - fiche existante : `donnees/textes/pl-2020-societes-participation-financiere-publique.json`
 
 ## 5. Écartés (10)
 

@@ -1,0 +1,60 @@
+{
+  "id": "pl-2020-ratification-ordonnance-2018-144",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2018-144 du 14 février 2018 modifiant l'article 169 e) de la loi n° 2014-138 du 24 mars 2014 portant Code minier",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance modifiant l'article 169 e) du Code minier. Elle supprime l'exonération de l'impôt sur les bénéfices industriels et commerciaux (BIC) et de l'impôt minimum forfaitaire pour les entreprises minières, sans affecter les conventions minières en cours ni les permis d'exploitation déjà accordés. Les permis délivrés en 2018 bénéficient d'un abattement du taux de l'impôt BIC pendant deux ans après la première production commerciale.",
+  "themes": [
+    "economie-et-entreprises",
+    "finances-publiques"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-08-05",
+      "date": "2020-08-05",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité, sous la présidence de M. Traoré Idrissa, vice-président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-08-05"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-08-05"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-08-05"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

@@ -10,5 +10,45 @@
   {
     "id": "planification-et-developpement",
     "libelle": "Planification et développement"
+  },
+  {
+    "id": "justice",
+    "libelle": "Justice"
+  },
+  {
+    "id": "sante",
+    "libelle": "Santé"
+  },
+  {
+    "id": "economie-et-entreprises",
+    "libelle": "Économie et entreprises"
+  },
+  {
+    "id": "agriculture-et-elevage",
+    "libelle": "Agriculture et élevage"
+  },
+  {
+    "id": "environnement-et-energie",
+    "libelle": "Environnement et énergie"
+  },
+  {
+    "id": "institutions",
+    "libelle": "Institutions"
+  },
+  {
+    "id": "collectivites-territoriales",
+    "libelle": "Collectivités territoriales"
+  },
+  {
+    "id": "urbanisme-et-habitat",
+    "libelle": "Urbanisme et habitat"
+  },
+  {
+    "id": "droit-des-personnes",
+    "libelle": "Droit des personnes et de la famille"
+  },
+  {
+    "id": "education-et-recherche",
+    "libelle": "Éducation et recherche"
   }
 ]

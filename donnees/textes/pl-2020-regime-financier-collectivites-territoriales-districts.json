@@ -1,0 +1,86 @@
+{
+  "id": "pl-2020-regime-financier-collectivites-territoriales-districts",
+  "titre_officiel": "Projet de loi portant régime financier des Collectivités Territoriales et des Districts Autonomes",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi fixe le régime financier des collectivités territoriales et des districts autonomes. Le Sénat y a apporté onze amendements, notamment aux articles 40 et 58, que les députés de la commission des Affaires économiques et financières ont examinés le 29 septembre 2020. L'Assemblée nationale l'a ensuite adopté en seconde lecture, à l'unanimité des députés présents, le 13 octobre 2020.",
+  "themes": [
+    "collectivites-territoriales",
+    "finances-publiques"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "senat",
+      "date": null,
+      "statut": null,
+      "chambre": "senat",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Examen par le Sénat, qui apporte onze amendements",
+      "vote": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    },
+    {
+      "id": "commission-an-seconde-lecture",
+      "date": "2020-09-29",
+      "statut": null,
+      "chambre": "assemblee_nationale",
+      "organe": "commission",
+      "commission_id": "an-caef",
+      "libelle": "Examen des amendements du Sénat par la commission des Affaires économiques et financières (CAEF)",
+      "vote": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    },
+    {
+      "id": "seconde-lecture-an",
+      "date": "2020-10-13",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en seconde lecture, à l'unanimité des députés présents",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-10-13"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-10-13"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

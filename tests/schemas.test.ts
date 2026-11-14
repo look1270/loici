@@ -81,6 +81,15 @@ test("source : archive, dates et empreinte cohérentes", () => {
   assert.ok(refuse(source, { ...sourceValide, champ_inconnu: 1 }), "champ non prévu");
 });
 
+test("source : article déplacé par l'Assemblée nationale, archive de l'ancienne adresse acceptée", () => {
+  const page = { ...sourceValide, format: "page_web" as const, empreinte_sha256: null, url: "https://www.assnat.ci/?six-projets-de-loi" };
+  const archive = (adresse: string) => `https://web.archive.org/web/20200605032730/${adresse}`;
+  assert.equal(source.safeParse({ ...page, url_archive: archive("http://www.assnat.ci/assembleenationale/?six-projets-de-loi") }).success, true);
+  assert.equal(source.safeParse({ ...page, url_archive: archive("http://www.assnat.ci:80/assembleenationale/?six-projets-de-loi") }).success, true);
+  assert.ok(refuse(source, { ...page, url_archive: archive("http://www.assnat.ci/assembleenationale/?sept-projets-de-loi") }), "autre article");
+  assert.ok(refuse(source, { ...page, url_archive: archive("http://www.senat.ci/assembleenationale/?six-projets-de-loi") }), "autre site");
+});
+
 test("texte : règle « zéro donnée sans source » et champs obligatoires", () => {
   assert.ok(refuse(texte, { ...texteValide, source_ids: [] }));
   assert.ok(refuse(texte, { ...texteValide, numero_depot: undefined }), "champ omis au lieu de null");

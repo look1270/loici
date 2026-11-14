@@ -1,0 +1,59 @@
+{
+  "id": "pl-2020-ratification-ordonnance-revision-code-electoral",
+  "titre_officiel": "Projet de loi portant ratification de l'ordonnance portant révision du code électoral",
+  "numero_depot": null,
+  "type": "projet_de_loi_ratification_ordonnance",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi ratifie l'ordonnance portant révision du code électoral, issue d'une concertation entre le Gouvernement, les partis et groupements politiques et la société civile. Elle institue notamment le parrainage citoyen pour l'élection présidentielle, porte le cautionnement à 50 millions de FCFA et abaisse à 5 % des suffrages le seuil de son remboursement. Elle interdit aussi la publication de sondages à partir de la publication de la liste électorale définitive.",
+  "themes": [
+    "elections-et-vie-politique"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-05-28",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-05-28"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-05-28",
+      "date": "2020-05-28",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité des députés présents, sous la présidence de M. Amadou Soumahoro, président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-05-28"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-05-28"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-05-28"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

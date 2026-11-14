@@ -1,0 +1,60 @@
+{
+  "id": "pl-2020-code-sante-publique-veterinaire",
+  "titre_officiel": "Projet de loi portant Code de la santé publique vétérinaire",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "adopte_en_pleniere",
+  "legislature_id": null,
+  "resume": "Ce projet de loi révise le Code de la santé publique vétérinaire au regard des évolutions régionales et internationales. Il prévoit l'actualisation de la liste des maladies réputées légalement contagieuses, la surveillance des animaux suspects, l'analyse des risques sanitaires, des mesures de biosécurité, et un mécanisme de financement de la lutte contre les maladies animales qui inclut l'indemnisation des éleveurs en cas d'abattage sanitaire.",
+  "themes": [
+    "sante",
+    "agriculture-et-elevage"
+  ],
+  "numero_loi": null,
+  "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": null
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "pleniere-an-2020-10-13",
+      "date": "2020-10-13",
+      "statut": "adopte_en_pleniere",
+      "chambre": "assemblee_nationale",
+      "organe": "pleniere",
+      "commission_id": null,
+      "libelle": "Adoption en séance plénière, à l'unanimité des députés présents, sous la présidence de M. Amadou Soumahoro, président de l'Assemblée nationale",
+      "vote": {
+        "resultat": "adopte",
+        "pour": null,
+        "contre": null,
+        "abstention": null,
+        "votants": null,
+        "unanimite": true,
+        "source_ids": [
+          "src-assnat-pleniere-2020-10-13"
+        ]
+      },
+      "source_ids": [
+        "src-assnat-pleniere-2020-10-13"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-assnat-pleniere-2020-10-13"
+  ],
+  "mis_a_jour_le": "2026-11-14"
+}

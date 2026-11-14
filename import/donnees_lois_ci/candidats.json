@@ -383,7 +383,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-etablissements-publics-nationaux"
     },
     {
       "cle": "projet de loi instituant code de l urbanisme et du domaine foncier urbain",
@@ -418,7 +418,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-code-urbanisme-domaine-foncier-urbain"
     },
     {
       "cle": "projet de loi instituant code de la construction et de l habitat",
@@ -512,7 +512,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-systeme-statistique-national"
     },
     {
       "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement de la cour de cassation",
@@ -547,7 +547,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plo-2020-cour-de-cassation"
     },
     {
       "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement du conseil d etat",
@@ -582,7 +582,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plo-2020-conseil-d-etat"
     },
     {
       "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement du parquet general pres la cour de cassation et le conseil d etat",
@@ -617,7 +617,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plo-2020-parquet-general-cour-de-cassation-conseil-d-etat"
     },
     {
       "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement du tribunal des conflits",
@@ -652,7 +652,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plo-2020-tribunal-des-conflits"
     },
     {
       "cle": "projet de loi organique portant composition attribution et fonctionnement de la chambre nationale des rois et chefs traditionnels seconde lecture",
@@ -721,7 +721,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plo-2020-chambre-nationale-rois-chefs-traditionnels"
     },
     {
       "cle": "projet de loi organique portant statut des parlementaires",
@@ -765,7 +765,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "plo-2020-statut-des-parlementaires"
     },
     {
       "cle": "projet de loi portant code de deontologie medicale",
@@ -975,7 +975,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-code-sante-publique-veterinaire"
     },
     {
       "cle": "projet de loi portant definition et organisation des societes d etat",
@@ -1010,7 +1010,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-societes-d-etat"
     },
     {
       "cle": "projet de loi portant modification de l article 18 de la loi n 2015 535 du20 juillet 2015 portant organisation de l ordre national des pharmaciens de cote d ivoire",
@@ -1165,7 +1165,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2018-437"
     },
     {
       "cle": "ordonnance-2018-756",
@@ -1211,7 +1211,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2018-756"
     },
     {
       "cle": "ordonnance-2019-679",
@@ -1246,7 +1246,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2019-679"
     },
     {
       "cle": "ordonnance-2019-754",
@@ -1292,7 +1292,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2019-754"
     },
     {
       "cle": "ordonnance-2018-144",
@@ -1336,7 +1336,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2018-144"
     },
     {
       "cle": "ordonnance-2018-593",
@@ -1380,7 +1380,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2018-593"
     },
     {
       "cle": "ordonnance-2019-1087",
@@ -1417,7 +1417,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2019-1087"
     },
     {
       "cle": "ordonnance-2019-80",
@@ -1461,7 +1461,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2019-80"
     },
     {
       "cle": "ordonnance-2020-358",
@@ -1505,7 +1505,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-358"
     },
     {
       "cle": "ordonnance-2020-273",
@@ -1549,7 +1549,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-273"
     },
     {
       "cle": "ordonnance-2020-307",
@@ -1593,7 +1593,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-307"
     },
     {
       "cle": "ordonnance-2020-357",
@@ -1641,7 +1641,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-357"
     },
     {
       "cle": "ordonnance-2020-381",
@@ -1689,7 +1689,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-381"
     },
     {
       "cle": "ordonnance-2020-382",
@@ -1735,7 +1735,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-382"
     },
     {
       "cle": "ordonnance-2020-383",
@@ -1779,7 +1779,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-383"
     },
     {
       "cle": "ordonnance-2020-384",
@@ -1823,7 +1823,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-384"
     },
     {
       "cle": "ordonnance-2020-385",
@@ -1867,7 +1867,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-385"
     },
     {
       "cle": "ordonnance-2020-440",
@@ -1913,7 +1913,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-440"
     },
     {
       "cle": "ordonnance-2024-886",
@@ -1994,7 +1994,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-recomposition-cei"
     },
     {
       "cle": "projet de loi portant ratification de l ordonnance portant revision du code electoral",
@@ -2038,7 +2038,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-revision-code-electoral"
     },
     {
       "cle": "projet de loi portant regime financier des collectivites territoriales et des districts autonomes",
@@ -2088,7 +2088,7 @@
           "format": "pdf"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-regime-financier-collectivites-territoriales-districts"
     },
     {
       "cle": "projet de loi portant reglementation de l amelioration genetique animale en cote d ivoire",
@@ -2121,7 +2121,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2026-amelioration-genetique-animale"
     },
     {
       "cle": "projet de loi portant statut du corps diplomatique",
@@ -2235,7 +2235,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2019-1088"
     },
     {
       "cle": "ordonnance-2019-1047",
@@ -2281,7 +2281,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2019-1047"
     },
     {
       "cle": "ordonnance-2020-355",
@@ -2325,7 +2325,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-ratification-ordonnance-2020-355"
     },
     {
       "cle": "projet de loi relatif a l amelioration genetique animale",
@@ -2496,7 +2496,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-domicile"
     },
     {
       "cle": "projet de loi relatif au nom",
@@ -2540,7 +2540,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-nom"
     },
     {
       "cle": "projet de loi relatif aux liberalites",
@@ -2575,7 +2575,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-liberalites"
     },
     {
       "cle": "projet de loi relatif aux modalites de fixation de la cle de repartition du produit de l impot sur le patrimoine foncier",
@@ -2650,7 +2650,7 @@
           "format": "page_web"
         }
       ],
-      "deja_recense": null
+      "deja_recense": "pl-2020-societes-participation-financiere-publique"
     },
     {
       "cle": "loi portant creation attributions organisation et fonctionnement du conseil national des droits de l homme cndh",
