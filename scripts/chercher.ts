@@ -7,7 +7,9 @@
  *   npm run chercher -- Coulibaly            par personnalité (ministre porteur, parlementaire)
  *   npm run chercher -- --personnalites      liste les personnalités et leur nombre de textes portés
  *   npm run chercher -- --json budget        sortie JSON (pour d'autres outils)
+ *   npm run chercher -- --aide               aide
  */
+import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { FILTRES_VIDES, anneesDuTexte, filtrerTextes } from "../app/utils/recherche";
 import { listerPersonnalites, personnalitesCorrespondantes } from "../app/utils/personnalites";
@@ -16,14 +18,37 @@ import { chargerDonnees } from "./lib/donnees";
 import { resumerTextes } from "./lib/resume";
 
 const RACINE = process.env.LOICI_RACINE ?? join(import.meta.dirname, "..");
+const OPTIONS = ["--json", "--personnalites", "--aide"];
+const AIDE = `Usage : npm run chercher -- [options] [termes]
+
+  (sans terme)          liste tous les textes
+  budget                mot du titre          2019        année du parcours
+  2019-870              numéro de loi          Coulibaly   ministre ou parlementaire
+
+Options :
+  --personnalites       liste les personnalités et leur nombre de textes portés
+  --json                sortie JSON
+  --aide                affiche cette aide`;
 
 async function principal() {
-  const args = process.argv.slice(2);
+  // npm peut transmettre plusieurs mots en un seul argument : on redécoupe.
+  const args = process.argv.slice(2).flatMap((a) => a.split(/\s+/)).filter(Boolean);
+  const inconnues = args.filter((a) => a.startsWith("-") && !OPTIONS.includes(a));
+  if (inconnues.length) throw new Error(`option inconnue : ${inconnues.join(", ")}\n\n${AIDE}`);
+  if (args.includes("--aide")) return console.log(AIDE);
   const json = args.includes("--json");
   const modePersonnalites = args.includes("--personnalites");
   const requete = args.filter((a) => !a.startsWith("--")).join(" ");
 
-  const { donnees } = await chargerDonnees(RACINE);
+  if (!existsSync(join(RACINE, "donnees", "textes"))) throw new Error(`dossier introuvable : ${join(RACINE, "donnees", "textes")}`);
+  const { donnees, problemes } = await chargerDonnees(RACINE);
+  // Un fichier invalide est écarté de la recherche : on le dit, sans bloquer (sortie d'erreur, pour garder --json propre).
+  const erreurs = problemes.filter((p) => p.niveau === "erreur");
+  if (erreurs.length) {
+    const fichiers = [...new Set(erreurs.map((p) => p.fichier))];
+    console.error(`⚠ ${fichiers.length} fichier(s) invalide(s), absent(s) des résultats : ${fichiers.join(", ")}`);
+    console.error(`  Détail : npm run valider\n`);
+  }
   const textes = resumerTextes(donnees);
   const noms = new Map(donnees.parlementaires.map((p) => [p.id, [p.prenoms, p.nom].filter(Boolean).join(" ")]));
   const personnalites = listerPersonnalites(textes, noms);
