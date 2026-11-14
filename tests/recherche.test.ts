@@ -7,6 +7,7 @@ import assert from "node:assert/strict";
 import type { ResumeTexte } from "../schemas/api";
 import {
   FILTRES_VIDES,
+  anneesDuTexte,
   correspond,
   filtrerTextes,
   filtresVersRequete,
@@ -66,4 +67,13 @@ test("filtres ↔ adresse de la page (aller-retour)", () => {
   assert.deepEqual(filtresVersRequete(f), { q: "budget", statut: "promulgue" });
   assert.deepEqual(requeteVersFiltres(filtresVersRequete(f)), f);
   assert.equal(nombreFiltresActifs(f), 1, "la recherche libre n'est pas comptée comme filtre");
+});
+
+test("recherche par année du parcours", () => {
+  const avecDates: ResumeTexte = { ...autre, id: "c", annee: 2090, date_depot: "2091-02-01", date_promulgation: "2093-07-01", date_derniere_etape: "2093-07-01" };
+  assert.deepEqual(anneesDuTexte(avecDates), ["2090", "2091", "2093"]);
+  for (const q of ["2090", "2091", "2093", "proposition 2093"]) {
+    assert.deepEqual(filtrerTextes([base, avecDates], { ...FILTRES_VIDES, q }).map((t) => t.id), ["c"], q);
+  }
+  assert.equal(filtrerTextes([avecDates], { ...FILTRES_VIDES, q: "2092" }).length, 0);
 });

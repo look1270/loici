@@ -42,6 +42,8 @@ export default defineNuxtConfig({
         "lucide:inbox", "lucide:users", "lucide:check", "lucide:check-check", "lucide:landmark",
         "lucide:badge-check", "lucide:scroll-text", "lucide:circle-x", "lucide:undo-2", "lucide:scale",
         "lucide:building-2", "lucide:circle",
+        // Icônes de la page Contribuer (déclarées dans le script de la page).
+        "lucide:file-plus", "lucide:flag", "lucide:bug",
       ],
     },
   },
@@ -70,6 +72,8 @@ export default defineNuxtConfig({
         "/",
         "/parlementaires",
         "/methodologie",
+        "/personnalites",
+        "/contribuer",
         ...identifiants("textes").map((id) => `/textes/${id}`),
         ...identifiants("parlementaires").map((id) => `/parlementaires/${id}`),
       ],

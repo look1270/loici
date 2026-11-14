@@ -98,7 +98,10 @@ const sommaire = [
         <h1 class="text-2xl font-bold leading-tight text-highlighted">{{ fiche.titre_officiel }}</h1>
         <BadgeSourceNonOfficielle v-if="!sourceOfficielle" />
         <ProgressionStatut :statut="fiche.statut" />
-        <BoutonLirePlus v-if="documentPrincipal" :source="documentPrincipal" />
+        <div class="flex flex-wrap items-center gap-2">
+          <BoutonLirePlus v-if="documentPrincipal" :source="documentPrincipal" />
+          <BoutonSignaler :titre="fiche.titre_officiel" />
+        </div>
         <RefsSources :ids="fiche.source_ids" etiquette="Sources de la fiche" />
       </header>
 

@@ -56,6 +56,7 @@ useHead({ title: computed(() => (fiche.value ? `${nomComplet.value} — LoiCI` :
     <article v-if="fiche" class="space-y-8">
       <header class="space-y-2">
         <h1 class="text-2xl font-bold text-highlighted">{{ nomComplet }}</h1>
+        <BoutonSignaler :titre="nomComplet" />
         <RefsSources :ids="fiche.source_ids" etiquette="Sources de la fiche" />
       </header>
 

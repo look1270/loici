@@ -68,6 +68,8 @@ Prérequis : Node.js 22 ou plus (24 recommandé, voir `.nvmrc`) ; Python 3.9 ou 
 npm install
 npm run dev            # site sur http://localhost:3000
 npm run valider        # valide toutes les données (mêmes règles que la CI)
+npm run chercher -- 2019          # recherche : mot du titre, année, numéro, ministre ou parlementaire
+npm run chercher -- --personnalites   # personnalités et nombre de textes portés
 npm test               # tests
 npm run generate       # site statique dans .output/public
 npm run preview        # sert le site généré
@@ -121,8 +123,9 @@ Après création du dépôt GitHub, à configurer :
 ## Feuille de route
 
 - **P0 (fait)** : liste avec recherche et filtres, fiche texte (statut, parcours, votes, révisions, sources, « Lire plus »),
-  fiche parlementaire, méthodologie, CI de validation, robot de collecte.
-- **P1** : fiche parti, export CSV, bouton « Signaler une erreur » (issue pré-remplie), collecteur du Sénat,
+  fiche parlementaire, méthodologie, CI de validation, robot de collecte, recherche par année et par personnalité,
+  page « Personnalités », page « Contribuer » et bouton « Signaler une erreur » (issue pré-remplie).
+- **P1** : fiche parti, export CSV, collecteur du Sénat,
   allègement des pages.
 - **P2** : flux RSS par texte et par thème, statistiques par législature, mode hors ligne (PWA).
 

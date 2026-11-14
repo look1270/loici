@@ -47,9 +47,19 @@ export function normaliser(texte: string): string {
     .trim();
 }
 
+/** Années connues du parcours d'un texte (début, dépôt, promulgation, dernière étape), sans doublon. */
+export function anneesDuTexte(t: ResumeTexte): string[] {
+  const annees = [
+    t.annee === null ? null : String(t.annee),
+    ...[t.date_depot, t.date_promulgation, t.date_derniere_etape].map((d) => d?.slice(0, 4) ?? null),
+  ];
+  return [...new Set(annees.filter((a): a is string => a !== null))];
+}
+
 /**
- * Texte dans lequel on cherche : titre, numéros, ministre et ministère porteurs,
+ * Texte dans lequel on cherche : titre, numéros, années du parcours, ministre et ministère porteurs,
  * noms des parlementaires liés (fournis par l'appelant).
+ * Ainsi « 2019 », « Coulibaly » ou « budget 2027 » trouvent le texte, quel que soit l'ordre des mots.
  */
 export function texteRecherchable(t: ResumeTexte, nomsParlementaires: Map<string, string>): string {
   return normaliser(
@@ -57,6 +67,7 @@ export function texteRecherchable(t: ResumeTexte, nomsParlementaires: Map<string
       t.titre_officiel,
       t.numero_depot ?? "",
       t.numero_loi ?? "",
+      ...anneesDuTexte(t),
       ...t.auteurs_gouvernement.flatMap((a) => [a.ministre ?? "", a.ministere ?? ""]),
       ...t.parlementaires.map((p) => nomsParlementaires.get(p.id) ?? ""),
     ].join(" "),

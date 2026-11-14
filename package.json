@@ -7,6 +7,7 @@
   "type": "module",
   "scripts": {
     "api": "tsx scripts/construire-api.ts",
+    "chercher": "tsx scripts/chercher.ts",
     "dev": "npm run api && nuxt dev",
     "generate": "npm run api && nuxt generate",
     "preview": "npx serve .output/public",

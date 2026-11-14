@@ -5,9 +5,13 @@ const route = useRoute();
 
 const liens = [
   { libelle: "Textes", vers: "/" },
+  { libelle: "Personnalités", vers: "/personnalites" },
   { libelle: "Parlementaires", vers: "/parlementaires" },
   { libelle: "Méthodologie", vers: "/methodologie" },
+  { libelle: "Contribuer", vers: "/contribuer" },
 ];
+const { depot } = useAppConfig();
+const liensGithub = liensDepot(depot);
 
 /** Lien actif : la fiche d'un texte reste rattachée à « Textes ». */
 const estActif = (vers: string) =>
@@ -30,7 +34,7 @@ const estActif = (vers: string) =>
           <span class="sr-only">— Observatoire citoyen des lois de Côte d'Ivoire</span>
         </NuxtLink>
         <nav aria-label="Navigation principale">
-          <ul class="flex gap-4 text-sm">
+          <ul class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
             <li v-for="lien in liens" :key="lien.vers">
               <NuxtLink
                 :to="lien.vers"
@@ -57,8 +61,12 @@ const estActif = (vers: string) =>
           Code sous licence MIT · Données sous licence ODbL
           <template v-if="meta"> · Données générées le {{ formaterDate(meta.genere_le) }}</template>
         </p>
-        <p>
+        <p class="flex flex-wrap gap-x-3 gap-y-1">
           <NuxtLink to="/methodologie" class="underline">Méthodologie et sources</NuxtLink>
+          <NuxtLink to="/contribuer" class="underline">Contribuer</NuxtLink>
+          <a :href="liensGithub.signalerErreur" target="_blank" rel="noopener" class="underline">Signaler une erreur</a>
+          <a :href="liensGithub.signalerBug" target="_blank" rel="noopener" class="underline">Signaler un bug</a>
+          <a :href="liensGithub.depot" target="_blank" rel="noopener" class="underline">Code source (GitHub)</a>
         </p>
       </UContainer>
     </footer>

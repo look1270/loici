@@ -1,0 +1,40 @@
+name: Signaler un bug du site
+description: Une page ne s'affiche pas, la recherche ou un bouton ne fonctionne pas.
+title: "Bug : "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Pour une **information fausse** (date, statut, vote, nom…), utilisez plutôt « Signaler une erreur ».
+  - type: input
+    id: page
+    attributes:
+      label: Page concernée
+      placeholder: https://look1270.github.io/loici/…
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Ce que vous avez fait
+      description: Les étapes pour reproduire le problème.
+      placeholder: "1. J'ai tapé « 2019 » dans la recherche\n2. …"
+    validations:
+      required: true
+  - type: textarea
+    id: constate
+    attributes:
+      label: Ce que vous avez vu
+      description: Message d'erreur, page blanche… Une capture d'écran aide beaucoup.
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Ce que vous attendiez
+  - type: input
+    id: appareil
+    attributes:
+      label: Appareil et navigateur
+      placeholder: "Ex. : téléphone Android, Chrome"

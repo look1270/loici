@@ -54,6 +54,12 @@ const nomsParlementaires = computed(
 );
 
 const resultats = computed(() => filtrerTextes(textes.value ?? [], filtres.value, nomsParlementaires.value));
+
+/** Personnalités suggérées pendant la saisie (ministres porteurs, parlementaires). */
+const personnalites = computed(() => listerPersonnalites(textes.value ?? [], nomsParlementaires.value));
+const suggestions = computed(() => personnalitesCorrespondantes(personnalites.value, filtres.value.q).slice(0, 6));
+const { depot } = useAppConfig();
+const liensGithub = liensDepot(depot);
 const nbActifs = computed(() => nombreFiltresActifs(filtres.value));
 
 /** Options d'un filtre : seulement les valeurs présentes dans les données, avec leur effectif. */
@@ -129,17 +135,33 @@ const reinitialiser = () => {
     </div>
 
     <form role="search" class="space-y-3" @submit.prevent>
-      <UFormField label="Rechercher un texte" name="q" help="Titre, numéro de loi, ministère, ministre ou parlementaire">
+      <UFormField label="Rechercher un texte" name="q" help="Titre, mot-clé, année, numéro de loi, ministère, ministre ou parlementaire">
         <UInput
           v-model="filtres.q"
           type="search"
           icon="i-lucide-search"
           size="xl"
-          placeholder="Ex. : finances, femme, 2019-870…"
+          placeholder="Ex. : budget, 2019, Coulibaly, 2019-870…"
           class="w-full"
           autocomplete="off"
         />
       </UFormField>
+
+      <div v-if="suggestions.length" class="space-y-1" aria-live="polite">
+        <p class="text-sm text-muted">Personnalités correspondantes :</p>
+        <ul class="flex flex-wrap gap-2">
+          <li v-for="p in suggestions" :key="p.cle">
+            <UButton
+              :to="`/personnalites#${p.cle}`"
+              icon="i-lucide-user-round"
+              :label="`${p.nom} · ${p.textes.length} texte${p.textes.length > 1 ? 's' : ''}`"
+              color="neutral"
+              variant="soft"
+              size="sm"
+            />
+          </li>
+        </ul>
+      </div>
 
       <div class="flex flex-wrap items-center gap-2">
         <UButton
@@ -185,10 +207,17 @@ const reinitialiser = () => {
           <template v-if="resultats.length !== (textes?.length ?? 0)"> sur {{ textes?.length ?? 0 }}</template>
           · du plus récemment actif au plus ancien
         </p>
-        <p v-if="!resultats.length" class="text-highlighted">
-          Aucun texte ne correspond.
-          <UButton label="Effacer la recherche et les filtres" variant="link" class="p-0" @click="reinitialiser" />
-        </p>
+        <div v-if="!resultats.length" class="space-y-1">
+          <p class="text-highlighted">
+            Aucun texte ne correspond.
+            <UButton label="Afficher tous les textes" variant="link" class="p-0" @click="reinitialiser" />
+          </p>
+          <p class="text-sm text-muted">
+            Vous connaissez un texte qui manque ?
+            <a :href="liensGithub.proposerTexte" target="_blank" rel="noopener" class="underline">Proposez-le</a>
+            (un lien vers une source suffit).
+          </p>
+        </div>
         <ul class="space-y-3">
           <li v-for="t in resultats" :key="t.id"><CarteTexte :texte="t" /></li>
         </ul>
