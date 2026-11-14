@@ -3,6 +3,8 @@
 LoiCI recense les textes législatifs ivoiriens — projets de loi, propositions de loi, ratifications d'ordonnances,
 lois promulguées — et leur parcours au Parlement, qu'ils soient en cours d'examen, adoptés, rejetés ou retirés.
 
+🌐 **Site : https://look1270.github.io/loici/** · 📖 **[Wiki](https://github.com/look1270/loici/wiki)** · 📦 **[Données JSON](https://look1270.github.io/loici/api/v1/textes.json)**
+
 **Pour qui ?** Citoyens, journalistes, étudiants, chercheurs. Pensé d'abord pour le téléphone et les connexions lentes.
 
 **Objectif :** sans créer de compte, trouver une loi en moins de 3 clics, comprendre son statut en 5 secondes,
@@ -31,7 +33,7 @@ Sans compétence technique, ouvrez simplement une issue « Proposer un texte » 
 ```
 Sites officiels ──(robot quotidien)──▶ pull request ──(relecture humaine + CI)──▶ donnees/*.json
                                                                                        │
-                                               npm run generate (Cloudflare Pages)     ▼
+                                               npm run generate (GitHub Pages)       ▼
                        Navigateur ◀── /api/v1/*.json + pages statiques ◀── validation + API JSON
 ```
 
@@ -94,7 +96,13 @@ Les données sont publiées en JSON, en lecture libre, sous **licence ODbL** :
 
 Le format est décrit dans [`schemas/api.ts`](schemas/api.ts). Merci de citer « LoiCI, sous licence ODbL ».
 
-## Déploiement (Cloudflare Pages)
+## Déploiement
+
+**GitHub Pages (actuel)** : le workflow [`pages.yml`](.github/workflows/pages.yml) valide les données, génère le site
+avec le préfixe `/loici/` (`NUXT_APP_BASE_URL`) et le publie sur https://look1270.github.io/loici/ à chaque push sur `main`.
+Voir le wiki : [Déploiement](https://github.com/look1270/loici/wiki/Deploiement).
+
+**Cloudflare Pages (alternative)** :
 
 | Réglage | Valeur |
 |---|---|
