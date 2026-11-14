@@ -57,6 +57,7 @@ donnees/             Données sous licence ODbL
 robot/               Robot de collecte (Python)
 tests/               Tests TypeScript
 docs/modeles/        Modèles de fichiers à copier pour contribuer
+import/              Files de relecture issues d'extractions externes (jamais publiées)
 .github/             CI, robot quotidien, gabarits d'issues et de pull requests
 ```
 
@@ -70,6 +71,7 @@ npm run dev            # site sur http://localhost:3000
 npm run valider        # valide toutes les données (mêmes règles que la CI)
 npm run chercher -- 2019          # recherche : mot du titre, année, numéro, ministre ou parlementaire
 npm run chercher -- --personnalites   # personnalités et nombre de textes portés
+npm run importer -- extraction.json   # extraction externe → file de relecture dans import/ (rien n'est publié)
 npm test               # tests
 npm run generate       # site statique dans .output/public
 npm run preview        # sert le site généré

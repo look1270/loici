@@ -8,6 +8,7 @@
   "scripts": {
     "api": "tsx scripts/construire-api.ts",
     "chercher": "tsx scripts/chercher.ts",
+    "importer": "tsx scripts/importer-candidats.ts",
     "dev": "npm run api && nuxt dev",
     "generate": "npm run api && nuxt generate",
     "preview": "npx serve .output/public",

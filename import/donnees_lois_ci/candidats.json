@@ -1,0 +1,4413 @@
+{
+  "fichier": "donnees_lois_ci.json",
+  "importe_le": "2026-11-14",
+  "candidats": [
+    {
+      "cle": "loi portant code minier",
+      "titre": "Loi portant Code minier",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2014-138",
+      "date_promulgation": "2014-03-24",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi portant Code minier",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2014-03-24",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi portant organisation de l ordre national des pharmaciens de cote d ivoire",
+      "titre": "Loi portant Organisation de l’Ordre National des Pharmaciens de Côte d’Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2015-535",
+      "date_promulgation": "2015-07-20",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi portant Organisation de l’Ordre National des Pharmaciens de Côte d’Ivoire, le nouveau texte soumis, reprend l’ensemble des pièces à fournir pour l’inscription au tableau de l’Ordre et ouvre l’inscription à l’Ordre à tout ressortissant d’un État membre de l’Union Economique et Monétaire Ouest Africaine et aux titulaires de diplômes émanant des universités privées nationales",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2015-07-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi portant organisation du systeme statistique national",
+      "titre": "Loi portant organisation du système statistique national",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2013-537",
+      "date_promulgation": "2013-07-30",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi portant organisation du système statistique national",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2013-07-30",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi portant recomposition de la commission electorale independante",
+      "titre": "Loi portant recomposition de la Commission Electorale Indépendante",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2019-708",
+      "date_promulgation": "2019-08-05",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi portant recomposition de la Commission Electorale Indépendante",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Loi portant recomposition de la Commission Electorale Indépendante, il a été voté à l’unanimité des députés présents",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi relative a l exercice de la pharmacie",
+      "titre": "Loi relative à l’exercice de la pharmacie",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2015-533",
+      "date_promulgation": "2015-07-20",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi relative à l’exercice de la pharmacie",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2015-07-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi relative au bail a usage d habitation",
+      "titre": "Loi relative au bail à usage d’habitation",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2018-575",
+      "date_promulgation": "2018-06-13",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi relative au bail à usage d’habitation, dispositions qu’il convient de reverser au présent code afin de mettre à la disposition de la population, un document unique régissant les matières sus indiquées",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2018-06-13",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?l-integralite-du-projet-de-loi-instituant-code-de-la-construction-et-de-l-habitat-14-06-19",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi d orientation relatif a la jeunesse",
+      "titre": "Projet de loi d’orientation relatif à la jeunesse",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi d’orientation relatif à la jeunesse",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat de cote d ivoire pour l annee 2027",
+      "titre": "Projet de loi de finances portant budget de l’État de Côte d’Ivoire pour l’année 2027",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l’État de Côte d’Ivoire pour l’année 2027, la Commission des (…)",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2026-11-11",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l’État de Côte d’Ivoire pour l’année 2027, la Commission des Affaires économiques et financières (CAEF) a adopté, ce mercredi 11 novembre 2026, les crédits budgétaires alloués au ministère de l’Économie, des Finances et du Budget, au ministère du Portefeuille de l’État et des Entreprises publiques, ainsi qu’au ministère du Plan et du Développement",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l’État pour l’année 2027 poursuivra son examen au Parlement, conformément aux étapes de la procédure législative",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l’État pour l’année 2027 La CAEF adopte à l’unanimité les crédits budgétaires de deux départements ministériels",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi DE FINANCES PORTANT BUDGET DE L’ÉTAT POUR L’ANNÉE 2027",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/",
+          "generique": true,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-pleniere-de-l-assemblee-nationale-adopte-dix-projets-de-loi-dont-ceux-relatifs-a-la-lutte-contre-la-cybercriminalite-et-aux-majeurs-proteges-par-la-loi",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-caef-adopte-les-credits-budgetaires-de-trois-departements-ministeriels",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?budget-2027-les-credits-des-ministeres-de-la-defense-de-l-interieur-et-de-la-securite-et-de-la-justice-adoptes-a-l-unanimite-en-caef",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?examen-du-projet-de-loi-de-finances-portant-budget-de-l-etat-pour-l-annee-2027-la-caef-adopte-a-l-unanimite-les-credits-budgetaires-de-deux-departements-ministeriels",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?les-credits-budgetaires-de-trois-ministeres-adoptes-a-l-unanimite-par-la-commission-des-affaires-economiques-et-financieres-caef",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": "plf-2027-budget-etat"
+    },
+    {
+      "cle": "projet de loi fixant les regles generales relatives aux etablissements publics nationaux epn portant creation de categories d etablissements publics",
+      "titre": "Projet de loi fixant les règles générales relatives aux Etablissements Publics Nationaux (EPN) portant création de catégories d’Etablissements publics",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière",
+        "titres voisins regroupés : vérifier qu'il s'agit bien du même texte"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi fixant les règles générales relatives aux Etablissements Publics Nationaux (EPN) portant création de catégories d’Etablissements publics",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-06-30",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi fixant les règles générales relatives aux établissements publics nationaux et portant création de catégories d’établissements publics",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi instituant code de l urbanisme et du domaine foncier urbain",
+      "titre": "Projet de loi instituant code de l’urbanisme et du domaine foncier urbain",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi instituant code de l’urbanisme et du domaine foncier urbain",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2018-06-27",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi instituant code de la construction et de l habitat",
+      "titre": "Projet de loi instituant Code de la construction et de l’habitat",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi instituant Code de la construction et de l’habitat /14-06-19",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi INSTITUANT CODE DE LA CONSTRUCTION ET DE L’HABITAT",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/spip.php?page=recherche&recherche=projet+de+loi",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?l-integralite-du-projet-de-loi-instituant-code-de-la-construction-et-de-l-habitat-14-06-19",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi modifiant et completant la loi n 2013 537 du 30 juillet 2013 portant organisation du systeme statistique national",
+      "titre": "Projet de loi modifiant et complétant la loi N°2013-537 du 30 juillet 2013 portant organisation du système statistique national",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi modifiant et complétant la loi N°2013-537 du 30 juillet 2013 portant organisation du système statistique national",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2018-08-01",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi modifiant et complétant la loi N°2013-537 du 30 juillet 2013",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2018-08-01",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement de la cour de cassation",
+      "titre": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement de la Cour de Cassation",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement de la Cour de Cassation",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-09-29",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement du conseil d etat",
+      "titre": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Conseil d’Etat",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Conseil d’Etat",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-06",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement du parquet general pres la cour de cassation et le conseil d etat",
+      "titre": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du parquet général près la Cour de Cassation et le Conseil d’Etat",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du parquet général près la Cour de Cassation et le Conseil d’Etat",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-06",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi organique determinant les attributions l organisation et le fonctionnement du tribunal des conflits",
+      "titre": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Tribunal des conflits",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique déterminant les attributions, l’organisation et le fonctionnement du Tribunal des conflits",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-06",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi organique portant composition attribution et fonctionnement de la chambre nationale des rois et chefs traditionnels seconde lecture",
+      "titre": "Projet de loi organique portant composition, attribution et fonctionnement de la Chambre Nationale des Rois et Chefs Traditionnels (seconde lecture)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière",
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique portant composition, attribution et fonctionnement de la Chambre Nationale des Rois et Chefs Traditionnels (seconde lecture)",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-06",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi organique portant composition, attribution et fonctionnement de la chambre nationale des Rois et chefs traditionnels",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi organique portant composition attribution et fonctionnement de la Chambre nationale des Rois et chefs traditionnels, c’est la majorité des députés présents qui l’a adopté",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi organique portant composition, attribution et fonctionnement de la Chambre nationale des Rois et Chefs Traditionnels contribue à la valorisation de la fonction d’autorité traditionnelle et à la promotion des us et coutumes ainsi que des idéaux de paix et de développement",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi organique portant statut des parlementaires",
+      "titre": "Projet de loi organique portant statut des parlementaires",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "organique",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi organique portant statut des parlementaires",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi organique portant statut des parlementaires a été adopté à l’unanimité des députés présents",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de deontologie medicale",
+      "titre": "Projet de loi portant Code de déontologie médicale",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de déontologie médicale",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2024-10-16",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de l assainissement et du drainage",
+      "titre": "Projet de loi portant Code de l’Assainissement et du Drainage",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l’Assainissement et du Drainage",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2015-07-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de l eau",
+      "titre": "Projet de loi portant Code de l’Eau",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l’Eau",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de l environnement",
+      "titre": "Projet de loi portant Code de l’Environnement",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l’Environnement",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de l hygiene et de la salubrite",
+      "titre": "Projet de loi portant Code de l’hygiène et de la salubrité",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de l’hygiène et de la salubrité",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de la sante publique veterinaire",
+      "titre": "Projet de loi portant Code de la santé publique vétérinaire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Code de la santé publique vétérinaire",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-10-13",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant definition et organisation des societes d etat",
+      "titre": "Projet de loi portant définition et organisation des sociétés d’Etat",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant définition et organisation des sociétés d’Etat",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-06-30",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant modification de l article 18 de la loi n 2015 535 du20 juillet 2015 portant organisation de l ordre national des pharmaciens de cote d ivoire",
+      "titre": "Projet de loi portant modification de l’article 18 de la loi n° 2015-535 du20 juillet 2015 portant organisation de l’Ordre National des Pharmaciens de Côte d’Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant modification de l’article 18 de la loi n° 2015-535 du20 juillet 2015 portant organisation de l’Ordre National des Pharmaciens de Côte d’Ivoire",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2015-07-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant modification des articles 13 et 14 de la loi n 2015 533 du 20 juillet 2015 relative a l exercice de la pharmacie",
+      "titre": "Projet de loi portant modification des articles 13 et 14 de la loi n°2015-533 du 20 juillet 2015 relative à l’exercice de la pharmacie",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant modification des articles 13 et 14 de la loi n°2015-533 du 20 juillet 2015 relative à l’exercice de la pharmacie",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "1962-07-31",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 1962-07-31 invraisemblable"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant promotion des startups numeriques",
+      "titre": "Projet de loi portant promotion des startups numériques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant promotion des startups numériques",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-437",
+      "titre": "Projet de loi portant ratification de l’ordonnance N° 2018- 437 du 03 Mai 2018 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N° 2018- 437 du 03 Mai 2018 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2013-07-30",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2013-07-30 antérieure à l'ordonnance ratifiée (2018-05-03)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N° 2018-437 du 03 Mars 2018",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2013-07-30",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2013-07-30 antérieure à l'année de l'ordonnance n° 2018-437"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-756",
+      "titre": "Projet de loi portant ratification de l’ordonnance N° 2018- 756 du 26 septembre 2018 modifiant l’ordonnance N° 2011-481 du 28 décembre 2011 fixant les règles relatives à la commercialisation du café et du cacao et à la régulation de la filière café-cacao",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N° 2018- 756 du 26 septembre 2018 modifiant l’ordonnance N° 2011-481 du 28 décembre 2011 fixant les règles relatives à la commercialisation du café et du cacao et à la régulation de la filière café-cacao",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2018-05-03",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2018-05-03 antérieure à l'ordonnance ratifiée (2018-09-26)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N° 2018-756 du 26 septembre 2018",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2018-03-03",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-679",
+      "titre": "Projet de loi portant ratification de l’ordonnance N° 2019-679 du 24 juillet 2019 portant Code des marchés publics",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N° 2019-679 du 24 juillet 2019 portant Code des marchés publics",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-754",
+      "titre": "Projet de loi portant ratification de l’ordonnance N° 2019-754 du 18 septembre 2019 portant légalisation du régime fiscal et douanier prévu par l’annexe 4.5 de la convention pour la construction, l’exploitation et le transfert de la propriété d’une centrale thermique de production d’électricité à cycle combiné de 390 MW",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N° 2019-754 du 18 septembre 2019 portant légalisation du régime fiscal et douanier prévu par l’annexe 4.5 de la convention pour la construction, l’exploitation et le transfert de la propriété d’une centrale thermique de production d’électricité à cycle combiné de 390 MW",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-07-24",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2019-07-24 antérieure à l'ordonnance ratifiée (2019-09-18)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2019-754 du 18 septembre 2019",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-144",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2018-144 du 14 février 2018 modifiant l’article 169 e) de la loi n° 2014-138 du 24 mars 2014 portant Code minier",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2018-144 du 14 février 2018 modifiant l’article 169 e) de la loi n° 2014-138 du 24 mars 2014 portant Code minier",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2018-144 du 14 février",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2018-593",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2018-593 du 27 juin 2018 portant création et organisation du Fonds pour la Science, la Technologie et l’Innovation, dénommé FONSTI",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2018-593 du 27 juin 2018 portant création et organisation du Fonds pour la Science, la Technologie et l’Innovation, dénommé FONSTI",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-06-25",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2018-593 du 27 juin",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-12-11",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-1087",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2019-1087 du 18 décembre 2019 modifiant les modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-1087 du 18 décembre 2019 modifiant les modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-09-18",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2019-09-18 antérieure à l'ordonnance ratifiée (2019-12-18)"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-80",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2019-80 du 23 janvier 2019 portant mise en œuvre de la première phase du démantèlement tarifaire dans le cadre de l’Accord de Partenariat Economique entre la Côte d’Ivoire et l’Union Européenne",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-80 du 23 janvier 2019 portant mise en œuvre de la première phase du démantèlement tarifaire dans le cadre de l’Accord de Partenariat Economique entre la Côte d’Ivoire et l’Union Européenne",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-01-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2019-80 du 23 janvier 2019",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-01-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-358",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2020- 358 du 8 avril 2020 portant exonération des droits et taxes de douanes sur les équipements de santé, matériels et autres intrants sanitaires entrant dans le cadre de la lutte contre la maladie à coronavirus",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020- 358 du 8 avril 2020 portant exonération des droits et taxes de douanes sur les équipements de santé, matériels et autres intrants sanitaires entrant dans le cadre de la lutte contre la maladie à coronavirus",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020- 358 du 8 avril",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-273",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2020-273 du 26 février 2020 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, la détention en pleine propriété, l’exploitation et le transfert d’une centrale thermique à biomasse de 2x 23 MW d’Ayebo (Aboisso)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020-273 du 26 février 2020 portant légalisation du régime fiscal et douanier de la Convention de concession pour la conception, le financement, la construction, la détention en pleine propriété, l’exploitation et le transfert d’une centrale thermique à biomasse de 2x 23 MW d’Ayebo (Aboisso)",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020-273 du 26 février 2020",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-307",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2020-307 du 04 mars 2020 portant légalisation du régime fiscal et douanier applicable au réseau d’évacuation associé à la Centrale Thermique de Production d’Électricité à cycle combiné de 390 MW",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-307 du 04 mars 2020 portant légalisation du régime fiscal et douanier applicable au réseau d’évacuation associé à la Centrale Thermique de Production d’Électricité à cycle combiné de 390 MW",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-10-13",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-307 du 04 mars",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-357",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2020-357 du 8 avril 2020 relative aux mesures fiscales dans le cadre du plan de riposte à la pandémie de coronavirus (COVID-19)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020-357 du 8 avril 2020 relative aux mesures fiscales dans le cadre du plan de riposte à la pandémie de coronavirus (COVID-19)",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2014-03-24",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2014-03-24 antérieure à l'ordonnance ratifiée (2020-04-08)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020-357 du 8 avril",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2014-03-24",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2014-03-24 antérieure à l'année de l'ordonnance n° 2020-357"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-381",
+      "titre": "Projet de loi portant ratification de l’ordonnance N°2020-381 du 15 avril 2020 modifiant les articles 47 et 265 du Code de procédure civile, commerciale et administrative",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020-381 du 15 avril 2020 modifiant les articles 47 et 265 du Code de procédure civile, commerciale et administrative",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2020-04-08 antérieure à l'ordonnance ratifiée (2020-04-15)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance N°2020-381 du 15 avril",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2011-12-28",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2011-12-28 antérieure à l'année de l'ordonnance n° 2020-381"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-382",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2020-382 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds Spécial de Solidarité et de Soutien d’Urgence Humanitaire dénommé Fonds spécial de solidarité Covid-19",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-382 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds Spécial de Solidarité et de Soutien d’Urgence Humanitaire dénommé Fonds spécial de solidarité Covid-19",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2020-04-08 antérieure à l'ordonnance ratifiée (2020-04-15)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-382 du 15 avril 2020",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-08",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-383",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2020-383 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Grandes Entreprises, dénommé FSGE Covid-19",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-383 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Grandes Entreprises, dénommé FSGE Covid-19",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-383 du 15 avril 2020",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-384",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2020-384 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Petites et Moyennes Entreprises, dénommé FSPME Covid-19",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-384 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds de Soutien aux Petites et Moyennes Entreprises, dénommé FSPME Covid-19",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-384 du 15 avril 2020",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-385",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2020-385 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du fonds d’appui aux acteurs du secteur informel",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-385 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du fonds d’appui aux acteurs du secteur informel",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-385 du 15 avril 2020",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-440",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2020-440 du 06 mai 2020 portant dérogation aux dispositions du Code des marchés publics relatives aux pénalités de retard en matière de marchés et commandes publics",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-440 du 06 mai 2020 portant dérogation aux dispositions du Code des marchés publics relatives aux pénalités de retard en matière de marchés et commandes publics",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-03-04",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2020-03-04 antérieure à l'ordonnance ratifiée (2020-05-06)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2020-440 du 06 mai",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-03-04",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2024-886",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2024-886 du 16 octobre 2024 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2024-886 du 16 octobre 2024 portant répression de la commercialisation et de l’exportation illicites des produits agricoles soumises à agrément",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2015-07-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2015-07-20 antérieure à l'ordonnance ratifiée (2024-10-16)"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant ratification de l ordonnance portant modification des articles 5 15 16 et 17 de la loi n 2019 708 du 05 aout 2019 portant recomposition de la commission electorale independante",
+      "titre": "Projet de loi portant ratification de l’ordonnance portant modification des articles 5, 15, 16, et 17 de la loi n° 2019- 708 du 05 août 2019 portant recomposition de la Commission Electorale Indépendante",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance portant modification des articles 5, 15, 16, et 17 de la loi n° 2019- 708 du 05 août 2019 portant recomposition de la Commission Electorale Indépendante",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-28",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance portant modification des articles 5, 15, 16, et 17 de la loi n° 2019-708 du 05 août 2019 portant recomposition de la Commission Electorale Indépendante, il a été voté à l’unanimité des députés présents",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant ratification de l ordonnance portant revision du code electoral",
+      "titre": "Projet de loi portant ratification de l’ordonnance portant révision du code électoral",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance portant révision du code électoral",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-28",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance portant révision du code électoral, il a été voté à l’unanimité des députés présents",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant regime financier des collectivites territoriales et des districts autonomes",
+      "titre": "Projet de loi portant régime financier des Collectivités Territoriales et des Districts Autonomes",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2020-885",
+      "date_promulgation": "2020-10-21",
+      "statuts_observes": [
+        "adopte_en_pleniere",
+        "promulgue"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant régime financier des Collectivités Territoriales et des Districts Autonomes",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2020-10-21",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant régime financier des collectivités Territoriales et des Districts autonome",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-05-06",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1775208284_Rapport-de-synthese-et-Recommandations-Symposium2026.pdf",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant reglementation de l amelioration genetique animale en cote d ivoire",
+      "titre": "Projet de loi portant réglementation de l’amélioration génétique animale en Côte d’Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant réglementation de l’amélioration génétique animale en Côte d’Ivoire",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": "2026-11-10",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/actualites/397/la-crste-examine-le-projet-de-loi-relatif-a-l-amelioration-genetique-animale",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant statut du corps diplomatique",
+      "titre": "Projet de loi portant statut du Corps Diplomatique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant statut du Corps Diplomatique",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant statut general de la fonction publique",
+      "titre": "Projet de loi portant statut général de la Fonction publique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant statut général de la Fonction publique",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2023-06-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?sept-projets-de-loi-adoptes-par-la-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-1088",
+      "titre": "Projet de loi ratifiant l’ordonnance n° 2019-1088 du 18 décembre 2019 modifiant l’ordonnance n° 2018- 646 du 1er Août 2018 portant Code des investissements",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance n° 2019-1088 du 18 décembre 2019 modifiant l’ordonnance n° 2018- 646 du 1er Août 2018 portant Code des investissements",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-02-26",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance n° 2019-1088 du 18 décembre 2019",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-12-18",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2019-1047",
+      "titre": "Projet de loi ratifiant l’ordonnance N°2019-1047 du 11 décembre 2019 portant prorogation du prélèvement compensatoire sur les importations en Côte d’Ivoire de volailles mortes de basse–cour et leurs abats comestibles frais, réfrigérés ou congelés",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance N°2019-1047 du 11 décembre 2019 portant prorogation du prélèvement compensatoire sur les importations en Côte d’Ivoire de volailles mortes de basse–cour et leurs abats comestibles frais, réfrigérés ou congelés",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-01-23",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2019-01-23 antérieure à l'ordonnance ratifiée (2019-12-11)"
+          ]
+        },
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance N°2019-1047 du 11 décembre 2019",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-01-23",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-355",
+      "titre": "Projet de loi ratifiant l’ordonnance N°2020-355 du 08 avril 2020 portant suspension des délais en matière de procédure judiciaire et administrative",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance N°2020-355 du 08 avril 2020 portant suspension des délais en matière de procédure judiciaire et administrative",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi ratifiant l’ordonnance N°2020-355 du 08 avril",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-04-15",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a l amelioration genetique animale",
+      "titre": "Projet de loi relatif à l’amélioration génétique animale",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l’amélioration génétique animale | Sénat de Côte d'Ivoire",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif à l’amélioration génétique animale",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif à l’amél",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/actualites/397/la-crste-examine-le-projet-de-loi-relatif-a-l-amelioration-genetique-animale",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.senat.ci/",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a la lutte contre les changements climatiques",
+      "titre": "Projet de loi relatif à la lutte contre les changements climatiques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à la lutte contre les changements climatiques",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2015-07-20",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-adoptes-en-pleniere-2843",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif au code des marches publics",
+      "titre": "Projet de loi relatif au code des marchés publics",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif au code des marchés publics",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-06-30",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif au domicile",
+      "titre": "Projet de loi relatif au domicile",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif au domicile",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif au domicile, il a été voté à l’unanimité des députés présents",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif au nom",
+      "titre": "Projet de loi relatif au nom",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif au nom",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif au nom, il a été voté à la majorité des députés présents",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?six-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif aux liberalites",
+      "titre": "Projet de loi relatif aux libéralités",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux libéralités",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2020-08-05",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?15-projets-de-loi-votes-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif aux modalites de fixation de la cle de repartition du produit de l impot sur le patrimoine foncier",
+      "titre": "Projet de loi relatif aux modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux modalités de fixation de la clé de répartition du produit de l’impôt sur le patrimoine foncier",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-09-18",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif aux societes a participation financiere publique",
+      "titre": "Projet de loi relatif aux sociétés à participation financière publique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux sociétés à participation financière publique",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2020-09-29",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?10-projets-de-loi-votes-a-l-unanimite-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi portant creation attributions organisation et fonctionnement du conseil national des droits de l homme cndh",
+      "titre": "Loi portant création, attributions, organisation et fonctionnement du Conseil National des Droits de l’Homme (CNDH)",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2018-900",
+      "date_promulgation": "2018-11-30",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi portant création, attributions, organisation et fonctionnement du Conseil National des Droits de l’Homme (CNDH), la Présidente du",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2018-11-30",
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi portant transfert et repartition de competences et des ressources de l etat aux collectivites territoriales",
+      "titre": "Loi portant transfert et répartition de compétences et des Ressources de l’Etat aux Collectivités territoriales",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2003-208",
+      "date_promulgation": "2003-07-07",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [
+        "titres voisins regroupés : vérifier qu'il s'agit bien du même texte"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Loi portant transfert et répartition de compétences et des Ressources de l’Etat aux Collectivités territoriales, conformément à l’article 174 de la",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2003-07-07",
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Loi portant transfert et répartition de compétences de l’État aux Collectivités Territoriales, conformément à l’article 174 de la Constitution du 08 novembre 2016",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2003-07-07",
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Loi portant transfert et répartition de compétences de l’État aux Collectivités territoriales",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2003-07-07",
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1775208284_Rapport-de-synthese-et-Recommandations-Symposium2026.pdf",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi relative a l evaluation des politiques publiques et sur le guide d evaluation des politiques publiques",
+      "titre": "Loi relative à l’évaluation des politiques publiques et sur le guide d’évaluation des politiques publiques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2022-966",
+      "date_promulgation": "2022-12-14",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi relative à l’évaluation des politiques publiques et sur le guide d’évaluation des politiques publiques",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2022-12-14",
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat pour l annee 2025",
+      "titre": "Projet de loi de Finances portant Budget de l’Etat pour l’année 2025",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de Finances portant Budget de l’Etat pour l’année 2025 17 décembre 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi de Finances portant Budget de l’Etat pour l’année 2025 | 17 décembre 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code de deontologie et exercice de la profession de sage femme et de maieuticien",
+      "titre": "Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant code de déontologie et exercice de la profession de Sage-femme et de Maïeuticien | 05 novembre 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-11-05",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant code de déontologie et exercice de la profession | 05 novembre 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-11-05",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant code de déontologie et exercice de la profession",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-11-05",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant exercice de la medecine",
+      "titre": "Projet de loi portant exercice de la Médecine",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant exercice de la Médecine 23 avril 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant exercice de la Médecine | 23 avril 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant exercice de la Médecine",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2024-01-31",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant gestion de la faune",
+      "titre": "Projet de loi portant gestion de la faune",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant gestion de la faune 11 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant gestion de la faune | 11 juin 2024",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant organisation et fonctionnement de l ordre national des chirurgiens dentistes de cote d ivoire",
+      "titre": "Projet de loi portant organisation et fonctionnement de l’Ordre national des Chirurgiens-Dentistes de Côte d’Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant organisation et fonctionnement de l’Ordre national des Chirurgiens-Dentistes de Côte d’Ivoire | 23 avril 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant organisation et fonctionnement de l’Ordre national",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant politique nationale d endettement et de gestion de la dette publique",
+      "titre": "Projet de loi portant politique nationale d’endettement et de gestion de la dette publique",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant politique nationale d’endettement et de gestion de la dette publique | 04 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant politique nationale d’endettement et de gestion de",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2013-12-13",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant protection de l elephant en cote d ivoire",
+      "titre": "Projet de loi portant protection de l’éléphant en Côte d’Ivoire",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant protection de l’éléphant en Côte d’Ivoire 11 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant protection de l’éléphant en Côte d’Ivoire | 11 juin 2024",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant protection de l’éléphant en Côte d’Ivoire",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2024-01-31",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant reglement du budget de l etat pour l annee 2023",
+      "titre": "Projet de loi portant Règlement du Budget de l’Etat pour l’année 2023",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant Règlement du Budget de l’Etat pour l’année 2023 17 décembre 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi portant Règlement du Budget de l’Etat pour l’année 2023 | 17 décembre 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-12-17",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a l entraide judiciaire en matiere penale",
+      "titre": "Projet de loi relatif à l’entraide judiciaire en matière pénale",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l’entraide judiciaire en matière pénale | 11 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif à l’entraide judiciaire en matière pénale 11 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2018-11-19",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a l extradition",
+      "titre": "Projet de loi relatif à l’extradition",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l’extradition 11 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif à l’extradition | 11 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif a la protection des emblemes de la croix rouge du croissant rouge et du cristal rouge",
+      "titre": "Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à la protection des emblèmes de la Croix-Rouge, du Croissant-Rouge et du Cristal-Rouge | 23 avril 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif à la protection des emblèmes de la Croix-Rouge",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif au commerce international des especes de faune",
+      "titre": "Projet de loi relatif au commerce international des espèces de faune",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif au commerce international des espèces de faune",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif au commerce international des espèces de faune | 11 juin 2024",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2024-06-11",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif aux communications electroniques",
+      "titre": "Projet de loi relatif aux communications électroniques",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux communications électroniques 04 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif aux communications électroniques | 04 juin 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-06-04",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi relatif aux professions d ingenieurs et d ingenieurs conseils du secteur du batiment et des travaux publics",
+      "titre": "Projet de loi relatif aux professions d’Ingénieurs et d’Ingénieurs-Conseils du secteur du bâtiment et des travaux publics",
+      "classe": "candidat",
+      "raisons": [],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose",
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif aux professions d’Ingénieurs et d’Ingénieurs-Conseils du secteur du bâtiment et des travaux publics | 23 avril 2024",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        },
+        {
+          "titre_brut": "Projet de loi relatif aux professions d’Ingénieurs et d’Ingénieurs-Conseils du",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2024-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat",
+      "titre": "Projet de loi de finances portant budget de l’État",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet, commun à 4 textes"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l’État (…)",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2026-11-10",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/",
+          "generique": true,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-pleniere-de-l-assemblee-nationale-adopte-dix-projets-de-loi-dont-ceux-relatifs-a-la-lutte-contre-la-cybercriminalite-et-aux-majeurs-proteges-par-la-loi",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances portant budget de l etat pour l annee",
+      "titre": "Projet de loi de finances portant budget de l’État pour l’année",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet",
+        "titre incomplet, commun à 2 textes"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances portant budget de l’État pour l’année",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2026-11-11",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-credits-budgetaires-de-trois-ministeres-adoptes-a-l-unanimite-par-la-commission-des-affaires-economiques-et-financieres-caef",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.assnat.ci/?examen-du-projet-de-loi-de-finances-portant-budget-de-l-etat-pour-l-annee-2027-la-caef-adopte-a-l-unanimite-les-credits-budgetaires-de-deux-departements-ministeriels",
+          "generique": false,
+          "format": "page_web"
+        },
+        {
+          "url": "https://www.senat.ci/actualites/217/ouverture-de-la-deuxieme-session-ordinaire-2025-les-senateurs-font-leur-rentree",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi instituant code",
+      "titre": "Projet de loi INSTITUANT CODE",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet",
+        "titre trop court pour être l'intitulé complet",
+        "titre incomplet, commun à 2 textes"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi INSTITUANT CODE",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?l-integralite-du-projet-de-loi-instituant-code-de-la-construction-et-de-l-habitat-14-06-19",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant plan national de casc a recu le lundi 27 avril 2026 a",
+      "titre": "Projet de loi portant plan national de (CASC) a reçu, le lundi 27 avril 2026 à",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi PORTANT PLAN NATIONAL DE (CASC) a reçu, le lundi 27 avril 2026 à",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": "2026-04-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1782303205_Echos de Sénat Mars- Avril 2026 (Newsletter).pdf",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant ratification de l ordonnance",
+      "titre": "Projet de loi portant ratification de l’ordonnance",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet",
+        "titre incomplet, commun à 25 textes"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": "2026-04-27",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1782303205_Echos de Sénat Mars- Avril 2026 (Newsletter).pdf",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant ratification de l ordonnance activites des filieres hevea et palmier a huile a la n 2025 408 du 18 juin 2025 modifiant la loi n 99 filiere coco",
+      "titre": "Projet de loi portant ratification de l’ordonnance activités des filières hévéa et palmier à huile à la n°2025-408 du 18 juin 2025 modifiant la loi n°99- filière coco",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance activités des filières hévéa et palmier à huile à la n°2025-408 du 18 juin 2025 modifiant la loi n°99- filière coco",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2025-06-18",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1782303205_Echos de Sénat Mars- Avril 2026 (Newsletter).pdf",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2012-3",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2012-03 du 11 janvier",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2012-03 du 11 janvier",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "1999-08-02",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 1999-08-02 antérieure à l'année de l'ordonnance n° 2012-3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1782303205_Echos de Sénat Mars- Avril 2026 (Newsletter).pdf",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2025-86",
+      "titre": "Projet de loi portant ratification de l’ordonnance n°2025-86 du 12 février 2025 portant extension des Madame Kandia Camara a assisté, le mercredi 29 règles de régulation, de contrôle et de suivi des avril 2026, à la cérémonie d’ouverture de la 16e",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance n°2025-86 du 12 février 2025 portant extension des Madame Kandia Camara a assisté, le mercredi 29 règles de régulation, de contrôle et de suivi des avril 2026, à la cérémonie d’ouverture de la 16e",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2025-02-12",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1782303205_Echos de Sénat Mars- Avril 2026 (Newsletter).pdf",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant ratification de l ordonnance ouverture du sila 2026 en presence de n 2025 85 du 12 fevrier 2025 portant creation hautes personnalites attributions organisation et fonctionnement du",
+      "titre": "Projet de loi portant ratification de l’ordonnance ouverture du sila 2026 en présence de n°2025-85 du 12 février 2025 portant création, HAUTES PERSONNALITÉS attributions, organisation et fonctionnement du",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin",
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant ratification de l’ordonnance OUVERTURE DU SILA 2026 EN PRÉSENCE DE n°2025-85 du 12 février 2025 portant création, HAUTES PERSONNALITÉS attributions, organisation et fonctionnement du",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2026-04-30",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1782303205_Echos de Sénat Mars- Avril 2026 (Newsletter).pdf",
+          "generique": false,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "ordonnance-2020-9",
+      "titre": "Projet de loi relatif à l’ordonnance n°2020-09 du 08 janvier",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi_ratification_ordonnance",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi relatif à l’ordonnance n°2020-09 du 08 janvier",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-09-18",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 2019-09-18 antérieure à l'année de l'ordonnance n° 2020-9"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/?les-deputes-ont-vote-12-projets-de-loi-en-pleniere",
+          "generique": false,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "loi portant creation attributions organisation et fonctionnement avec lesquelles vous prenez part a nos differentes seances d ouverture et de cloture de session",
+      "titre": "Loi portant création, attributions, organisation et fonctionnement avec lesquelles vous prenez part à nos différentes séances d’ouverture et de clôture de session",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": "Loi n° 2022-794",
+      "date_promulgation": "2022-10-13",
+      "statuts_observes": [
+        "promulgue"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Loi portant création, attributions, organisation et fonctionnement avec lesquelles vous prenez part à nos différentes séances d’ouverture et de clôture de session",
+          "statut_extrait": "promulgue",
+          "statut_loici": "promulgue",
+          "date": "2022-10-13",
+          "chambre": "senat",
+          "fiabilite": "faible",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi autorisant le president traduisant l engagement du gouvernement sous la tres haute autorite du president creation de la banque europeenne pour la alassane ouattara a assurer le progres et",
+      "titre": "Projet de loi autorisant le Président traduisant l’engagement du Gouvernement, sous la très haute autorité du Président création de la Banque Européenne pour la Alassane OUATTARA, à assurer le progrès et",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin",
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant le Président traduisant l’engagement du Gouvernement, sous la très haute autorité du Président création de la Banque Européenne pour la Alassane OUATTARA, à assurer le progrès et",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant code commission electorale independante sur le de deontologie et exercice de la profession processus de revision de la liste electorale",
+      "titre": "Projet de loi portant code Commission Electorale Indépendante sur le de déontologie et exercice de la profession processus de révision de la liste électorale",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant code Commission Electorale Indépendante sur le de déontologie et exercice de la profession processus de révision de la liste électorale",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": null,
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant par un vote largement majoritaire de ce texte politique nationale d endettement et de qui etend la repression de l apologie a toutes gestion de la dette publique",
+      "titre": "Projet de loi portant par un vote largement majoritaire de ce texte politique nationale d’endettement et de qui étend la répression de l’apologie à toutes gestion de la dette publique",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant par un vote largement majoritaire de ce texte politique nationale d’endettement et de qui étend la répression de l’apologie à toutes gestion de la dette publique",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": "2019-06-26",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant politique sociale de la cote d ivoire mais egalement a nationale d endettement et de gestion de la",
+      "titre": "Projet de loi portant politique sociale de la Côte d’Ivoire, mais également à nationale d’endettement et de gestion de la",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin",
+        "titre incomplet"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_definitivement"
+      ],
+      "notes": [
+        "« adopté par le Parlement » : vérifier l'adoption par les deux chambres"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant politique sociale de la Côte d’Ivoire, mais également à nationale d’endettement et de gestion de la",
+          "statut_extrait": "adopte_parlement",
+          "statut_loici": "adopte_definitivement",
+          "date": "2023-11-23",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant protection session ordinaire du senat connait aujourd hui de l elephant en cote d ivoire il convient son epilogue",
+      "titre": "Projet de loi portant protection session ordinaire du Sénat connaît aujourd’hui de l’éléphant en Côte d’Ivoire, il convient son épilogue",
+      "classe": "titre_a_corriger",
+      "raisons": [
+        "titre mélangé avec un texte voisin"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "depose"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant protection session ordinaire du Sénat connaît aujourd’hui de l’éléphant en Côte d’Ivoire, il convient son épilogue",
+          "statut_extrait": "depose",
+          "statut_loici": "depose",
+          "date": "2024-01-31",
+          "chambre": "senat",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.senat.ci/upload/docs_site/1765392757_UPLOAD_DOCS_SITE_1738090301_RAPPORT D ACTIVITES 2024 DU SENAT VERSION WEB.PDF",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi autorisant la ratification d un traite ou d un accord international il n est pas vote sur le contenu de ces actes et il ne peut etre presente d amendement",
+      "titre": "Projet de loi autorisant la ratification d’un traité ou d’un accord international, il n’est pas voté sur le contenu de ces actes et il ne peut être présenté d’amendement",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "rejete"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant la ratification d’un traité ou d’un accord international, il n’est pas voté sur le contenu de ces actes et il ne peut être présenté d’amendement",
+          "statut_extrait": "rejete",
+          "statut_loici": "rejete",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi autorisant sa ratification ne peut etre mis en discussion",
+      "titre": "Projet de loi autorisant sa ratification ne peut être mis en discussion",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": null,
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "rejete"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi autorisant sa ratification ne peut être mis en discussion",
+          "statut_extrait": "rejete",
+          "statut_loici": "rejete",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances de l annee n 1 depose au parlement en annee n ne peut etre discute tant que le projet de loi de reglement de l annee n 1 n a pas ete depose accompagne des documents concernes",
+      "titre": "Projet de loi de finances de l’année n+1 déposé au Parlement en année n ne peut être discuté tant que le projet de loi de règlement de l’année n-1 n’a pas été déposé, accompagné des documents concernés",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances de l’année n+1 déposé au Parlement en année n ne peut être discuté tant que le projet de loi de règlement de l’année n-1 n’a pas été déposé, accompagné des documents concernés",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances de l annee ou d un projet de loi de finances rectificative dans les memes conditions que sur l ensemble d un projet ou d une proposition de loi",
+      "titre": "Projet de loi de finances de l’année ou d’un projet de loi de finances rectificative dans les mêmes conditions que sur l’ensemble d’un projet ou d’une proposition de loi",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "rejete"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances de l’année ou d’un projet de loi de finances rectificative dans les mêmes conditions que sur l’ensemble d’un projet ou d’une proposition de loi",
+          "statut_extrait": "rejete",
+          "statut_loici": "rejete",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances de l annee ou d un projet de loi de finances rectificative l ensemble du projet de loi est considere comme rejete",
+      "titre": "Projet de loi de finances de l’année ou d’un projet de loi de finances rectificative, l’ensemble du projet de loi est considéré comme rejeté",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "rejete"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances de l’année ou d’un projet de loi de finances rectificative, l’ensemble du projet de loi est considéré comme rejeté",
+          "statut_extrait": "rejete",
+          "statut_loici": "rejete",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances doit prevoir les recettes necessaires a la couverture integrale des depenses dans les conditions et sous les reserves prevues par la loi organique relative aux lois de finances",
+      "titre": "Projet de loi de finances doit prévoir les recettes nécessaires à la couverture intégrale des dépenses dans les conditions et sous les réserves prévues par la loi organique relative aux lois de finances",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "rejete"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances doit prévoir les recettes nécessaires à la couverture intégrale des dépenses dans les conditions et sous les réserves prévues par la loi organique relative aux lois de finances",
+          "statut_extrait": "rejete",
+          "statut_loici": "rejete",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances n a pu etre depose en temps utile pour etre promulgue avant le debut de l exercice le president de la republique demande d urgence a l assemblee nationale l autorisation de reprendre le budget de l annee precedente par douzieme provisoire",
+      "titre": "Projet de loi de finances n’a pu être déposé en temps utile pour être promulgué avant le début de l’exercice, le Président de la République demande d’urgence à l’Assemblée nationale, l’autorisation de reprendre le budget de l’année précédente par douzième provisoire",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances n’a pu être déposé en temps utile pour être promulgué avant le début de l’exercice, le Président de la République demande d’urgence à l’Assemblée nationale, l’autorisation de reprendre le budget de l’année précédente par douzième provisoire",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi de finances peut etre mis en vigueur par ordonnance",
+      "titre": "Projet de loi de finances peut être mis en vigueur par ordonnance",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "finances",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi de finances peut être mis en vigueur par ordonnance",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "projet de loi portant reglement definitif de l exercice en cause",
+      "titre": "Projet de loi portant règlement définitif de l’exercice en cause",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "projet_de_loi",
+      "nature_proposee": "ordinaire",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "en_commission"
+      ],
+      "notes": [],
+      "observations": [
+        {
+          "titre_brut": "Projet de loi portant règlement définitif de l’exercice en cause",
+          "statut_extrait": "en_commission",
+          "statut_loici": "en_commission",
+          "date": "1959-07-04",
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": [
+            "date 1959-07-04 invraisemblable"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        }
+      ],
+      "deja_recense": null
+    },
+    {
+      "cle": "proposition de loi portant revision de la constitution",
+      "titre": "Proposition de loi portant révision de la Constitution",
+      "classe": "ecarte",
+      "raisons": [
+        "phrase de procédure (règlement ou guide), pas un texte déposé"
+      ],
+      "type_propose": "proposition_de_loi",
+      "nature_proposee": "constitutionnelle",
+      "numero_loi": null,
+      "date_promulgation": null,
+      "statuts_observes": [
+        "adopte_en_pleniere"
+      ],
+      "notes": [
+        "« adopté à l'Assemblée » : vérifier s'il s'agit de la plénière"
+      ],
+      "observations": [
+        {
+          "titre_brut": "Proposition de loi portant révision de la Constitution est déposé simultanément devant les deux chambres du Parlement",
+          "statut_extrait": "adopte_assemblee",
+          "statut_loici": "adopte_en_pleniere",
+          "date": null,
+          "chambre": "assemblee_nationale",
+          "fiabilite": "normale",
+          "alertes": []
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.assnat.ci/reglement-assembleenationaledecotedivoire.pdf",
+          "generique": true,
+          "format": "pdf"
+        },
+        {
+          "url": "https://www.assnat.ci/?la-procedure-legislative-1694",
+          "generique": true,
+          "format": "page_web"
+        }
+      ],
+      "deja_recense": null
+    }
+  ]
+}
