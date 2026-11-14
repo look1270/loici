@@ -9,11 +9,13 @@ import type { FicheParlementaire, FicheTexte, MetaApi, Referentiels, ResumeTexte
 import { VERSION_API } from "~~/schemas/api";
 import type { Parlementaire, Parti } from "~~/schemas";
 
-const BASE = `/api/${VERSION_API}`;
+const BASE = `api/${VERSION_API}`;
 
 /** Lecture d'un fichier de l'API ; `cle` évite de télécharger deux fois le même fichier. */
 function lireApi<T>(chemin: string) {
   return useFetch<T>(`${BASE}/${chemin}`, {
+    // Préfixe de déploiement (ex. « /loici/ » sur GitHub Pages, « / » sur Cloudflare Pages).
+    baseURL: useRuntimeConfig().app.baseURL,
     key: `api:${chemin}`,
     server: false,
     lazy: true,

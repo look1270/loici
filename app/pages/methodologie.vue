@@ -10,6 +10,7 @@ useSeoMeta({
 const { data: meta } = useMetaApi();
 const { data: referentiels } = useReferentiels();
 
+const prefixe = useRuntimeConfig().app.baseURL.replace(/\/$/, "");
 const fichiersApi = [
   { chemin: "/api/v1/textes.json", description: "liste de tous les textes (statut, dates, filtres)" },
   { chemin: "/api/v1/textes/<id>.json", description: "fiche complète d'un texte, avec ses sources" },
@@ -110,7 +111,7 @@ const fichiersApi = [
         <p>Les données sont publiées sous licence ODbL, en fichiers JSON en lecture libre :</p>
         <ul class="list-disc space-y-1 ps-5 text-sm">
           <li v-for="f in fichiersApi" :key="f.chemin">
-            <a v-if="!f.chemin.includes('<')" :href="f.chemin" class="font-mono underline">{{ f.chemin }}</a>
+            <a v-if="!f.chemin.includes('<')" :href="prefixe + f.chemin" class="font-mono underline">{{ f.chemin }}</a>
             <code v-else class="font-mono">{{ f.chemin }}</code>
             — {{ f.description }}
           </li>

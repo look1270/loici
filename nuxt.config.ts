@@ -64,6 +64,8 @@ export default defineNuxtConfig({
     preset: "static",
     prerender: {
       crawlLinks: true,
+      // Fichiers de l'API : copiés tels quels depuis public/, pas des pages à pré-rendre.
+      ignore: [/\/api\/v1\//],
       routes: [
         "/",
         "/parlementaires",

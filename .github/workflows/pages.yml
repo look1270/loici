@@ -1,0 +1,63 @@
+# Publication du site sur GitHub Pages : chaque push sur main reconstruit le site et l'API JSON.
+# Le site est servi sous https://<compte>.github.io/<dépôt>/ : NUXT_APP_BASE_URL fixe ce préfixe.
+name: Publication GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  construire:
+    name: Construire le site
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Installer les dépendances
+        run: npm ci
+
+      # Aucune donnée invalide n'est publiée : mêmes règles que la CI.
+      - name: Valider les données
+        run: npm run valider
+
+      - name: Générer le site statique
+        env:
+          NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
+        run: |
+          npm run generate
+          touch .output/public/.nojekyll
+
+      - name: Préparer l'envoi
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .output/public
+
+  publier:
+    name: Publier
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - name: Déployer sur GitHub Pages
+        id: deploiement
+        uses: actions/deploy-pages@v4
