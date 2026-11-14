@@ -1,4 +1,4 @@
-import { readdirSync } from "node:fs";
+import { readFileSync, readdirSync } from "node:fs";
 
 /**
  * Identifiants présents dans donnees/<dossier>/ : chaque fiche doit exister en page statique,
@@ -11,6 +11,19 @@ function identifiants(dossier: string): string[] {
       .map((f) => f.slice(0, -".json".length));
   } catch {
     return [];
+  }
+}
+
+/**
+ * Version des données publiées : date de génération de l'API (écrite juste avant par « npm run api »).
+ * Ajoutée à chaque requête vers /api/v1/ : après une mise en ligne, le navigateur ne mélange jamais
+ * des fichiers de deux versions (ex. nouvelle liste + ancienne réponse « absent » gardée en cache).
+ */
+function versionDonnees(): string {
+  try {
+    return JSON.parse(readFileSync("public/api/v1/meta.json", "utf8")).genere_le ?? "";
+  } catch {
+    return "";
   }
 }
 
@@ -80,4 +93,5 @@ export default defineNuxtConfig({
     },
   },
   ssr: true,
+  runtimeConfig: { public: { versionDonnees: versionDonnees() } },
 });

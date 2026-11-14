@@ -13,12 +13,28 @@ const BASE = `api/${VERSION_API}`;
 
 /** Lecture d'un fichier de l'API ; `cle` évite de télécharger deux fois le même fichier. */
 function lireApi<T>(chemin: string) {
+  const config = useRuntimeConfig();
   return useFetch<T>(`${BASE}/${chemin}`, {
     // Préfixe de déploiement (ex. « /loici/ » sur GitHub Pages, « / » sur Cloudflare Pages).
-    baseURL: useRuntimeConfig().app.baseURL,
+    baseURL: config.app.baseURL,
+    // Version des données : un fichier par version, jamais de mélange entre deux mises en ligne.
+    query: config.public.versionDonnees ? { v: config.public.versionDonnees } : undefined,
     key: `api:${chemin}`,
     server: false,
     lazy: true,
+  });
+}
+
+/**
+ * Relit un fichier de l'API sans aucun cache (ni navigateur ni intermédiaire).
+ * Sert à confirmer une absence avant d'afficher « introuvable » : juste après une mise en ligne,
+ * un serveur de cache peut encore répondre « absent » pour un fichier qui vient d'être publié.
+ */
+export async function relireApiSansCache<T>(chemin: string): Promise<T> {
+  return $fetch<T>(`${BASE}/${chemin}`, {
+    baseURL: useRuntimeConfig().app.baseURL,
+    query: { frais: Date.now() },
+    cache: "no-store",
   });
 }
 

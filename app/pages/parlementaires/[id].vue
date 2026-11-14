@@ -12,7 +12,8 @@ const sources = computed(() => (fiche.value ? numeroterSources(fiche.value.sourc
 fournirSources(sources);
 
 const nomComplet = computed(() => (fiche.value ? [fiche.value.prenoms, fiche.value.nom].filter(Boolean).join(" ") : ""));
-const introuvable = computed(() => error.value?.statusCode === 404);
+const absence = useAbsenceConfirmee({ id, cheminFiche: `parlementaires/${encodeURIComponent(id)}.json`, cheminListe: "parlementaires.json", donnees: fiche, erreur: error });
+const introuvable = computed(() => error.value?.statusCode === 404 && absence.etat.value === "introuvable");
 
 const nomParti = (partiId: string | null) => {
   const p = partis.value?.find((x) => x.id === partiId);

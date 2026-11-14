@@ -27,7 +27,10 @@ const partis = computed(() => parId<Parti>(listePartis.value));
 
 const documentPrincipal = computed(() => (fiche.value ? fiche.value.sources[fiche.value.document_principal_source_id] : null));
 const sourceOfficielle = computed(() => sources.value?.liste.some((s) => s.type === "officielle") ?? true);
-const introuvable = computed(() => error.value?.statusCode === 404);
+// Une réponse 404 n'est affichée comme « introuvable » qu'après vérification dans la liste publiée.
+const absence = useAbsenceConfirmee({ id, cheminFiche: `textes/${encodeURIComponent(id)}.json`, cheminListe: "textes.json", donnees: fiche, erreur: error });
+const introuvable = computed(() => error.value?.statusCode === 404 && absence.etat.value === "introuvable");
+const enCoursDePublication = computed(() => error.value?.statusCode === 404 && absence.etat.value !== "introuvable");
 
 /** Informations d'identité, toutes affichées même inconnues (« Non renseigné »). */
 const identite = computed(() => {
@@ -68,7 +71,19 @@ const sommaire = [
     </NuxtLink>
 
     <div aria-live="polite" class="mt-4">
-      <p v-if="status === 'pending' || status === 'idle'" class="text-muted">Chargement du texte…</p>
+      <p v-if="status === 'pending' || status === 'idle' || (enCoursDePublication && absence.etat.value === 'attente')" class="text-muted">
+        Chargement du texte…
+      </p>
+
+      <UAlert
+        v-else-if="enCoursDePublication"
+        color="neutral"
+        variant="subtle"
+        icon="i-lucide-refresh-cw"
+        title="Ce texte vient d'être publié"
+        description="Sa fiche n'est pas encore disponible partout. Nouvel essai automatique en cours ; sinon, réessayez dans quelques minutes."
+        :actions="[{ label: 'Réessayer', color: 'neutral', variant: 'outline', onClick: () => absence.reessayer() }]"
+      />
 
       <UAlert
         v-else-if="introuvable"
