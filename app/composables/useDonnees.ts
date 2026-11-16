@@ -13,12 +13,20 @@ import { chargerFiche } from "~/utils/chargementFiche";
 
 const BASE = `api/${VERSION_API}`;
 
+/**
+ * Adresse absolue d'un fichier de l'API, préfixe de déploiement compris
+ * (ex. « /loici/ » sur GitHub Pages, « / » sur Cloudflare Pages).
+ * Pas d'option `baseURL` de $fetch : avec « / », elle est ignorée et l'adresse reste relative
+ * à la page (/textes/<id> lirait alors /textes/api/v1/…).
+ */
+function adresseApi(prefixe: string, chemin: string): string {
+  return `${prefixe.replace(/\/?$/, "/")}${BASE}/${chemin}`;
+}
+
 /** Lecture d'un fichier de l'API ; `cle` évite de télécharger deux fois le même fichier. */
 function lireApi<T>(chemin: string) {
   const config = useRuntimeConfig();
-  return useFetch<T>(`${BASE}/${chemin}`, {
-    // Préfixe de déploiement (ex. « /loici/ » sur GitHub Pages, « / » sur Cloudflare Pages).
-    baseURL: config.app.baseURL,
+  return useFetch<T>(adresseApi(config.app.baseURL, chemin), {
     // Version des données : un fichier par version, jamais de mélange entre deux mises en ligne.
     query: config.public.versionDonnees ? { v: config.public.versionDonnees } : undefined,
     key: `api:${chemin}`,
@@ -42,8 +50,7 @@ export const useMetaApi = () => lireApi<MetaApi>("meta.json");
 function lecteurReseau(): LecteurApi {
   const config = useRuntimeConfig();
   const lire = (chemin: string, sansCache: boolean): Promise<Reponse> =>
-    $fetch(`${BASE}/${chemin}`, {
-      baseURL: config.app.baseURL,
+    $fetch(adresseApi(config.app.baseURL, chemin), {
       ...(sansCache
         ? // Juste après une mise en ligne, un cache peut encore répondre « absent » : on passe outre.
           { query: { frais: Date.now() }, cache: "no-store" as const }
