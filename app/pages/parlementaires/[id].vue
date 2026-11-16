@@ -3,7 +3,7 @@
 const route = useRoute();
 const id = String(route.params.id);
 
-const { data: fiche, status, error, refresh } = useFicheParlementaire(id);
+const { fiche, etat, reessayer } = useFiche("parlementaires", id);
 const { data: textes } = useTextes();
 const { data: partis } = usePartis();
 const { data: referentiels } = useReferentiels();
@@ -12,8 +12,6 @@ const sources = computed(() => (fiche.value ? numeroterSources(fiche.value.sourc
 fournirSources(sources);
 
 const nomComplet = computed(() => (fiche.value ? [fiche.value.prenoms, fiche.value.nom].filter(Boolean).join(" ") : ""));
-const absence = useAbsenceConfirmee({ id, cheminFiche: `parlementaires/${encodeURIComponent(id)}.json`, cheminListe: "parlementaires.json", donnees: fiche, erreur: error });
-const introuvable = computed(() => error.value?.statusCode === 404 && absence.etat.value === "introuvable");
 
 const nomParti = (partiId: string | null) => {
   const p = partis.value?.find((x) => x.id === partiId);
@@ -42,15 +40,32 @@ useHead({ title: computed(() => (fiche.value ? `${nomComplet.value} — LoiCI` :
     </NuxtLink>
 
     <div aria-live="polite" class="mt-4">
-      <p v-if="status === 'pending' || status === 'idle'" class="text-muted">Chargement…</p>
-      <UAlert v-else-if="introuvable" color="neutral" variant="subtle" icon="i-lucide-search-x" title="Parlementaire introuvable" />
+      <p v-if="etat === 'chargement'" class="text-muted">Chargement…</p>
       <UAlert
-        v-else-if="error"
+        v-else-if="etat === 'en_cours_de_publication'"
+        color="neutral"
+        variant="subtle"
+        icon="i-lucide-refresh-cw"
+        title="Cette fiche vient d'être publiée"
+        description="Elle n'est pas encore disponible partout. Nouvel essai automatique en cours ; sinon, réessayez dans quelques minutes."
+        :actions="[{ label: 'Réessayer', color: 'neutral', variant: 'outline', onClick: reessayer }]"
+      />
+      <UAlert
+        v-else-if="etat === 'introuvable'"
+        color="neutral"
+        variant="subtle"
+        icon="i-lucide-search-x"
+        title="Parlementaire introuvable"
+        description="Ce parlementaire n'est pas recensé. Retrouvez-les tous depuis la liste des parlementaires."
+      />
+      <UAlert
+        v-else-if="etat === 'erreur_reseau'"
         color="error"
         variant="subtle"
         icon="i-lucide-wifi-off"
         title="La fiche n'a pas pu être chargée"
-        :actions="[{ label: 'Réessayer', color: 'error', variant: 'outline', onClick: () => refresh() }]"
+        description="Vérifiez votre connexion, puis réessayez."
+        :actions="[{ label: 'Réessayer', color: 'error', variant: 'outline', onClick: reessayer }]"
       />
     </div>
 
