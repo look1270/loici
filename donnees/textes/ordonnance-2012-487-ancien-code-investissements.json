@@ -1,0 +1,45 @@
+{
+  "id": "ordonnance-2012-487-ancien-code-investissements",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2012-487 du 7 juin 2012 portant Code des investissements",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "investissements",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2012-487",
+  "date_signature": "2012-06-07",
+  "reference_jo": {
+    "numero": "38",
+    "date": "2012-09-20",
+    "page": "843",
+    "source_ids": [
+      "src-cndj-2012-487"
+    ]
+  },
+  "vigueur": {
+    "etat": "abroge",
+    "source_ids": [
+      "src-cndj-2018-646"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2012-487",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2012-487",
+    "src-cndj-2018-646"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

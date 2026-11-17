@@ -1,0 +1,44 @@
+{
+  "id": "acte-uniforme-ohada-mediation",
+  "acte": "acte_uniforme",
+  "titre_officiel": "Acte uniforme relatif à la médiation",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "actes-uniformes-ohada",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": "2017-11-23",
+  "reference_jo": {
+    "numero": null,
+    "date": "2017-12-15",
+    "page": null,
+    "source_ids": [
+      "src-acte-uniforme-ohada-mediation"
+    ]
+  },
+  "vigueur": {
+    "etat": "en_vigueur",
+    "source_ids": [
+      "src-acte-uniforme-ohada-mediation"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-acte-uniforme-ohada-mediation",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-acte-uniforme-ohada-mediation"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

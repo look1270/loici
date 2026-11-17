@@ -179,6 +179,19 @@ test("forme de l'acte : une loi a un parcours, une ordonnance ou un décret n'en
     refuse(texte, { ...decret, acteurs: [{ ...texteValide.acteurs[0]!, acteur: { genre: "parlementaire", parlementaire_id: "x" } }] }),
     "un décret a pour auteur le Gouvernement",
   );
+
+  // Acte uniforme OHADA : ni parcours ni numéro ; JO de l'OHADA connu parfois par sa seule date.
+  const acteUniforme = {
+    ...decret,
+    acte: "acte_uniforme",
+    titre_officiel: "Acte uniforme factice relatif aux tests",
+    numero_acte: null,
+    acteurs: [],
+    reference_jo: { numero: null, date: "2025-02-01", page: null, source_ids: decret.source_ids.slice(0, 1) },
+  };
+  const ra = texte.safeParse(acteUniforme);
+  assert.equal(ra.success, true, ra.success ? "" : JSON.stringify(ra.error.issues, null, 2));
+  assert.ok(refuse(texte, { ...acteUniforme, type: "projet_de_loi" }), "initiative parlementaire sur un acte uniforme");
 });
 
 test("sous-catégorie sans catégorie refusée ; résumé et explication facultatifs mais bornés", () => {

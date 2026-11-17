@@ -1,0 +1,48 @@
+{
+  "id": "ordonnance-2022-158-modifiant-concurrence",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2022-158 du 9 mars 2022 portant modification de l'article 3 de l'ordonnance n° 2013-662 du 20 septembre 2013 relative à la concurrence, telle que modifiée par l'ordonnance n° 2019-389 du 8 mai 2019",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "concurrence-consommation",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2022-158",
+  "date_signature": "2022-03-09",
+  "reference_jo": {
+    "numero": "42",
+    "date": "2022-05-26",
+    "page": "505",
+    "source_ids": [
+      "src-cndj-2022-158"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "ordonnance-2013-662-concurrence",
+      "intitule": "ordonnance n° 2013-662 du 20 septembre 2013 relative à la concurrence",
+      "source_ids": [
+        "src-cndj-2022-158"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2022-158",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2022-158"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ordonnance-2023-718-modifiant-transport-interieur",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2023-718 du 13 septembre 2023 portant modification de l'article 10 de la loi n° 2014-812 du 16 décembre 2014 d'orientation du transport intérieur, telle que modifiée par les ordonnances n° 2018-99 du 10 janvier 2018 et n° 2019-99 du 30 janvier 2019",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "transports",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2023-718",
+  "date_signature": "2023-09-13",
+  "reference_jo": {
+    "numero": "14 spécial",
+    "date": "2023-10-17",
+    "page": "510",
+    "source_ids": [
+      "src-cndj-2023-718"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-2014-812-orientation-transport-interieur",
+      "intitule": "loi n° 2014-812 du 16 décembre 2014 d'orientation du transport intérieur",
+      "source_ids": [
+        "src-cndj-2023-718"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2023-718",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2023-718"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

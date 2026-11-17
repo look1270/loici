@@ -11,6 +11,13 @@ import type { Commission, Parlementaire, Parti } from "~~/schemas";
 const route = useRoute();
 const id = String(route.params.id);
 
+/** Pourquoi la frise est vide pour un texte qui ne passe pas par le Parlement. */
+const PAS_DE_PARCOURS: Record<string, string> = {
+  ordonnance: "Pas de parcours au Parlement : une ordonnance est prise par l'exécutif.",
+  decret: "Pas de parcours au Parlement : un décret est signé par l'exécutif.",
+  acte_uniforme: "Pas de parcours au Parlement : un acte uniforme est adopté au niveau de l'OHADA.",
+};
+
 const { fiche, etat, reessayer } = useFiche("textes", id);
 const { data: referentiels } = useReferentiels();
 const { data: listeParlementaires } = useParlementaires();
@@ -47,12 +54,12 @@ const identite = computed(() => {
       ? [{ terme: "Numéro de loi", valeur: t.numero_loi }]
       : [
           { terme: "Numéro", valeur: t.numero_acte },
-          { terme: "Date de signature", valeur: formaterDate(t.date_signature) },
+          { terme: t.acte === "acte_uniforme" ? "Date d'adoption" : "Date de signature", valeur: formaterDate(t.date_signature) },
         ]),
     {
-      terme: "Journal officiel",
+      terme: t.acte === "acte_uniforme" ? "Journal officiel de l'OHADA" : "Journal officiel",
       valeur: t.reference_jo
-        ? [`n° ${t.reference_jo.numero}`, t.reference_jo.date ? `du ${formaterDate(t.reference_jo.date)}` : "", t.reference_jo.page ? `p. ${t.reference_jo.page}` : ""]
+        ? [t.reference_jo.numero ? `n° ${t.reference_jo.numero}` : "", t.reference_jo.date ? `du ${formaterDate(t.reference_jo.date)}` : "", t.reference_jo.page ? `p. ${t.reference_jo.page}` : ""]
             .filter(Boolean)
             .join(" ")
         : null,
@@ -193,7 +200,7 @@ const sommaire = [
         </p>
         <FriseEtapes v-if="fiche.etapes.length" :etapes="fiche.etapes" :commissions="commissions" />
         <p v-else class="text-muted">
-          {{ fiche.acte === "loi" ? "Aucune étape enregistrée." : `Pas de parcours au Parlement : ${fiche.acte === "decret" ? "un décret est signé" : "une ordonnance est prise"} par l'exécutif.` }}
+          {{ fiche.acte === "loi" ? "Aucune étape enregistrée." : PAS_DE_PARCOURS[fiche.acte] }}
         </p>
       </section>
 

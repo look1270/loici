@@ -32,10 +32,12 @@ const AUTEUR_ATTENDU: Record<z.infer<typeof typeTexte>, "gouvernement" | "parlem
 /**
  * Forme de l'acte. Une loi suit un parcours au Parlement (type d'initiative, statut, étapes) ;
  * une ordonnance ou un décret est signé par l'exécutif : ni initiative parlementaire ni statut de parcours.
+ * Un acte uniforme est adopté au niveau de l'OHADA (date_signature = date d'adoption, reference_jo = JO de l'OHADA).
  * Un code est une loi (ex. la loi portant Code pénal) : il se range en sous-catégorie.
  */
-export const acte = z.enum(["loi", "ordonnance", "decret"]);
+export const acte = z.enum(["loi", "ordonnance", "decret", "acte_uniforme"]);
 export type Acte = z.infer<typeof acte>;
+const ACTE_SINGULIER: Record<Acte, string> = { loi: "Une loi", ordonnance: "Une ordonnance", decret: "Un décret", acte_uniforme: "Un acte uniforme" };
 
 /** État de vigueur, seulement si une source le dit (sinon `vigueur` vaut null : « Non renseigné »). */
 export const etatVigueur = z.enum(["en_vigueur", "modifie", "abroge"]);
@@ -54,8 +56,8 @@ export const texteLie = z.strictObject({
 
 /** Publication au Journal officiel, telle qu'indiquée par la source (ex. index du CNDJ). */
 export const referenceJo = z.strictObject({
-  /** Numéro du Journal officiel. Ex. « 76 » ou « spécial n° 10 ». */
-  numero: libelle(1, 50),
+  /** Numéro du Journal officiel. Ex. « 76 » ou « spécial n° 10 » ; null si la source ne donne que la date. */
+  numero: libelle(1, 50).nullable(),
   date: dateIso.nullable(),
   /** Page de début. Ex. « 1892 ». */
   page: libelle(1, 20).nullable(),
@@ -293,7 +295,7 @@ export const texte = z
       if (t.numero_acte !== null) signaler("Le numéro d'une loi s'écrit dans numero_loi", ["numero_acte"]);
       if (t.date_signature !== null) signaler("La date d'une loi se déduit de ses étapes (promulgation)", ["date_signature"]);
     } else {
-      if (t.type !== null) signaler(`${t.acte === "decret" ? "Un décret" : "Une ordonnance"} n'a pas d'initiative parlementaire`, ["type"]);
+      if (t.type !== null) signaler(`${ACTE_SINGULIER[t.acte]} n'a pas d'initiative parlementaire`, ["type"]);
       if (t.statut !== null) signaler("Seule une loi a un statut de parcours parlementaire", ["statut"]);
       if (t.numero_loi !== null) signaler("numero_loi est réservé aux lois (voir numero_acte)", ["numero_loi"]);
       if (t.titre_loi !== null) signaler("titre_loi est réservé aux lois", ["titre_loi"]);
@@ -347,11 +349,11 @@ export const texte = z
       signaler("Titre de loi renseigné alors que le texte n'est pas promulgué", ["titre_loi"]);
     }
 
-    // 7. Auteur du bon genre selon le type de texte (ordonnance et décret : le Gouvernement).
+    // 7. Auteur du bon genre selon le type de texte (ordonnance et décret : le Gouvernement ; acte uniforme : non contrôlé).
     //    Obligatoire quand l'initiative est connue ; une loi d'initiative inconnue peut n'avoir aucun auteur cité.
     const auteurs = t.acteurs.filter((a) => a.role === "auteur");
     if (auteurs.length === 0 && t.type !== null) signaler("Au moins un acteur de rôle « auteur » est requis", ["acteurs"]);
-    const genreAttendu = t.type !== null ? AUTEUR_ATTENDU[t.type] : t.acte === "loi" ? null : "gouvernement";
+    const genreAttendu = t.type !== null ? AUTEUR_ATTENDU[t.type] : t.acte === "loi" || t.acte === "acte_uniforme" ? null : "gouvernement";
     t.acteurs.forEach((a, i) => {
       if (a.role === "auteur" && genreAttendu !== null && a.acteur.genre !== genreAttendu) {
         signaler(`Un texte de type « ${t.type ?? t.acte} » a pour auteur : ${genreAttendu}`, ["acteurs", i, "acteur"]);

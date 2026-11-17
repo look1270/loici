@@ -1,0 +1,58 @@
+{
+  "id": "loi-2014-812-orientation-transport-interieur",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2014-812 du 16 décembre 2014 d'orientation du transport intérieur",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "transports",
+  "numero_loi": "Loi n° 2014-812",
+  "titre_loi": "Loi n° 2014-812 du 16 décembre 2014 d'orientation du transport intérieur",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "18 spécial",
+    "date": "2014-12-31",
+    "page": "323",
+    "source_ids": [
+      "src-cndj-2014-812"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2014-812"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2014-812",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2014-12-16",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2014-812 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2014-812"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2014-812"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "ordonnance-2019-389-modifiant-concurrence",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2019-389 du 8 mai 2019 modifiant l'ordonnance n° 2013-662 du 20 septembre 2013 relative à la concurrence, ratifiée par la loi n° 2013-877 du 23 décembre 2013",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "concurrence-consommation",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2019-389",
+  "date_signature": "2019-05-08",
+  "reference_jo": {
+    "numero": "57",
+    "date": "2019-07-18",
+    "page": "714",
+    "source_ids": [
+      "src-cndj-2019-389"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "ordonnance-2013-662-concurrence",
+      "intitule": "ordonnance n° 2013-662 du 20 septembre 2013 relative à la concurrence",
+      "source_ids": [
+        "src-cndj-2019-389"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2019-389",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-389"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -100,7 +100,13 @@ export const ACTES: Record<string, { libelle: string; pluriel: string }> = {
   loi: { libelle: "Loi", pluriel: "Lois" },
   ordonnance: { libelle: "Ordonnance", pluriel: "Ordonnances" },
   decret: { libelle: "Décret", pluriel: "Décrets" },
+  acte_uniforme: { libelle: "Acte uniforme OHADA", pluriel: "Actes uniformes OHADA" },
 };
+
+/** Accord au masculin (« Abrogé ») pour un décret ou un acte uniforme, au féminin sinon. */
+export function estMasculin(acte: string): boolean {
+  return acte === "decret" || acte === "acte_uniforme";
+}
 
 /** Libellé court de la forme d'un texte : l'initiative pour une loi (« Projet de loi »…), sinon l'acte (« Décret »). */
 export function libelleForme(t: { acte: string; type: string | null }): string {
