@@ -1,0 +1,84 @@
+{
+  "id": "loi-2018-862-etat-civil",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "droit-des-personnes"
+  ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "etat-civil",
+  "numero_loi": "Loi n° 2018-862",
+  "titre_loi": "Loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "101",
+    "date": "2018-12-17",
+    "page": "1277",
+    "source_ids": [
+      "src-cndj-loi-2018-862"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-loi-2025-220"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 64-374 du 7 octobre 1964",
+      "source_ids": [
+        "src-cndj-loi-2018-862"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 83-799 du 2 août 1983",
+      "source_ids": [
+        "src-cndj-loi-2018-862"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 99-691 du 14 décembre 1999",
+      "source_ids": [
+        "src-cndj-loi-2018-862"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-loi-2018-862",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2018-11-19",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2018-862 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2018-862"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2018-862",
+    "src-cndj-loi-2025-220"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

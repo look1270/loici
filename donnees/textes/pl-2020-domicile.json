@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Ce projet de loi définit la résidence afin de la distinguer du domicile. Il impose à toute personne physique de déclarer son domicile, dans les six mois suivant son installation, à la mairie ou à la sous-préfecture du lieu choisi, et fixe les conditions du changement de domicile.",
   "explication": null,
@@ -14,11 +14,18 @@
   ],
   "categorie_id": "personnes-famille",
   "sous_categorie_id": "domicile",
-  "numero_loi": null,
-  "titre_loi": null,
+  "numero_loi": "Loi n° 2020-491",
+  "titre_loi": "Loi n° 2020-491 du 29 mai 2020 relative au domicile",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "10 spécial",
+    "date": "2020-05-29",
+    "page": "94",
+    "source_ids": [
+      "src-cndj-loi-2020-491"
+    ]
+  },
   "vigueur": null,
   "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-05-28",
@@ -59,11 +66,25 @@
       "source_ids": [
         "src-assnat-pleniere-2020-05-28"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2020-05-29",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2020-491 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2020-491"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-assnat-pleniere-2020-05-28"
+    "src-assnat-pleniere-2020-05-28",
+    "src-cndj-loi-2020-491"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

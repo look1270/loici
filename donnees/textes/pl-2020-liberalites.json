@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Ce projet de loi encadre les libéralités. Il prescrit des obligations à la charge du donateur, du donataire et de l'exécuteur testamentaire, afin de protéger les parties et les héritiers. Il prévoit qu'un mineur devenu majeur ne pourra disposer au profit de son ancien tuteur qu'après que le compte définitif de la tutelle a été rendu et apuré.",
   "explication": null,
@@ -14,11 +14,18 @@
   ],
   "categorie_id": "personnes-famille",
   "sous_categorie_id": "liberalites",
-  "numero_loi": null,
-  "titre_loi": null,
+  "numero_loi": "Loi n° 2020-669",
+  "titre_loi": "Loi n° 2020-669 du 10 septembre 2020 relative aux libéralités",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "101",
+    "date": "2020-12-17",
+    "page": "1498",
+    "source_ids": [
+      "src-cndj-loi-2020-669"
+    ]
+  },
   "vigueur": null,
   "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
@@ -59,11 +66,25 @@
       "source_ids": [
         "src-assnat-pleniere-2020-08-05"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2020-09-10",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2020-669 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2020-669"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-assnat-pleniere-2020-08-05"
+    "src-assnat-pleniere-2020-08-05",
+    "src-cndj-loi-2020-669"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

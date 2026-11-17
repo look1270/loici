@@ -191,7 +191,10 @@ const sommaire = [
         <p v-if="ancienIntitule" class="text-sm">
           <span class="text-muted">Intitulé pendant l'examen :</span> {{ ancienIntitule }}
         </p>
-        <FriseEtapes :etapes="fiche.etapes" :commissions="commissions" />
+        <FriseEtapes v-if="fiche.etapes.length" :etapes="fiche.etapes" :commissions="commissions" />
+        <p v-else class="text-muted">
+          {{ fiche.acte === "loi" ? "Aucune étape enregistrée." : `Pas de parcours au Parlement : ${fiche.acte === "decret" ? "un décret est signé" : "une ordonnance est prise"} par l'exécutif.` }}
+        </p>
       </section>
 
       <section id="revisions" aria-labelledby="titre-revisions" class="scroll-mt-4 space-y-3">

@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance publique le 26 septembre 2022, selon le tableau des trente-huit projets de loi adoptés en 2022 publié dans son rapport annuel d'activités 2022 (tableau des projets de loi adoptés en séance publique, pages 20-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
   "explication": null,
@@ -14,11 +14,18 @@
   ],
   "categorie_id": "personnes-famille",
   "sous_categorie_id": "divorce",
-  "numero_loi": null,
-  "titre_loi": null,
+  "numero_loi": "Loi n° 2022-793",
+  "titre_loi": "Loi n° 2022-793 du 13 octobre 2022 relative au divorce et à la séparation de corps",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "13 spécial",
+    "date": "2022-11-09",
+    "page": "194",
+    "source_ids": [
+      "src-cndj-loi-2022-793"
+    ]
+  },
   "vigueur": null,
   "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2022",
@@ -59,11 +66,25 @@
       "source_ids": [
         "src-senat-rapport-activites-2022"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2022-10-13",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2022-793 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2022-793"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-senat-rapport-activites-2022"
+    "src-senat-rapport-activites-2022",
+    "src-cndj-loi-2022-793"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

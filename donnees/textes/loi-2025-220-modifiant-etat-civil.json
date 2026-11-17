@@ -1,0 +1,62 @@
+{
+  "id": "loi-2025-220-modifiant-etat-civil",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2025-220 du 28 mars 2025 modifiant la loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "droit-des-personnes"
+  ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "etat-civil",
+  "numero_loi": "Loi n° 2025-220",
+  "titre_loi": "Loi n° 2025-220 du 28 mars 2025 modifiant la loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "32",
+    "date": "2025-04-21",
+    "page": "944",
+    "source_ids": [
+      "src-cndj-loi-2025-220"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-2018-862-etat-civil",
+      "intitule": "loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+      "source_ids": [
+        "src-cndj-loi-2025-220"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-loi-2025-220",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2025-03-28",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2025-220 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2025-220"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2025-220"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

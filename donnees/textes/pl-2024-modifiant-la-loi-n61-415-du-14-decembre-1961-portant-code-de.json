@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 23 avril 2024, au cours de sa première session ordinaire 2024, selon le tableau des projets de loi adoptés publié dans son rapport d'activités 2024 (tableau des projets de loi adoptés, pages 21-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
   "explication": null,
@@ -14,13 +14,29 @@
   ],
   "categorie_id": "personnes-famille",
   "sous_categorie_id": "nationalite",
-  "numero_loi": null,
-  "titre_loi": null,
+  "numero_loi": "Loi n° 2024-236",
+  "titre_loi": "Loi n° 2024-236 du 24 avril 2024 modifiant la loi n° 61-415 du 14 décembre 1961 portant Code de la nationalité, telle que modifiée par les lois n° 72-852 du 21 décembre 1972, n° 2004-662 du 17 décembre 2004 et n° 2013-654 du 13 septembre 2013",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "7 spécial",
+    "date": "2024-05-08",
+    "page": "117",
+    "source_ids": [
+      "src-cndj-loi-2024-236"
+    ]
+  },
   "vigueur": null,
-  "textes_lies": [],
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-61-415-code-nationalite",
+      "intitule": "loi n° 61-415 du 14 décembre 1961 portant Code de la nationalité",
+      "source_ids": [
+        "src-cndj-loi-2024-236"
+      ]
+    }
+  ],
   "document_principal_source_id": "src-senat-rapport-activites-2024",
   "acteurs": [
     {
@@ -59,11 +75,25 @@
       "source_ids": [
         "src-senat-rapport-activites-2024"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2024-04-24",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2024-236 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2024-236"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-senat-rapport-activites-2024"
+    "src-senat-rapport-activites-2024",
+    "src-cndj-loi-2024-236"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

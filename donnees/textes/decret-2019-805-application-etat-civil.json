@@ -1,0 +1,48 @@
+{
+  "id": "decret-2019-805-application-etat-civil",
+  "acte": "decret",
+  "titre_officiel": "Décret n° 2019-805 du 2 octobre 2019 fixant les modalités d'application de la loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "droit-des-personnes"
+  ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "etat-civil",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2019-805",
+  "date_signature": "2019-10-02",
+  "reference_jo": {
+    "numero": "7",
+    "date": "2020-01-23",
+    "page": "89",
+    "source_ids": [
+      "src-cndj-decret-2019-805"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "applique",
+      "texte_id": "loi-2018-862-etat-civil",
+      "intitule": "loi n° 2018-862 du 19 novembre 2018 relative à l'état civil",
+      "source_ids": [
+        "src-cndj-decret-2019-805"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-decret-2019-805",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-decret-2019-805"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}
