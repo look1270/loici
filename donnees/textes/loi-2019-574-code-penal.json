@@ -1,0 +1,81 @@
+{
+  "id": "loi-2019-574-code-penal",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-574 du 26 juin 2019 portant Code pénal",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": "Ce texte institue le Code pénal. Il classe les infractions en crimes, délits et contraventions selon leur gravité, définit les peines principales et complémentaires ainsi que les mesures de sûreté, et pose les règles d'application de la loi pénale, qui est d'interprétation stricte et ne s'applique pas par analogie. Il abroge la loi n° 81-640 du 31 juillet 1981 instituant le code pénal et la loi n° 98-757 du 23 décembre 1998 sur certaines formes de violences à l'égard des femmes.",
+  "explication": null,
+  "themes": [
+    "justice"
+  ],
+  "categorie_id": "droit-penal",
+  "sous_categorie_id": "code-penal",
+  "numero_loi": "Loi n° 2019-574",
+  "titre_loi": "Loi n° 2019-574 du 26 juin 2019 portant Code pénal",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "9 spécial",
+    "date": "2019-07-10",
+    "page": "201",
+    "source_ids": [
+      "src-famille-jo-loi-2019-574",
+      "src-cndj-loi-2019-574"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cc-decision-2025-001",
+      "src-cndj-loi-2024-358"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 81-640 du 31 juillet 1981 instituant le code pénal",
+      "source_ids": [
+        "src-assnat-loi-portant-code-penal-pdf"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 98-757 du 23 décembre 1998 portant répression de certaines formes de violences à l'égard des femmes",
+      "source_ids": [
+        "src-assnat-loi-portant-code-penal-pdf"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-famille-jo-loi-2019-574",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-06-26",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-574 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-famille-jo-loi-2019-574",
+        "src-cndj-loi-2019-574"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-famille-jo-loi-2019-574",
+    "src-cndj-loi-2019-574",
+    "src-assnat-loi-portant-code-penal-pdf",
+    "src-cc-decision-2025-001"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

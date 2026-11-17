@@ -1,5 +1,6 @@
 {
   "id": "plf-2027-budget-etat",
+  "acte": "loi",
   "titre_officiel": "Projet de loi de finances portant Budget de l'État pour l'année 2027",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "en_commission",
   "legislature_id": null,
   "resume": "Ce projet de loi fixe le budget de l'État pour l'année 2027 ; il est accompagné d'une annexe fiscale. Selon le communiqué du Conseil des ministres, il s'équilibre en ressources et en charges à 18 466,1 milliards de francs CFA, contre 17 350,2 milliards en 2026, avec un déficit budgétaire global de 3,5 % du PIB. Il est structuré en 27 dotations et 160 programmes, dont 40 comptes spéciaux du Trésor.",
+  "explication": null,
   "themes": [
     "finances-publiques"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-gouv-ccm-2026-10-14",
   "acteurs": [
     {

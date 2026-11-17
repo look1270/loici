@@ -1,0 +1,57 @@
+{
+  "id": "loi-2021-893-modifiant-code-penal",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2021-893 du 21 décembre 2021 modifiant la loi n° 2019-574 du 26 juin 2019 portant Code pénal",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "justice"
+  ],
+  "categorie_id": "droit-penal",
+  "sous_categorie_id": "code-penal",
+  "numero_loi": "Loi n° 2021-893",
+  "titre_loi": "Loi n° 2021-893 du 21 décembre 2021 modifiant la loi n° 2019-574 du 26 juin 2019 portant Code pénal",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-2019-574-code-penal",
+      "intitule": "loi n° 2019-574 du 26 juin 2019 portant Code pénal",
+      "source_ids": [
+        "src-loidici-loi-2021-893"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-loidici-loi-2021-893",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2021-12-21",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2021-893 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cc-decision-2023-004",
+        "src-loidici-loi-2021-893"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-loidici-loi-2021-893",
+    "src-cc-decision-2023-004"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

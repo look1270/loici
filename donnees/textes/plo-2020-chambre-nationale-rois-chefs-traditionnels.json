@@ -1,5 +1,6 @@
 {
   "id": "plo-2020-chambre-nationale-rois-chefs-traditionnels",
+  "acte": "loi",
   "titre_officiel": "Projet de loi organique portant composition, attribution et fonctionnement de la Chambre Nationale des Rois et Chefs Traditionnels",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi organique fixe la composition, les attributions et le fonctionnement de la Chambre nationale des rois et chefs traditionnels, dont les organes sont l'Assemblée, le Directoire et les comités régionaux. Le Sénat l'a amendé aux articles 15, 17 et 20, notamment pour rendre renouvelables les mandats des membres et des vice-présidents du Directoire, et pour organiser l'intérim de son président.",
+  "explication": null,
   "themes": [
     "institutions"
   ],
+  "categorie_id": "constitutionnel-electoral",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
   "acteurs": [
     {

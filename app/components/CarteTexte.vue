@@ -1,5 +1,5 @@
 <script setup lang="ts">
-/** Un texte dans la liste : titre, statut, type, dernière activité. Toute la carte est cliquable. */
+/** Un texte dans la liste : titre, statut, forme, dernière activité. Toute la carte est cliquable. */
 import type { ResumeTexte } from "~~/schemas/api";
 
 const props = defineProps<{ texte: ResumeTexte }>();
@@ -13,8 +13,8 @@ const auteur = computed(() => {
 <template>
   <article class="relative rounded-lg border border-default p-4 hover:bg-elevated focus-within:ring-2 focus-within:ring-primary">
     <div class="flex flex-wrap items-center gap-2">
-      <BadgeStatut :statut="texte.statut" />
-      <span class="text-sm text-muted">{{ TYPES_TEXTE[texte.type]?.libelle }}</span>
+      <BadgeStatut v-if="texte.statut" :statut="texte.statut" />
+      <span class="text-sm text-muted">{{ libelleForme(texte) }}</span>
       <BadgeSourceNonOfficielle v-if="!texte.source_officielle" />
     </div>
     <h2 class="mt-2 font-semibold text-highlighted">
@@ -23,9 +23,11 @@ const auteur = computed(() => {
       </NuxtLink>
     </h2>
     <p v-if="texte.numero_loi" class="text-sm">{{ texte.numero_loi }}</p>
+    <p v-else-if="texte.numero_acte" class="text-sm">n° {{ texte.numero_acte }}</p>
     <p class="mt-1 text-sm text-muted">
       <template v-if="auteur">{{ auteur }} · </template>
-      Dernière étape : <Valeur :valeur="formaterDate(texte.date_derniere_etape)" />
+      <template v-if="texte.acte === 'loi'">Dernière étape : <Valeur :valeur="formaterDate(texte.date_derniere_etape)" /></template>
+      <template v-else>Signé le <Valeur :valeur="formaterDate(texte.date_signature)" /></template>
     </p>
   </article>
 </template>

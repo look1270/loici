@@ -1,5 +1,6 @@
 {
   "id": "pl-2022-ratification-convention-de-l-union-africaine-sur-la-cooperat",
+  "acte": "loi",
   "titre_officiel": "Projet de loi autorisant le Président de la République à ratifier la Convention de l'Union Africaine sur la coopération transfrontalière, adoptée le 27 juin 2014 à Malabo",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,8 +8,17 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance publique le 22 novembre 2022, selon le tableau des trente-huit projets de loi adoptés en 2022 publié dans son rapport annuel d'activités 2022 (tableau des projets de loi adoptés en séance publique, pages 20-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [],
+  "categorie_id": "administratif-collectivites",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2022",
   "acteurs": [
     {

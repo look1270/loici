@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2018-144",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2018-144 du 14 février 2018 modifiant l'article 169 e) de la loi n° 2014-138 du 24 mars 2014 portant Code minier",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance modifiant l'article 169 e) du Code minier. Elle supprime l'exonération de l'impôt sur les bénéfices industriels et commerciaux (BIC) et de l'impôt minimum forfaitaire pour les entreprises minières, sans affecter les conventions minières en cours ni les permis d'exploitation déjà accordés. Les permis délivrés en 2018 bénéficient d'un abattement du taux de l'impôt BIC pendant deux ans après la première production commerciale.",
+  "explication": null,
   "themes": [
     "economie-et-entreprises",
     "finances-publiques"
   ],
+  "categorie_id": "environnement-mines-agriculture",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
   "acteurs": [
     {

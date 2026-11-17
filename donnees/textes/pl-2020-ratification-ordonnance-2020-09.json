@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2020-09",
+  "acte": "loi",
   "titre_officiel": "Projet de loi de ratification de l'ordonnance N°2020-09 du 08 janvier 2020 portant réduction du taux du droit unique de sortie applicable aux produits des entreprises de transformation de Cacao",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance réduisant le taux du droit unique de sortie applicable aux produits des entreprises de transformation du cacao. Selon l'Assemblée nationale, il s'agit d'une mesure incitative du Gouvernement pour transformer localement au moins 50 % des fèves de cacao produites en Côte d'Ivoire.",
+  "explication": null,
   "themes": [
     "agriculture-et-elevage",
     "finances-publiques"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
   "acteurs": [
     {

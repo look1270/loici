@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2020-440",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2020-440 du 06 mai 2020 portant dérogation aux dispositions du Code des marchés publics relatives aux pénalités de retard en matière de marchés et commandes publics",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance dérogeant aux dispositions du Code des marchés publics relatives aux pénalités de retard. Selon l'Assemblée nationale, elle vise à éviter aux entreprises le paiement de pénalités de retard dues au respect des mesures sanitaires prises par le Gouvernement dans la lutte contre le coronavirus.",
+  "explication": null,
   "themes": [
     "finances-publiques",
     "economie-et-entreprises"
   ],
+  "categorie_id": "administratif-collectivites",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
   "acteurs": [
     {

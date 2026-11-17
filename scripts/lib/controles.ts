@@ -3,7 +3,8 @@
  * Fonction pure (aucune lecture disque, aucune date implicite) : testée dans tests/controles.test.ts.
  *
  * Erreurs (bloquent la pull request) :
- *   - référence vers une source, un parlementaire, un parti, une commission, une législature ou un thème inexistant ;
+ *   - référence vers une source, un parlementaire, un parti, une commission, une législature, un thème,
+ *     une catégorie ou un texte lié inexistant ; sous-catégorie hors de sa catégorie ;
  *   - source « officielle » hors des domaines officiels, ou source « presse » sur un domaine officiel ;
  *   - même URL décrite par deux fichiers de source (sauf deux versions d'un PDF aux empreintes différentes) ;
  *   - chambre d'un mandat ≠ chambre de sa législature ; commission d'une étape d'une autre chambre que l'étape ;
@@ -54,6 +55,8 @@ export function controlesCroises(d: Donnees, aujourdhui: string): Probleme[] {
     commissions: new Map(d.referentiels.commissions.map((c) => [c.id, c])),
     legislatures: new Map(d.referentiels.legislatures.map((l) => [l.id, l])),
     themes: new Set(d.referentiels.themes.map((t) => t.id)),
+    categories: new Map(d.referentiels.categories.map((c) => [c.id, c])),
+    textes: new Set(d.textes.map((t) => t.id)),
   };
   const domaines = d.referentiels.domaines_officiels.map((x) => x.domaine.toLowerCase());
   const sourcesUtilisees = new Set<string>();
@@ -147,6 +150,27 @@ export function controlesCroises(d: Donnees, aujourdhui: string): Probleme[] {
     }
     t.themes.forEach((th, i) => {
       if (!ids.themes.has(th)) erreur(f, `themes.${i}`, `Thème inconnu : « ${th} » (voir donnees/referentiels/themes.json)`);
+    });
+
+    if (t.categorie_id !== null) {
+      const categorie = ids.categories.get(t.categorie_id);
+      if (!categorie) {
+        erreur(f, "categorie_id", `Catégorie inconnue : « ${t.categorie_id} » (voir donnees/referentiels/categories.json)`);
+      } else if (t.sous_categorie_id !== null && !categorie.sous_categories.some((s) => s.id === t.sous_categorie_id)) {
+        erreur(f, "sous_categorie_id", `La sous-catégorie « ${t.sous_categorie_id} » n'appartient pas à la catégorie « ${t.categorie_id} »`);
+      }
+    }
+    if (t.vigueur) verifierSources(f, "vigueur.source_ids", t.vigueur.source_ids);
+    if (t.reference_jo) {
+      verifierSources(f, "reference_jo.source_ids", t.reference_jo.source_ids);
+      verifierDate(f, "reference_jo.date", t.reference_jo.date);
+    }
+    verifierDate(f, "date_signature", t.date_signature);
+    t.textes_lies.forEach((l, i) => {
+      verifierSources(f, `textes_lies.${i}.source_ids`, l.source_ids);
+      if (l.texte_id === null) return;
+      if (l.texte_id === t.id) erreur(f, `textes_lies.${i}.texte_id`, "Un texte ne peut pas être lié à lui-même");
+      else if (!ids.textes.has(l.texte_id)) erreur(f, `textes_lies.${i}.texte_id`, absente("Texte", "textes", l.texte_id, invalides?.textes));
     });
 
     const verifierParlementaire = (champ: string, id: string) => {

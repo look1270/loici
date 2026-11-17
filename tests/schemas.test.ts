@@ -36,6 +36,7 @@ const etapeDepot = {
 
 const texteValide = {
   id: "texte-factice",
+  acte: "loi",
   titre_officiel: "Projet de loi factice servant aux tests",
   numero_depot: null,
   type: "projet_de_loi",
@@ -45,6 +46,15 @@ const texteValide = {
   resume: "Résumé factice. ".repeat(12),
   themes: [],
   numero_loi: null,
+  explication: null,
+  categorie_id: null,
+  sous_categorie_id: null,
+  titre_loi: null,
+  numero_acte: null,
+  date_signature: null,
+  reference_jo: null,
+  vigueur: null,
+  textes_lies: [],
   document_principal_source_id: "src-factice",
   acteurs: [
     {
@@ -141,4 +151,38 @@ test("parlementaire : mandat cohérent", () => {
   assert.ok(refuse(parlementaire, { ...base, mandats: [{ ...mandat, circonscription: "X" }] }), "nommé avec circonscription");
   assert.ok(refuse(parlementaire, { ...base, mandats: [{ ...mandat, date_fin: "2020-01-01" }] }), "fin avant début");
   assert.ok(refuse(parlementaire, { ...base, mandats: [mandat, mandat] }), "législature en double");
+});
+
+test("forme de l'acte : une loi a un parcours, une ordonnance ou un décret n'en a pas", () => {
+  assert.equal(texte.safeParse({ ...texteValide, type: null, acteurs: [] }).success, true, "loi d'initiative inconnue, sans auteur cité");
+  assert.ok(refuse(texte, { ...texteValide, acteurs: [] }), "initiative connue : l'auteur est requis");
+  assert.ok(refuse(texte, { ...texteValide, etapes: [], statut: "depose" }), "loi sans étape");
+  assert.ok(refuse(texte, { ...texteValide, date_signature: "2025-01-01" }), "date de signature sur une loi");
+  assert.ok(refuse(texte, { ...texteValide, titre_loi: "Loi factice relative aux tests" }), "titre de loi avant promulgation");
+
+  const decret = {
+    ...texteValide,
+    acte: "decret",
+    titre_officiel: "Décret factice portant application d'une loi factice",
+    type: null,
+    statut: null,
+    etapes: [],
+    numero_acte: "2099-1",
+    date_signature: "2025-01-10",
+  };
+  const r = texte.safeParse(decret);
+  assert.equal(r.success, true, r.success ? "" : JSON.stringify(r.error.issues, null, 2));
+  assert.ok(refuse(texte, { ...decret, statut: "depose", etapes: [etapeDepot] }), "statut parlementaire sur un décret");
+  assert.ok(refuse(texte, { ...decret, type: "projet_de_loi" }), "initiative parlementaire sur un décret");
+  assert.ok(refuse(texte, { ...decret, numero_loi: "Loi n° 2099-1" }), "numéro de loi sur un décret");
+  assert.ok(
+    refuse(texte, { ...decret, acteurs: [{ ...texteValide.acteurs[0]!, acteur: { genre: "parlementaire", parlementaire_id: "x" } }] }),
+    "un décret a pour auteur le Gouvernement",
+  );
+});
+
+test("sous-catégorie sans catégorie refusée ; résumé et explication facultatifs mais bornés", () => {
+  assert.ok(refuse(texte, { ...texteValide, sous_categorie_id: "nom" }));
+  assert.equal(texte.safeParse({ ...texteValide, resume: null }).success, true, "résumé à rédiger");
+  assert.ok(refuse(texte, { ...texteValide, explication: "trop court" }));
 });

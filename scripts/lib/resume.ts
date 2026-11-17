@@ -27,20 +27,28 @@ export function resumerTextes(donnees: Donnees): ResumeTexte[] {
       const mandat = parlementairesParId.get(id)?.mandats.find((m) => m.legislature_id === t.legislature_id);
       return t.legislature_id !== null && mandat?.parti_id ? [mandat.parti_id] : [];
     });
+    const dateDebut = datesConnues[0] ?? t.date_signature;
     return {
       id: t.id,
+      acte: t.acte,
       titre_officiel: t.titre_officiel,
+      titre_loi: t.titre_loi,
       numero_depot: t.numero_depot,
       numero_loi: t.numero_loi,
+      numero_acte: t.numero_acte,
       type: t.type,
       nature: t.nature,
       statut: t.statut,
       legislature_id: t.legislature_id,
-      annee: datesConnues.length > 0 ? Number(datesConnues[0]!.slice(0, 4)) : null,
+      annee: dateDebut ? Number(dateDebut.slice(0, 4)) : null,
+      date_signature: t.date_signature,
+      categorie_id: t.categorie_id,
+      sous_categorie_id: t.sous_categorie_id,
+      vigueur: t.vigueur?.etat ?? null,
       date_depot: dateDepot(t),
       chambre_depot: chambreDepot(t),
       date_promulgation: datePromulgation(t),
-      date_derniere_etape: datesConnues.at(-1) ?? null,
+      date_derniere_etape: datesConnues.at(-1) ?? t.date_signature,
       themes: t.themes,
       commission_ids: commissionsSaisies(t),
       auteurs_gouvernement: t.acteurs.flatMap((a) =>

@@ -33,6 +33,7 @@ function donneesValides(): Donnees {
     textes: [
       {
         id: "texte-factice",
+        acte: "loi",
         titre_officiel: "Projet de loi factice de test",
         numero_depot: null,
         type: "projet_de_loi",
@@ -42,6 +43,15 @@ function donneesValides(): Donnees {
         resume: "x".repeat(160),
         themes: ["theme-x"],
         numero_loi: null,
+        explication: null,
+        categorie_id: "cat-x",
+        sous_categorie_id: "sous-x",
+        titre_loi: null,
+        numero_acte: null,
+        date_signature: null,
+        reference_jo: null,
+        vigueur: null,
+        textes_lies: [],
         document_principal_source_id: "src-off",
         acteurs: [
           { role: "auteur", acteur: { genre: "gouvernement", ministre: null, ministere: null }, commission_id: null, source_ids: ["src-off"] },
@@ -91,6 +101,7 @@ function donneesValides(): Donnees {
       legislatures: [{ id: "leg-x", chambre: "assemblee_nationale", libelle: "Législature factice", date_debut: null, date_fin: null, source_ids: ["src-off"] }],
       commissions: [{ id: "an-com", chambre: "assemblee_nationale", nom: "Commission factice", sigle: null, source_ids: ["src-off"] }],
       themes: [{ id: "theme-x", libelle: "Thème factice" }],
+      categories: [{ id: "cat-x", libelle: "Catégorie factice", explication: "Explication factice de catégorie.", sous_categories: [{ id: "sous-x", libelle: "Sous-catégorie factice" }] }],
       domaines_officiels: [{ domaine: "assnat.ci", institution: "Assemblée nationale" }],
     },
   } as Donnees;
@@ -194,7 +205,7 @@ test("chargement : fichier mal nommé, JSON illisible et champ manquant sont tou
   const racine = await mkdtemp(join(tmpdir(), "loici-test-"));
   try {
     for (const dossier of ["sources", "textes", "referentiels"]) await mkdir(join(racine, "donnees", dossier), { recursive: true });
-    for (const nom of ["legislatures", "commissions", "themes", "domaines-officiels"]) {
+    for (const nom of ["legislatures", "commissions", "themes", "categories", "domaines-officiels"]) {
       await writeFile(join(racine, "donnees", "referentiels", `${nom}.json`), "[]");
     }
     const s = source("src-a", "https://assnat.ci/a");
@@ -212,4 +223,25 @@ test("chargement : fichier mal nommé, JSON illisible et champ manquant sont tou
   } finally {
     await rm(racine, { recursive: true, force: true });
   }
+});
+
+test("catégories : catégorie inconnue, sous-catégorie d'une autre catégorie, texte lié inexistant", () => {
+  const d = donneesValides();
+  d.textes[0]!.categorie_id = "cat-absente";
+  assert.ok(erreurs(d).some((e) => e.includes("Catégorie inconnue")));
+
+  const d2 = donneesValides();
+  d2.textes[0]!.sous_categorie_id = "sous-ailleurs";
+  assert.ok(erreurs(d2).some((e) => e.includes("n'appartient pas à la catégorie")));
+
+  const d3 = donneesValides();
+  d3.textes[0]!.textes_lies = [
+    { relation: "modifie", texte_id: "texte-absent", intitule: "loi factice visée", source_ids: ["src-off"] },
+    { relation: "modifie", texte_id: "texte-factice", intitule: "lui-même", source_ids: ["src-off"] },
+    { relation: "abroge", texte_id: null, intitule: "loi factice non recensée", source_ids: ["src-inconnue"] },
+  ];
+  const e3 = erreurs(d3);
+  assert.ok(e3.some((e) => e.includes("Texte introuvable")));
+  assert.ok(e3.some((e) => e.includes("lié à lui-même")));
+  assert.ok(e3.some((e) => e.includes("Source introuvable")), "les sources d'un texte lié sont vérifiées");
 });

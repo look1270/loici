@@ -6,6 +6,7 @@ const filtres = defineModel<Filtres>({ required: true });
 const props = defineProps<{ options: Record<Exclude<keyof Filtres, "q">, OptionFiltre[]> }>();
 
 const champs: { cle: Exclude<keyof Filtres, "q">; libelle: string }[] = [
+  { cle: "acte", libelle: "Forme" },
   { cle: "statut", libelle: "Statut" },
   { cle: "type", libelle: "Type" },
   { cle: "annee", libelle: "Année" },

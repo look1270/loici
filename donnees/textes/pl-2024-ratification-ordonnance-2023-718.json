@@ -1,5 +1,6 @@
 {
   "id": "pl-2024-ratification-ordonnance-2023-718",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2023-718 du 13 septembre 2023 portant modification de l'article 10 de la loi n°2014-812 du 16 décembre 2014 d'orientation du transport intérieur, telle que modifiée par les ordonnances n°2018-09 du 10 janvier 2018 et n°2019-99 du 30 janvier 2019",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 5 novembre 2024, au cours de sa deuxième session ordinaire 2024, selon le tableau des projets de loi adoptés publié dans son rapport d'activités 2024 (tableau des projets de loi adoptés, pages 21-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [
     "economie-et-entreprises"
   ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2024",
   "acteurs": [
     {

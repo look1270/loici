@@ -1,5 +1,6 @@
 {
   "id": "pl-2023-ratification-convention-internationale-pour-la-protection-de",
+  "acte": "loi",
   "titre_officiel": "Projet de loi autorisant le Président de la République à faire adhérer la Côte d'Ivoire à la Convention Internationale pour la protection de toutes les personnes contre les disparitions forcées, adoptée le 20 décembre 2006, à New York",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 23 novembre 2023, au cours de sa deuxième session ordinaire 2023, selon le tableau des projets de loi adoptés publié dans son rapport d'activités de la deuxième session ordinaire 2023 (tableau des projets de loi adoptés, page 20). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [
     "justice"
   ],
+  "categorie_id": "droit-penal",
+  "sous_categorie_id": "cooperation-penale",
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2023-s2",
   "acteurs": [
     {

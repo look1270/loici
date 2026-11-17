@@ -39,6 +39,26 @@ export const theme = z.strictObject({
 });
 
 /**
+ * Catégorie de l'accueil (droit pénal, personnes et famille…) et ses sous-catégories
+ * (Code pénal, mariage…). Comme les thèmes, c'est un classement éditorial de LoiCI, pas un fait :
+ * liste fermée, sans source, modifiée par pull request. L'ordre du fichier est l'ordre d'affichage.
+ */
+export const sousCategorie = z.strictObject({
+  id: identifiant,
+  libelle: libelle(2, 80),
+});
+
+export const categorie = z
+  .strictObject({
+    id: identifiant,
+    libelle: libelle(2, 80),
+    /** Une phrase affichée sur la carte de l'accueil. */
+    explication: libelle(10, 200),
+    sous_categories: z.array(sousCategorie),
+  })
+  .refine((c) => idsUniques(c.sous_categories), { message: "Sous-catégorie en double", path: ["sous_categories"] });
+
+/**
  * Domaines reconnus comme « officiels ». La CI refusera une source typée « officielle »
  * dont l'URL n'appartient pas à l'un de ces domaines (ou à leurs sous-domaines).
  */
@@ -50,6 +70,7 @@ export const domaineOfficiel = z.strictObject({
 export const legislatures = z.array(legislature).refine(idsUniques, "Identifiant de législature en double");
 export const commissions = z.array(commission).refine(idsUniques, "Identifiant de commission en double");
 export const themes = z.array(theme).refine(idsUniques, "Identifiant de thème en double");
+export const categories = z.array(categorie).refine(idsUniques, "Identifiant de catégorie en double");
 export const domainesOfficiels = z
   .array(domaineOfficiel)
   .refine((l) => new Set(l.map((d) => d.domaine)).size === l.length, "Domaine en double");
@@ -57,3 +78,4 @@ export const domainesOfficiels = z
 export type Legislature = z.infer<typeof legislature>;
 export type Commission = z.infer<typeof commission>;
 export type Theme = z.infer<typeof theme>;
+export type Categorie = z.infer<typeof categorie>;

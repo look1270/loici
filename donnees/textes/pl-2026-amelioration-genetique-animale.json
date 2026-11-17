@@ -1,5 +1,6 @@
 {
   "id": "pl-2026-amelioration-genetique-animale",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant réglementation de l'amélioration génétique animale en Côte d'Ivoire",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_commission",
   "legislature_id": null,
   "resume": "Ce projet de loi encadre l'utilisation du matériel génétique animal et protège les acteurs du secteur et leurs investissements. Il prévoit une traçabilité fondée sur l'étiquetage obligatoire et un système électronique de suivi, des sanctions administratives comme la mise en fourrière des animaux ou le retrait d'autorisation, un délai de 24 mois pour se mettre en conformité, et des peines d'un à trois ans d'emprisonnement et jusqu'à 5 millions de FCFA d'amende pour une activité sans autorisation.",
+  "explication": null,
   "themes": [
     "agriculture-et-elevage"
   ],
+  "categorie_id": "environnement-mines-agriculture",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-crste-2026-11-10",
   "acteurs": [
     {

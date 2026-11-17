@@ -1,5 +1,6 @@
 {
   "id": "pl-2022-contenu-local-dans-les-activites-petrolieres-et-gazieres",
+  "acte": "loi",
   "titre_officiel": "Projet de loi relative au contenu local dans les activités pétrolières et gazières",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance publique le 10 juin 2022, selon le tableau des trente-huit projets de loi adoptés en 2022 publié dans son rapport annuel d'activités 2022 (tableau des projets de loi adoptés en séance publique, pages 20-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [
     "environnement-et-energie",
     "economie-et-entreprises"
   ],
+  "categorie_id": "environnement-mines-agriculture",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2022",
   "acteurs": [
     {

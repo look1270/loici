@@ -5,7 +5,7 @@
 import type { z } from "zod";
 import type { chambre } from "./communs";
 import type { Parlementaire } from "./acteurs";
-import type { Commission, Legislature, Theme, domaineOfficiel } from "./referentiels";
+import type { Categorie, Commission, Legislature, Theme, domaineOfficiel } from "./referentiels";
 import type { Source } from "./source";
 import type { RoleActeur } from "./statuts";
 import type { StatutTexte, Texte } from "./texte";
@@ -16,15 +16,28 @@ export const VERSION_API = "v1";
 /** Entrée de textes.json : ce qu'il faut pour la liste, la recherche et les filtres, rien de plus. */
 export interface ResumeTexte {
   id: string;
+  acte: Texte["acte"];
   titre_officiel: string;
+  titre_loi: string | null;
   numero_depot: string | null;
   numero_loi: string | null;
+  numero_acte: string | null;
+  /** Initiative d'une loi ; null pour une ordonnance ou un décret. */
   type: Texte["type"];
   nature: Texte["nature"];
-  statut: StatutTexte;
+  /** Statut du parcours d'une loi ; null pour une ordonnance ou un décret. */
+  statut: StatutTexte | null;
   legislature_id: string | null;
-  /** Année de la première étape datée (début connu du parcours) ; null si aucune étape n'est datée. */
+  /**
+   * Année du texte : première étape datée d'une loi (début connu du parcours),
+   * ou date de signature d'une ordonnance ou d'un décret ; null si inconnue.
+   */
   annee: number | null;
+  date_signature: string | null;
+  categorie_id: string | null;
+  sous_categorie_id: string | null;
+  /** État de vigueur sourcé ; null = non renseigné. */
+  vigueur: NonNullable<Texte["vigueur"]>["etat"] | null;
   date_depot: string | null;
   chambre_depot: z.infer<typeof chambre> | null;
   date_promulgation: string | null;
@@ -57,6 +70,7 @@ export interface Referentiels {
   legislatures: Legislature[];
   commissions: Commission[];
   themes: Theme[];
+  categories: Categorie[];
   domaines_officiels: z.infer<typeof domaineOfficiel>[];
 }
 

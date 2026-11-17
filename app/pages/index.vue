@@ -1,15 +1,16 @@
 <script setup lang="ts">
 /**
- * Liste des textes : recherche libre + filtres, entièrement dans le navigateur.
- * Les filtres sont recopiés dans l'adresse de la page : une recherche se partage par simple lien.
- * Parcours visé : accueil → recherche ou filtre → fiche, soit moins de 3 clics.
+ * Accueil : la recherche en haut, puis la grille des catégories (nom, explication, nombre de textes).
+ * Dès qu'une recherche ou un filtre est actif, la grille laisse place à la liste des résultats.
+ * Recherche et filtres s'exécutent dans le navigateur et sont recopiés dans l'adresse : une recherche se partage par lien.
+ * Parcours visé : accueil → catégorie ou recherche → fiche, soit moins de 3 clics.
  */
 import type { OptionFiltre } from "~/utils/recherche";
 import { STATUTS } from "~~/schemas/statuts";
 
 useSeoMeta({
   title: "LoiCI — Les lois de Côte d'Ivoire",
-  description: "Recherchez les projets et propositions de loi ivoiriens, leur statut, leur parcours et leurs sources.",
+  description: "Les lois, ordonnances et décrets de Côte d'Ivoire, classés par catégorie, avec leur parcours et leurs sources.",
 });
 
 const route = useRoute();
@@ -62,6 +63,10 @@ const { depot } = useAppConfig();
 const liensGithub = liensDepot(depot);
 const nbActifs = computed(() => nombreFiltresActifs(filtres.value));
 
+/** Recherche ou filtre en cours : on montre les résultats plutôt que les catégories. */
+const enRecherche = computed(() => filtres.value.q.trim() !== "" || nbActifs.value > 0);
+const cartes = computed(() => cartesAccueil(referentiels.value?.categories ?? [], textes.value ?? []));
+
 /** Options d'un filtre : seulement les valeurs présentes dans les données, avec leur effectif. */
 function optionsDepuis(valeurs: string[], libelle: (v: string) => string, ordre?: (a: string, b: string) => number): OptionFiltre[] {
   const effectifs = new Map<string, number>();
@@ -83,13 +88,17 @@ const options = computed(() => {
     return p ? (p.sigle ?? p.nom) : id;
   };
   return {
+    acte: optionsDepuis(
+      t.map((x) => x.acte),
+      (v) => ACTES[v]?.libelle ?? v,
+    ),
     statut: optionsDepuis(
-      t.map((x) => x.statut),
+      t.flatMap((x) => (x.statut ? [x.statut] : [])),
       (v) => STATUTS_INFOS[v as keyof typeof STATUTS_INFOS]?.libelle ?? v,
       (a, b) => STATUTS.indexOf(a as never) - STATUTS.indexOf(b as never),
     ),
     type: optionsDepuis(
-      t.map((x) => x.type),
+      t.flatMap((x) => (x.type ? [x.type] : [])),
       (v) => TYPES_TEXTE[v]?.libelle ?? v,
     ),
     annee: optionsDepuis(
@@ -130,7 +139,7 @@ const reinitialiser = () => {
     <div>
       <h1 class="text-2xl font-bold text-highlighted">Les lois de Côte d'Ivoire</h1>
       <p class="mt-1 text-muted">
-        Projets et propositions de loi, leur parcours au Parlement et leurs sources. Chaque information renvoie à sa source.
+        Lois, ordonnances et décrets, classés par domaine, avec leur parcours et leurs sources. Chaque information renvoie à sa source.
       </p>
     </div>
 
@@ -201,6 +210,15 @@ const reinitialiser = () => {
         :actions="[{ label: 'Réessayer', color: 'error', variant: 'outline', onClick: () => refresh() }]"
       />
 
+      <section v-else-if="!enRecherche" aria-labelledby="titre-categories">
+        <h2 id="titre-categories" class="mb-3 text-lg font-semibold text-highlighted">Parcourir par catégorie</h2>
+        <ul class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          <li v-for="c in cartes" :key="c.id">
+            <CarteCategorie :id="c.id" :libelle="c.libelle" :explication="c.explication" :nombre="referentiels ? c.nombre : null" />
+          </li>
+        </ul>
+      </section>
+
       <template v-else>
         <p class="mb-3 text-sm text-muted">
           {{ resultats.length }} texte{{ resultats.length > 1 ? "s" : "" }}
@@ -210,7 +228,7 @@ const reinitialiser = () => {
         <div v-if="!resultats.length" class="space-y-1">
           <p class="text-highlighted">
             Aucun texte ne correspond.
-            <UButton label="Afficher tous les textes" variant="link" class="p-0" @click="reinitialiser" />
+            <UButton label="Revenir aux catégories" variant="link" class="p-0" @click="reinitialiser" />
           </p>
           <p class="text-sm text-muted">
             Vous connaissez un texte qui manque ?

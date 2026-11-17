@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2020-355",
+  "acte": "loi",
   "titre_officiel": "Projet de loi ratifiant l'ordonnance N°2020-355 du 08 avril 2020 portant suspension des délais en matière de procédure judiciaire et administrative",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance du 8 avril 2020 suspendant les délais en matière de procédure judiciaire et administrative. Selon l'Assemblée nationale, cette ordonnance vise à protéger les droits des plaideurs, alors que des mesures prises en urgence dans le cadre de la lutte contre la COVID-19 ont eu des effets sur les délais des procédures judiciaires.",
+  "explication": null,
   "themes": [
     "justice"
   ],
+  "categorie_id": "droit-civil",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
   "acteurs": [
     {

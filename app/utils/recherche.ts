@@ -9,6 +9,7 @@ export const TOUS = "tous";
 
 export interface Filtres {
   q: string;
+  acte: string;
   statut: string;
   type: string;
   annee: string;
@@ -27,6 +28,7 @@ export interface OptionFiltre {
 
 export const FILTRES_VIDES: Filtres = {
   q: "",
+  acte: TOUS,
   statut: TOUS,
   type: TOUS,
   annee: TOUS,
@@ -65,8 +67,10 @@ export function texteRecherchable(t: ResumeTexte, nomsParlementaires: Map<string
   return normaliser(
     [
       t.titre_officiel,
+      t.titre_loi ?? "",
       t.numero_depot ?? "",
       t.numero_loi ?? "",
+      t.numero_acte ?? "",
       ...anneesDuTexte(t),
       ...t.auteurs_gouvernement.flatMap((a) => [a.ministre ?? "", a.ministere ?? ""]),
       ...t.parlementaires.map((p) => nomsParlementaires.get(p.id) ?? ""),
@@ -92,8 +96,9 @@ export function filtrerTextes(
   return textes
     .filter(
       (t) =>
-        ok(t.statut, filtres.statut) &&
-        ok(t.type, filtres.type) &&
+        ok(t.acte, filtres.acte) &&
+        ok(t.statut ?? "", filtres.statut) &&
+        ok(t.type ?? "", filtres.type) &&
         ok(String(t.annee ?? ""), filtres.annee) &&
         ok(t.legislature_id ?? "", filtres.legislature) &&
         contient(t.commission_ids, filtres.commission) &&

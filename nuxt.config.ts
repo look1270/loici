@@ -15,6 +15,19 @@ function identifiants(dossier: string): string[] {
 }
 
 /**
+ * Pages de catégories : celles du référentiel, plus les deux cartes calculées par le site
+ * (identifiants ID_EN_COURS et ID_AUTRES de app/utils/categories.ts).
+ */
+function categoriesAGenerer(): string[] {
+  try {
+    const liste = JSON.parse(readFileSync("donnees/referentiels/categories.json", "utf8")) as { id: string }[];
+    return [...liste.map((c) => c.id), "projets-en-cours", "autres-textes"];
+  } catch {
+    return [];
+  }
+}
+
+/**
  * Version des données publiées : date de génération de l'API (écrite juste avant par « npm run api »).
  * Ajoutée à chaque requête vers /api/v1/ : après une mise en ligne, le navigateur ne mélange jamais
  * des fichiers de deux versions (ex. nouvelle liste + ancienne réponse « absent » gardée en cache).
@@ -87,6 +100,7 @@ export default defineNuxtConfig({
         "/methodologie",
         "/personnalites",
         "/contribuer",
+        ...categoriesAGenerer().map((id) => `/categories/${id}`),
         ...identifiants("textes").map((id) => `/textes/${id}`),
         ...identifiants("parlementaires").map((id) => `/parlementaires/${id}`),
       ],

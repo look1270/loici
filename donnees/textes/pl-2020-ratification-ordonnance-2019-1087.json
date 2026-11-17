@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2019-1087",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance N°2019-1087 du 18 décembre 2019 modifiant les modalités de fixation de la clé de répartition du produit de l'impôt sur le patrimoine foncier",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance modifiant la clé de répartition du produit de l'impôt sur le patrimoine foncier. La part de cet impôt destinée au financement de la salubrité passe de 25 % à 50 %. Selon l'Assemblée nationale, cette disposition doit aider à lutter contre l'insalubrité au plan national.",
+  "explication": null,
   "themes": [
     "finances-publiques",
     "collectivites-territoriales"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
   "acteurs": [
     {
