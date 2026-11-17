@@ -176,3 +176,18 @@ export const SORTS_AMENDEMENT: Record<string, string> = {
 
 /** Texte unique pour toute information inconnue (règle « ne jamais inventer »). */
 export const NON_RENSEIGNE = "Non renseigné";
+
+/** Juridictions des décisions de référence. */
+export const JURIDICTIONS: Record<string, string> = {
+  conseil_constitutionnel: "Conseil constitutionnel",
+  cour_de_cassation: "Cour de cassation",
+};
+
+/** Sens d'une décision, tel qu'il ressort de son dispositif. */
+export const SENS_DECISION: Record<string, string> = {
+  conformite: "Conforme à la Constitution",
+  rejet: "Rejet",
+  irrecevabilite: "Irrecevable",
+  cassation: "Cassation",
+  sans_objet: "Sans objet",
+};

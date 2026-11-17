@@ -1,0 +1,24 @@
+{
+  "id": "cassation-arret-028-pe-24",
+  "juridiction": "cour_de_cassation",
+  "formation": "Chambre pénale",
+  "numero": "028.Pe/24",
+  "date": "2024-02-15",
+  "sens": [
+    "irrecevabilite"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 604"
+      ]
+    }
+  ],
+  "resume": "Le pourvoi formé par un condamné plus de quinze jours francs après le prononcé de l'arrêt attaqué est tardif. La Cour le déclare irrecevable en application de l'article 604 du Code de procédure pénale, qui fixe ce délai pour le ministère public et toutes les parties.",
+  "page": 1,
+  "source_ids": [
+    "src-cassation-arret-028-pe-24"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

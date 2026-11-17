@@ -18,8 +18,10 @@ import {
   type Source,
   type Texte,
   type Categorie,
+  type Decision,
   type Theme,
   categories as schemaCategories,
+  decision as schemaDecision,
   commissions as schemaCommissions,
   domainesOfficiels as schemaDomaines,
   legislatures as schemaLegislatures,
@@ -46,13 +48,15 @@ export interface Donnees {
   textes: Texte[];
   parlementaires: Parlementaire[];
   partis: Parti[];
+  /** Décisions de référence (donnees/decisions/), rattachées à des textes. */
+  decisions: Decision[];
   referentiels: Referentiels;
   /**
    * Identifiants (noms de fichiers) présents mais écartés car invalides.
    * Permet de dire « source invalide » plutôt que « source introuvable », et d'éviter
    * de fausses alertes en cascade.
    */
-  invalides?: { sources: Set<string>; textes: Set<string>; parlementaires: Set<string>; partis: Set<string> };
+  invalides?: { sources: Set<string>; textes: Set<string>; parlementaires: Set<string>; partis: Set<string>; decisions?: Set<string> };
 }
 
 /** Chemins des fichiers, tels qu'affichés dans les messages (relatifs à la racine du dépôt). */
@@ -61,6 +65,7 @@ export const cheminFichier = {
   texte: (id: string) => `donnees/textes/${id}.json`,
   parlementaire: (id: string) => `donnees/parlementaires/${id}.json`,
   parti: (id: string) => `donnees/partis/${id}.json`,
+  decision: (id: string) => `donnees/decisions/${id}.json`,
   referentiel: (nom: string) => `donnees/referentiels/${nom}.json`,
 };
 
@@ -158,12 +163,19 @@ export async function chargerDonnees(racine: string): Promise<{ donnees: Donnees
   const ref = <S extends z.ZodType>(nom: string, schema: S) =>
     lireFichier(racine, cheminFichier.referentiel(nom), schema, problemes);
 
-  const invalides = { sources: new Set<string>(), textes: new Set<string>(), parlementaires: new Set<string>(), partis: new Set<string>() };
+  const invalides = {
+    sources: new Set<string>(),
+    textes: new Set<string>(),
+    parlementaires: new Set<string>(),
+    partis: new Set<string>(),
+    decisions: new Set<string>(),
+  };
   const donnees: Donnees = {
     sources: await lireDossier(racine, "sources", schemaSource, problemes, invalides.sources),
     textes: await lireDossier(racine, "textes", schemaTexte, problemes, invalides.textes),
     parlementaires: await lireDossier(racine, "parlementaires", schemaParlementaire, problemes, invalides.parlementaires),
     partis: await lireDossier(racine, "partis", schemaParti, problemes, invalides.partis),
+    decisions: await lireDossier(racine, "decisions", schemaDecision, problemes, invalides.decisions),
     invalides,
     referentiels: {
       legislatures: ((await ref("legislatures", schemaLegislatures)) ?? []) as Legislature[],

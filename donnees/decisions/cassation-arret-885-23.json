@@ -1,0 +1,24 @@
+{
+  "id": "cassation-arret-885-23",
+  "juridiction": "cour_de_cassation",
+  "formation": "Assemblée plénière",
+  "numero": "885/23",
+  "date": "2023-10-31",
+  "sens": [
+    "rejet"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 637, 5°"
+      ]
+    }
+  ],
+  "resume": "La révision prévue par l'article 637, 5° du Code de procédure pénale exige un fait nouveau ou une pièce inconnue lors des débats, de nature à établir l'innocence du condamné. Un témoignage recueilli après la condamnation, qui ne répond pas à ces conditions, ne suffit pas : la requête est rejetée.",
+  "page": 2,
+  "source_ids": [
+    "src-cassation-arret-885-23"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

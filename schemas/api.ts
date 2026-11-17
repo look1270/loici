@@ -8,6 +8,7 @@ import type { Parlementaire } from "./acteurs";
 import type { Categorie, Commission, Legislature, Theme, domaineOfficiel } from "./referentiels";
 import type { Source } from "./source";
 import type { RoleActeur } from "./statuts";
+import type { Decision } from "./decision";
 import type { StatutTexte, Texte } from "./texte";
 
 /** Version courante de l'API (chemin /api/v1/). */
@@ -59,8 +60,11 @@ export interface ResumeTexte {
   mis_a_jour_le: string;
 }
 
-/** Contenu de textes/<id>.json : le texte complet et toutes les sources qu'il cite. */
-export type FicheTexte = Texte & { sources: Record<string, Source> };
+/**
+ * Contenu de textes/<id>.json : le texte complet, ses décisions de référence (les plus récentes d'abord)
+ * et toutes les sources citées par l'un ou par les autres.
+ */
+export type FicheTexte = Texte & { decisions: Decision[]; sources: Record<string, Source> };
 
 /** Contenu de parlementaires/<id>.json : la fiche et toutes les sources qu'elle cite. */
 export type FicheParlementaire = Parlementaire & { sources: Record<string, Source> };

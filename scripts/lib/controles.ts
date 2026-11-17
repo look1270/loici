@@ -210,9 +210,26 @@ export function controlesCroises(d: Donnees, aujourdhui: string): Probleme[] {
     }
   }
 
+  // ---------------------------------------------------------------- Décisions de référence
+  // Publication officielle exigée : toutes les sources d'une décision doivent être typées « officielle ».
+  for (const dec of d.decisions ?? []) {
+    const f = cheminFichier.decision(dec.id);
+    verifierSources(f, "source_ids", dec.source_ids);
+    verifierDate(f, "date", dec.date);
+    verifierDate(f, "mis_a_jour_le", dec.mis_a_jour_le);
+    dec.source_ids.forEach((id, i) => {
+      const s = ids.sources.get(id);
+      if (s && s.type !== "officielle") erreur(f, `source_ids.${i}`, "Une décision de référence ne cite que sa publication officielle (pas de presse)");
+    });
+    dec.textes_concernes.forEach((c, i) => {
+      if (!ids.textes.has(c.texte_id)) erreur(f, `textes_concernes.${i}.texte_id`, absente("Texte", "textes", c.texte_id, invalides?.textes));
+    });
+  }
+
   // ---------------------------------------------------------------- Sources orphelines
   // Inutile de le signaler si un fichier qui cite des sources a été écarté : l'alerte serait fausse.
-  const citeursEcartes = (invalides?.textes.size ?? 0) + (invalides?.parlementaires.size ?? 0) + (invalides?.partis.size ?? 0);
+  const citeursEcartes =
+    (invalides?.textes.size ?? 0) + (invalides?.parlementaires.size ?? 0) + (invalides?.partis.size ?? 0) + (invalides?.decisions?.size ?? 0);
   for (const p of d.parlementaires) sourcesParlementaire(p).forEach((id) => sourcesUtilisees.add(id));
   if (citeursEcartes === 0) {
     for (const s of d.sources) {
