@@ -1,0 +1,39 @@
+{
+  "id": "decret-2020-308-prevoyance-travailleurs-independants",
+  "acte": "decret",
+  "titre_officiel": "Décret n° 2020-308 du 4 mars 2020 fixant les modalités de fonctionnement des régimes de prévoyance sociale des travailleurs indépendants",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "sante"
+  ],
+  "categorie_id": "travail-protection-sociale",
+  "sous_categorie_id": "prevoyance-sociale",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2020-308",
+  "date_signature": "2020-03-04",
+  "reference_jo": {
+    "numero": "40",
+    "date": "2020-05-18",
+    "page": "581",
+    "source_ids": [
+      "src-cndj-2020-308"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2020-308",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2020-308"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

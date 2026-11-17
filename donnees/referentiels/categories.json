@@ -39,7 +39,11 @@
     "id": "travail-protection-sociale",
     "libelle": "Droit du travail et protection sociale",
     "explication": "Contrat de travail, droits des salariés, sécurité sociale et retraite.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "code-du-travail", "libelle": "Code du travail" },
+      { "id": "prevoyance-sociale", "libelle": "Prévoyance sociale et assurance maladie" },
+      { "id": "travail-des-enfants", "libelle": "Travail des enfants" }
+    ]
   },
   {
     "id": "affaires-ohada",

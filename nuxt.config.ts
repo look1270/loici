@@ -67,7 +67,7 @@ export default defineNuxtConfig({
       icons: [
         "lucide:inbox", "lucide:users", "lucide:check", "lucide:check-check", "lucide:landmark",
         "lucide:badge-check", "lucide:scroll-text", "lucide:circle-x", "lucide:undo-2", "lucide:scale",
-        "lucide:building-2", "lucide:circle",
+        "lucide:building-2", "lucide:circle", "lucide:archive",
         // Icônes de la page Contribuer (déclarées dans le script de la page).
         "lucide:file-plus", "lucide:flag", "lucide:bug",
       ],

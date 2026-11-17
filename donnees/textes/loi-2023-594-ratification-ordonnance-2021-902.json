@@ -1,0 +1,62 @@
+{
+  "id": "loi-2023-594-ratification-ordonnance-2021-902",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2023-594 du 7 juin 2023 portant ratification de l'ordonnance n° 2021-902 du 22 décembre 2021 modifiant la loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "travail-protection-sociale",
+  "sous_categorie_id": "code-du-travail",
+  "numero_loi": "Loi n° 2023-594",
+  "titre_loi": "Loi n° 2023-594 du 7 juin 2023 portant ratification de l'ordonnance n° 2021-902 du 22 décembre 2021 modifiant la loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "11 spécial",
+    "date": "2023-08-01",
+    "page": "225",
+    "source_ids": [
+      "src-cndj-2023-594"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "ratifie",
+      "texte_id": "ordonnance-2021-902-modifiant-code-travail",
+      "intitule": "ordonnance n° 2021-902 du 22 décembre 2021 modifiant la loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+      "source_ids": [
+        "src-cndj-2023-594"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2023-594",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2023-06-07",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2023-594 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2023-594"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2023-594"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "loi-2014-131-couverture-maladie-universelle",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2014-131 du 24 mars 2014 instituant la couverture maladie universelle",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "sante"
+  ],
+  "categorie_id": "travail-protection-sociale",
+  "sous_categorie_id": "prevoyance-sociale",
+  "numero_loi": "Loi n° 2014-131",
+  "titre_loi": "Loi n° 2014-131 du 24 mars 2014 instituant la couverture maladie universelle",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "15",
+    "date": "2014-04-10",
+    "page": "297",
+    "source_ids": [
+      "src-cndj-2014-131"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2014-131",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2014-03-24",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2014-131 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2014-131"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2014-131"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}
