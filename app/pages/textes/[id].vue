@@ -68,7 +68,13 @@ const identite = computed(() => {
   ];
 });
 
-useHead({ title: computed(() => (fiche.value ? `${fiche.value.titre_officiel} — LoiCI` : "Texte — LoiCI")) });
+/** Nom selon l'état du texte (« Loi n° … » une fois promulguée) ; l'intitulé du projet reste dans l'historique. */
+const nom = computed(() =>
+  fiche.value ? nomAffiche(fiche.value, fiche.value.etapes.find((e) => e.statut === "promulgue")?.date ?? null) : "",
+);
+const ancienIntitule = computed(() => (fiche.value && nom.value !== fiche.value.titre_officiel ? fiche.value.titre_officiel : null));
+
+useHead({ title: computed(() => (fiche.value ? `${nom.value} — LoiCI` : "Texte — LoiCI")) });
 
 const sommaire = [
   { ancre: "resume", libelle: "Résumé" },
@@ -121,14 +127,14 @@ const sommaire = [
     <article v-if="fiche" class="space-y-8">
       <header class="space-y-4">
         <p class="text-sm text-muted">
-          {{ libelleForme(fiche) }}<template v-if="fiche.numero_loi"> · {{ fiche.numero_loi }}</template>
+          {{ natureAffichee(fiche) }}<template v-if="fiche.numero_loi && !nom.startsWith(fiche.numero_loi)"> · {{ fiche.numero_loi }}</template>
         </p>
-        <h1 class="text-2xl font-bold leading-tight text-highlighted">{{ fiche.titre_officiel }}</h1>
+        <h1 class="text-2xl font-bold leading-tight text-highlighted">{{ nom }}</h1>
         <BadgeSourceNonOfficielle v-if="!sourceOfficielle" />
         <ProgressionStatut v-if="fiche.statut" :statut="fiche.statut" />
         <div class="flex flex-wrap items-center gap-2">
           <BoutonLirePlus v-if="documentPrincipal" :source="documentPrincipal" />
-          <BoutonSignaler :titre="fiche.titre_officiel" />
+          <BoutonSignaler :titre="nom" />
         </div>
         <RefsSources :ids="fiche.source_ids" etiquette="Sources de la fiche" />
       </header>
@@ -182,6 +188,9 @@ const sommaire = [
 
       <section id="parcours" aria-labelledby="titre-parcours" class="scroll-mt-4 space-y-3">
         <h2 id="titre-parcours" class="text-lg font-semibold text-highlighted">Parcours et votes</h2>
+        <p v-if="ancienIntitule" class="text-sm">
+          <span class="text-muted">Intitulé pendant l'examen :</span> {{ ancienIntitule }}
+        </p>
         <FriseEtapes :etapes="fiche.etapes" :commissions="commissions" />
       </section>
 

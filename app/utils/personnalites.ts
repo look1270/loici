@@ -6,6 +6,7 @@
  */
 import type { ResumeTexte } from "../../schemas/api";
 import type { RoleActeur } from "../../schemas/statuts";
+import { nomAffiche } from "./nom";
 import { normaliser } from "./recherche";
 
 export interface TexteLie {
@@ -41,7 +42,7 @@ export function listerPersonnalites(textes: ResumeTexte[], nomsParlementaires: M
     if (ministere && !p.ministeres.includes(ministere)) p.ministeres.push(ministere);
     // Un même texte n'est compté qu'une fois par rôle.
     if (p.textes.some((x) => x.id === t.id && x.role === role)) return;
-    p.textes.push({ id: t.id, titre: t.titre_officiel, role, annee: t.annee });
+    p.textes.push({ id: t.id, titre: nomAffiche(t, t.date_promulgation), role, annee: t.annee });
     if (role === "auteur") p.nb_portes += 1;
   };
 

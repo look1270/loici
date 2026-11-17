@@ -14,6 +14,7 @@ import { join } from "node:path";
 import { FILTRES_VIDES, anneesDuTexte, filtrerTextes } from "../app/utils/recherche";
 import { listerPersonnalites, personnalitesCorrespondantes } from "../app/utils/personnalites";
 import { STATUTS_INFOS, libelleForme } from "../app/utils/libelles";
+import { nomAffiche } from "../app/utils/nom";
 import { chargerDonnees } from "./lib/donnees";
 import { resumerTextes } from "./lib/resume";
 
@@ -75,7 +76,7 @@ async function principal() {
       ...t.auteurs_gouvernement.map((a) => a.ministre ?? a.ministere ?? "Gouvernement"),
       ...t.parlementaires.map((p) => `${noms.get(p.id) ?? p.id} (${p.role})`),
     ];
-    console.log(`• ${t.titre_officiel}`);
+    console.log(`• ${nomAffiche(t, t.date_promulgation)}`);
     console.log(`  ${libelleForme(t)} · ${statut} · ${anneesDuTexte(t).join(", ") || "année non renseignée"}`);
     if (auteurs.length) console.log(`  Porté par : ${auteurs.join(", ")}`);
     console.log(`  donnees/textes/${t.id}.json\n`);

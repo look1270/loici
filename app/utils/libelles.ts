@@ -49,13 +49,13 @@ export const STATUTS_INFOS: Record<CodeStatut, InfosStatut> = {
     icone: "i-lucide-landmark",
   },
   adopte_definitivement: {
-    libelle: "Adopté définitivement",
+    libelle: "Adoptée",
     explication: "Le Parlement a adopté le texte. Il attend sa promulgation.",
     couleur: "success",
     icone: "i-lucide-badge-check",
   },
   promulgue: {
-    libelle: "Promulgué",
+    libelle: "Promulguée",
     explication: "Le Président de la République a promulgué la loi.",
     couleur: "success",
     icone: "i-lucide-scroll-text",
@@ -106,6 +106,17 @@ export const ACTES: Record<string, { libelle: string; pluriel: string }> = {
 export function libelleForme(t: { acte: string; type: string | null }): string {
   if (t.type !== null) return TYPES_TEXTE[t.type]?.libelle ?? t.type;
   return ACTES[t.acte]?.libelle ?? t.acte;
+}
+
+/**
+ * Ce qu'est le texte aujourd'hui, en tête de carte et de fiche : « Loi » une fois adoptée définitivement
+ * ou promulguée (« Loi organique », « Loi de finances » si la nature est connue), sinon l'initiative ou l'acte.
+ */
+export function natureAffichee(t: { acte: string; type: string | null; nature: string | null; statut: string | null }): string {
+  if (t.acte === "loi" && (t.statut === "promulgue" || t.statut === "adopte_definitivement")) {
+    return t.nature && t.nature !== "ordinaire" ? (NATURES_TEXTE[t.nature] ?? "Loi") : "Loi";
+  }
+  return libelleForme(t);
 }
 
 /** États de vigueur (affichés seulement si une source les atteste). */

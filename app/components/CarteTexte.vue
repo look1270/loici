@@ -14,12 +14,12 @@ const auteur = computed(() => {
   <article class="relative rounded-lg border border-default p-4 hover:bg-elevated focus-within:ring-2 focus-within:ring-primary">
     <div class="flex flex-wrap items-center gap-2">
       <BadgeStatut v-if="texte.statut" :statut="texte.statut" />
-      <span class="text-sm text-muted">{{ libelleForme(texte) }}</span>
+      <span class="text-sm text-muted">{{ natureAffichee(texte) }}</span>
       <BadgeSourceNonOfficielle v-if="!texte.source_officielle" />
     </div>
     <h2 class="mt-2 font-semibold text-highlighted">
       <NuxtLink :to="`/textes/${texte.id}`" class="after:absolute after:inset-0">
-        {{ texte.titre_officiel }}
+        {{ nomAffiche(texte, texte.date_promulgation) }}
       </NuxtLink>
     </h2>
     <p v-if="texte.numero_loi" class="text-sm">{{ texte.numero_loi }}</p>

@@ -3,6 +3,7 @@
  * Fonctions pures : testées dans tests/recherche.test.ts.
  */
 import type { ResumeTexte } from "../../schemas/api";
+import { nomAffiche } from "./nom";
 
 /** Valeur spéciale des listes déroulantes : « aucun filtre ». */
 export const TOUS = "tous";
@@ -67,7 +68,7 @@ export function texteRecherchable(t: ResumeTexte, nomsParlementaires: Map<string
   return normaliser(
     [
       t.titre_officiel,
-      t.titre_loi ?? "",
+      nomAffiche(t, t.date_promulgation),
       t.numero_depot ?? "",
       t.numero_loi ?? "",
       t.numero_acte ?? "",
@@ -78,10 +79,25 @@ export function texteRecherchable(t: ResumeTexte, nomsParlementaires: Map<string
   );
 }
 
-/** Tous les mots de la requête doivent être présents (dans n'importe quel ordre). */
+/**
+ * Mots ignorés dans la requête : ceux qui changent entre « projet de loi relatif au nom »
+ * et « loi relative au nom ». Ainsi les deux formulations trouvent le même texte.
+ * (« loi » reste significatif : il distingue une loi d'un décret.)
+ */
+const MOTS_VIDES = new Set([
+  "projet", "proposition", "de", "du", "des", "d", "la", "le", "les", "l", "a", "au", "aux", "et",
+  "relatif", "relative", "relatifs", "relatives", "portant", "n", "no",
+]);
+
+/** Tous les mots significatifs de la requête doivent être présents (dans n'importe quel ordre). */
 export function correspond(recherchable: string, requete: string): boolean {
-  const mots = normaliser(requete).split(" ").filter(Boolean);
-  return mots.every((mot) => recherchable.includes(mot));
+  const tous = normaliser(requete).split(" ").filter(Boolean);
+  const significatifs = tous.filter((m) => !MOTS_VIDES.has(m));
+  // Une requête faite uniquement de mots vides (« de la ») garde ses mots, plutôt que de tout trouver.
+  const mots = significatifs.length ? significatifs : tous;
+  // Chaque mot doit commencer un mot du texte : « nom » trouve « nom », pas « économie » ; « coulib » trouve « Coulibaly ».
+  const avecDebut = ` ${recherchable}`;
+  return mots.every((mot) => avecDebut.includes(` ${mot}`));
 }
 
 /** Applique la recherche et les filtres, puis trie par activité la plus récente. */
