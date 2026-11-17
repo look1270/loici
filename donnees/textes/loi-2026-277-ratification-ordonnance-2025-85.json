@@ -1,0 +1,62 @@
+{
+  "id": "loi-2026-277-ratification-ordonnance-2025-85",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2026-277 du 7 mai 2026 portant ratification de l'ordonnance n° 2025-85 du 12 février 2025 portant création, attributions, organisation et fonctionnement du Système d'information du foncier rural de Côte d'Ivoire, en abrégé SIFOR-CI",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "agriculture-et-elevage"
+  ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": "foncier-rural",
+  "numero_loi": "Loi n° 2026-277",
+  "titre_loi": "Loi n° 2026-277 du 7 mai 2026 portant ratification de l'ordonnance n° 2025-85 du 12 février 2025 portant création, attributions, organisation et fonctionnement du Système d'information du foncier rural de Côte d'Ivoire, en abrégé SIFOR-CI",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "47",
+    "date": "2026-06-11",
+    "page": "1190",
+    "source_ids": [
+      "src-cndj-2026-277"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "ratifie",
+      "texte_id": "ordonnance-2025-85-sifor-ci",
+      "intitule": "ordonnance n° 2025-85 du 12 février 2025 (Système d'information du foncier rural de Côte d'Ivoire)",
+      "source_ids": [
+        "src-cndj-2026-277"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2026-277",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2026-05-07",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2026-277 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2026-277"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2026-277"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

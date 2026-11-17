@@ -61,7 +61,11 @@
     "id": "foncier-immobilier",
     "libelle": "Droit foncier et immobilier",
     "explication": "Terres, urbanisme, construction et location de logements.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "foncier-rural", "libelle": "Foncier rural" },
+      { "id": "foncier-urbain-urbanisme", "libelle": "Foncier urbain et urbanisme" },
+      { "id": "construction-habitat", "libelle": "Construction, habitat et baux" }
+    ]
   },
   {
     "id": "finances-fiscal-douanier",

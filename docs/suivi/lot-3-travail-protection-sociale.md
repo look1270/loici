@@ -34,3 +34,4 @@ Toutes les sources de ce lot sont officielles (CNDJ).
 | Décret n° 2020-308 | Lien vers la loi qu'il applique | Son intitulé ne cite pas de loi ; une copie du JO (site de la CNPS) cite le Code de prévoyance sociale, mais ce site n'est pas dans les domaines officiels |
 | Décrets d'application du Code du travail, retraite des fonctionnaires, SMIG, autres ordonnances de 2005 sur la prévoyance sociale | Recherche | Il faut d'abord leur numéro pour interroger le CNDJ |
 | Projet du Conseil des ministres sur le Code du travail (mai 2023, Sénat) | Rattachement | Correspond vraisemblablement à la ratification de l'ordonnance n° 2021-902 ; aucune fiche « projet » n'existait |
+| Ordonnance n° 2025-408 du 18 juin 2025 modifiant la loi n° 99-477, ratifiée par la loi n° 2026-282 du 7 mai 2026 | Fiches | Repérées sur la liste générale du CNDJ pendant le lot 4 (JO n° 47 du 11/06/2026, p. 1192) ; à vérifier par une recherche par numéro avant d'ouvrir une fiche |

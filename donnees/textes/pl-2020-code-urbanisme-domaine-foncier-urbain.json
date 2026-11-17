@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Ce projet de loi institue un code de l'urbanisme et du domaine foncier urbain. Selon l'Assemblée nationale, il vise à réduire fortement le volume des litiges, à faire respecter les règles d'urbanisme et à mettre fin à la prolifération des quartiers précaires.",
   "explication": null,
@@ -13,12 +13,19 @@
     "urbanisme-et-habitat"
   ],
   "categorie_id": "foncier-immobilier",
-  "sous_categorie_id": null,
-  "numero_loi": null,
-  "titre_loi": null,
+  "sous_categorie_id": "foncier-urbain-urbanisme",
+  "numero_loi": "Loi n° 2020-624",
+  "titre_loi": "Loi n° 2020-624 du 14 août 2020 instituant Code de l'urbanisme et du domaine foncier urbain",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "22 spécial",
+    "date": "2020-12-22",
+    "page": "621",
+    "source_ids": [
+      "src-cndj-2020-624"
+    ]
+  },
   "vigueur": null,
   "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
@@ -59,11 +66,25 @@
       "source_ids": [
         "src-assnat-pleniere-2020-06-25"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2020-08-14",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2020-624 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2020-624"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-assnat-pleniere-2020-06-25"
+    "src-assnat-pleniere-2020-06-25",
+    "src-cndj-2020-624"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

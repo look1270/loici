@@ -1,0 +1,62 @@
+{
+  "id": "loi-2013-655-droits-coutumiers",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2013-655 du 13 septembre 2013 relative au délai accordé pour la constatation des droits coutumiers sur les terres du domaine coutumier et portant modification de l'article 6 de la loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par la loi n° 2004-412 du 14 août 2004",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "agriculture-et-elevage"
+  ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": "foncier-rural",
+  "numero_loi": "Loi n° 2013-655",
+  "titre_loi": "Loi n° 2013-655 du 13 septembre 2013 relative au délai accordé pour la constatation des droits coutumiers sur les terres du domaine coutumier et portant modification de l'article 6 de la loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par la loi n° 2004-412 du 14 août 2004",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "41 ec",
+    "date": "2013-10-14",
+    "page": "598",
+    "source_ids": [
+      "src-cndj-2013-655"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-98-750-domaine-foncier-rural",
+      "intitule": "loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural",
+      "source_ids": [
+        "src-cndj-2013-655"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2013-655",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2013-09-13",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2013-655 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2013-655"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2013-655"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

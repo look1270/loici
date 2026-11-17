@@ -1,0 +1,62 @@
+{
+  "id": "loi-2019-868-modifiant-foncier-rural",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-868 du 14 octobre 2019 modifiant la loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par les lois n° 2004-412 du 14 août 2004 et n° 2013-655 du 13 septembre 2013",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "agriculture-et-elevage"
+  ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": "foncier-rural",
+  "numero_loi": "Loi n° 2019-868",
+  "titre_loi": "Loi n° 2019-868 du 14 octobre 2019 modifiant la loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural, telle que modifiée par les lois n° 2004-412 du 14 août 2004 et n° 2013-655 du 13 septembre 2013",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "96",
+    "date": "2019-12-02",
+    "page": "1318",
+    "source_ids": [
+      "src-cndj-2019-868"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-98-750-domaine-foncier-rural",
+      "intitule": "loi n° 98-750 du 23 décembre 1998 relative au domaine foncier rural",
+      "source_ids": [
+        "src-cndj-2019-868"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2019-868",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-10-14",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-868 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2019-868"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-868"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

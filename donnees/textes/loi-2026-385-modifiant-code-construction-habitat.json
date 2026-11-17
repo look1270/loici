@@ -1,0 +1,62 @@
+{
+  "id": "loi-2026-385-modifiant-code-construction-habitat",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2026-385 du 19 juin 2026 modifiant la loi n° 2019-576 du 26 juin 2019 instituant Code de la construction et de l'habitat",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "urbanisme-et-habitat"
+  ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": "construction-habitat",
+  "numero_loi": "Loi n° 2026-385",
+  "titre_loi": "Loi n° 2026-385 du 19 juin 2026 modifiant la loi n° 2019-576 du 26 juin 2019 instituant Code de la construction et de l'habitat",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "67",
+    "date": "2026-08-20",
+    "page": "1706",
+    "source_ids": [
+      "src-cndj-2026-385"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-2019-576-code-construction-habitat",
+      "intitule": "loi n° 2019-576 du 26 juin 2019 instituant Code de la construction et de l'habitat",
+      "source_ids": [
+        "src-cndj-2026-385"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2026-385",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2026-06-19",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2026-385 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2026-385"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2026-385"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}
