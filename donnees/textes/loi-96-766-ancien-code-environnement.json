@@ -1,0 +1,60 @@
+{
+  "id": "loi-96-766-ancien-code-environnement",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 96-766 du 3 octobre 1996 portant Code de l'environnement",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "environnement-et-energie"
+  ],
+  "categorie_id": "environnement-mines-agriculture",
+  "sous_categorie_id": "environnement-eau",
+  "numero_loi": "Loi n° 96-766",
+  "titre_loi": "Loi n° 96-766 du 3 octobre 1996 portant Code de l'environnement",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "6",
+    "date": "1997-02-06",
+    "page": "114",
+    "source_ids": [
+      "src-cndj-96-766"
+    ]
+  },
+  "vigueur": {
+    "etat": "abroge",
+    "source_ids": [
+      "src-cndj-96-766",
+      "src-cndj-2023-900"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-96-766",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "1996-10-03",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 96-766 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-96-766"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2023-900",
+    "src-cndj-96-766"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "loi-2015-532-code-travail",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "travail-protection-sociale",
+  "sous_categorie_id": "code-du-travail",
+  "numero_loi": "Loi n° 2015-532",
+  "titre_loi": "Loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "74",
+    "date": "2015-09-14",
+    "page": "1197",
+    "source_ids": [
+      "src-cndj-2015-532"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2015-532",
+      "src-cndj-2021-902"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": "loi-95-15-ancien-code-travail",
+      "intitule": "loi n° 95-15 du 12 janvier 1995 portant Code du travail",
+      "source_ids": [
+        "src-cndj-2015-532"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 97-400",
+      "source_ids": [
+        "src-cndj-2015-532"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2015-532",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2015-07-20",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2015-532 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2015-532"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2015-532",
+    "src-cndj-2021-902"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

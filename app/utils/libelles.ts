@@ -100,7 +100,13 @@ export const ACTES: Record<string, { libelle: string; pluriel: string }> = {
   loi: { libelle: "Loi", pluriel: "Lois" },
   ordonnance: { libelle: "Ordonnance", pluriel: "Ordonnances" },
   decret: { libelle: "Décret", pluriel: "Décrets" },
+  acte_uniforme: { libelle: "Acte uniforme OHADA", pluriel: "Actes uniformes OHADA" },
 };
+
+/** Accord au masculin (« Abrogé ») pour un décret ou un acte uniforme, au féminin sinon. */
+export function estMasculin(acte: string): boolean {
+  return acte === "decret" || acte === "acte_uniforme";
+}
 
 /** Libellé court de la forme d'un texte : l'initiative pour une loi (« Projet de loi »…), sinon l'acte (« Décret »). */
 export function libelleForme(t: { acte: string; type: string | null }): string {
@@ -170,3 +176,18 @@ export const SORTS_AMENDEMENT: Record<string, string> = {
 
 /** Texte unique pour toute information inconnue (règle « ne jamais inventer »). */
 export const NON_RENSEIGNE = "Non renseigné";
+
+/** Juridictions des décisions de référence. */
+export const JURIDICTIONS: Record<string, string> = {
+  conseil_constitutionnel: "Conseil constitutionnel",
+  cour_de_cassation: "Cour de cassation",
+};
+
+/** Sens d'une décision, tel qu'il ressort de son dispositif. */
+export const SENS_DECISION: Record<string, string> = {
+  conformite: "Conforme à la Constitution",
+  rejet: "Rejet",
+  irrecevabilite: "Irrecevable",
+  cassation: "Cassation",
+  sans_objet: "Sans objet",
+};

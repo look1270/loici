@@ -97,6 +97,7 @@ function donneesValides(): Donnees {
       },
     ],
     partis: [{ id: "parti-x", nom: "Parti factice", sigle: null, source_ids: ["src-presse"] }],
+    decisions: [],
     referentiels: {
       legislatures: [{ id: "leg-x", chambre: "assemblee_nationale", libelle: "Législature factice", date_debut: null, date_fin: null, source_ids: ["src-off"] }],
       commissions: [{ id: "an-com", chambre: "assemblee_nationale", nom: "Commission factice", sigle: null, source_ids: ["src-off"] }],
@@ -112,6 +113,31 @@ const erreurs = (d: Donnees) => controlesCroises(d, AUJOURDHUI).filter((p) => p.
 
 test("le jeu de référence ne produit aucun problème", () => {
   assert.deepEqual(controlesCroises(donneesValides(), AUJOURDHUI), []);
+});
+
+test("décision de référence : publication officielle et texte existant exigés", () => {
+  const decisionFactice = {
+    id: "decision-factice",
+    juridiction: "cour_de_cassation" as const,
+    formation: "Chambre pénale",
+    numero: "001.Pe/29",
+    date: "2029-01-15",
+    sens: ["rejet" as const],
+    textes_concernes: [{ texte_id: "texte-factice", articles: ["article 1"] }],
+    resume: "Résumé factice d'une décision de référence, assez long pour respecter la longueur minimale exigée.",
+    page: 1,
+    source_ids: ["src-off"],
+    mis_a_jour_le: "2029-06-01",
+  };
+  const d = donneesValides();
+  d.decisions = [decisionFactice];
+  assert.deepEqual(erreurs(d), []);
+
+  const d2 = donneesValides();
+  d2.decisions = [{ ...decisionFactice, source_ids: ["src-presse"], textes_concernes: [{ texte_id: "texte-absent", articles: ["article 1"] }] }];
+  const e = erreurs(d2).join("\n");
+  assert.ok(e.includes("pas de presse"), "source de presse refusée");
+  assert.ok(e.includes("Texte introuvable"), "texte inconnu");
 });
 
 test("domaines officiels : domaine exact et sous-domaines seulement", () => {

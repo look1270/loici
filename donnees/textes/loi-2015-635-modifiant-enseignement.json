@@ -1,0 +1,62 @@
+{
+  "id": "loi-2015-635-modifiant-enseignement",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2015-635 du 17 septembre 2015 portant modification de la loi n° 95-696 du 7 septembre 1995 relative à l'enseignement",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "education-et-recherche"
+  ],
+  "categorie_id": "sante-education",
+  "sous_categorie_id": "enseignement",
+  "numero_loi": "Loi n° 2015-635",
+  "titre_loi": "Loi n° 2015-635 du 17 septembre 2015 portant modification de la loi n° 95-696 du 7 septembre 1995 relative à l'enseignement",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "15 spécial",
+    "date": "2015-09-25",
+    "page": "153",
+    "source_ids": [
+      "src-cndj-2015-635"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-95-696-enseignement",
+      "intitule": "loi n° 95-696 du 7 septembre 1995 relative à l'enseignement",
+      "source_ids": [
+        "src-cndj-2015-635"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2015-635",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2015-09-17",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2015-635 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2015-635"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2015-635"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

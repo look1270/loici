@@ -1,0 +1,44 @@
+{
+  "id": "acte-uniforme-ohada-suretes",
+  "acte": "acte_uniforme",
+  "titre_officiel": "Acte uniforme portant organisation des sûretés",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "actes-uniformes-ohada",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": "2010-12-15",
+  "reference_jo": {
+    "numero": null,
+    "date": "2011-02-15",
+    "page": null,
+    "source_ids": [
+      "src-acte-uniforme-ohada-suretes"
+    ]
+  },
+  "vigueur": {
+    "etat": "en_vigueur",
+    "source_ids": [
+      "src-acte-uniforme-ohada-suretes"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-acte-uniforme-ohada-suretes",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-acte-uniforme-ohada-suretes"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

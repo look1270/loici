@@ -11,6 +11,13 @@ import type { Commission, Parlementaire, Parti } from "~~/schemas";
 const route = useRoute();
 const id = String(route.params.id);
 
+/** Pourquoi la frise est vide pour un texte qui ne passe pas par le Parlement. */
+const PAS_DE_PARCOURS: Record<string, string> = {
+  ordonnance: "Pas de parcours au Parlement : une ordonnance est prise par l'exécutif.",
+  decret: "Pas de parcours au Parlement : un décret est signé par l'exécutif.",
+  acte_uniforme: "Pas de parcours au Parlement : un acte uniforme est adopté au niveau de l'OHADA.",
+};
+
 const { fiche, etat, reessayer } = useFiche("textes", id);
 const { data: referentiels } = useReferentiels();
 const { data: listeParlementaires } = useParlementaires();
@@ -47,12 +54,12 @@ const identite = computed(() => {
       ? [{ terme: "Numéro de loi", valeur: t.numero_loi }]
       : [
           { terme: "Numéro", valeur: t.numero_acte },
-          { terme: "Date de signature", valeur: formaterDate(t.date_signature) },
+          { terme: t.acte === "acte_uniforme" ? "Date d'adoption" : "Date de signature", valeur: formaterDate(t.date_signature) },
         ]),
     {
-      terme: "Journal officiel",
+      terme: t.acte === "acte_uniforme" ? "Journal officiel de l'OHADA" : "Journal officiel",
       valeur: t.reference_jo
-        ? [`n° ${t.reference_jo.numero}`, t.reference_jo.date ? `du ${formaterDate(t.reference_jo.date)}` : "", t.reference_jo.page ? `p. ${t.reference_jo.page}` : ""]
+        ? [t.reference_jo.numero ? `n° ${t.reference_jo.numero}` : "", t.reference_jo.date ? `du ${formaterDate(t.reference_jo.date)}` : "", t.reference_jo.page ? `p. ${t.reference_jo.page}` : ""]
             .filter(Boolean)
             .join(" ")
         : null,
@@ -76,13 +83,23 @@ const ancienIntitule = computed(() => (fiche.value && nom.value !== fiche.value.
 
 useHead({ title: computed(() => (fiche.value ? `${nom.value} — LoiCI` : "Texte — LoiCI")) });
 
-const sommaire = [
+const decisions = computed(() => fiche.value?.decisions ?? []);
+const sommaire = computed(() => [
   { ancre: "resume", libelle: "Résumé" },
   { ancre: "acteurs", libelle: "Qui porte ce texte" },
   { ancre: "parcours", libelle: "Parcours et votes" },
   { ancre: "revisions", libelle: "Révisions" },
+  // Bloc affiché seulement s'il existe au moins une décision publiée : jamais de section vide.
+  ...(decisions.value.length ? [{ ancre: "decisions", libelle: "Décisions de référence" }] : []),
   { ancre: "sources", libelle: "Sources" },
-];
+]);
+
+/** Lien « Lire la décision » : la publication officielle, à la page de la solution si elle est connue. */
+function lienDecision(d: { source_ids: string[]; page: number | null }): string | null {
+  const s = fiche.value?.sources[d.source_ids[0]!];
+  if (!s) return null;
+  return d.page ? `${s.url}#page=${d.page}` : s.url;
+}
 </script>
 
 <template>
@@ -191,12 +208,48 @@ const sommaire = [
         <p v-if="ancienIntitule" class="text-sm">
           <span class="text-muted">Intitulé pendant l'examen :</span> {{ ancienIntitule }}
         </p>
-        <FriseEtapes :etapes="fiche.etapes" :commissions="commissions" />
+        <FriseEtapes v-if="fiche.etapes.length" :etapes="fiche.etapes" :commissions="commissions" />
+        <p v-else class="text-muted">
+          {{ fiche.acte === "loi" ? "Aucune étape enregistrée." : PAS_DE_PARCOURS[fiche.acte] }}
+        </p>
       </section>
 
       <section id="revisions" aria-labelledby="titre-revisions" class="scroll-mt-4 space-y-3">
         <h2 id="titre-revisions" class="text-lg font-semibold text-highlighted">Révisions</h2>
         <HistoriqueRevisions :revisions="fiche.revisions" :etapes="fiche.etapes" :parlementaires="parlementaires" />
+      </section>
+
+      <section v-if="decisions.length" id="decisions" aria-labelledby="titre-decisions" class="scroll-mt-4 space-y-3">
+        <h2 id="titre-decisions" class="text-lg font-semibold text-highlighted">Décisions de référence</h2>
+        <p class="text-sm text-muted">
+          Décisions publiées par la juridiction elle-même. Parties anonymisées. Résumé non officiel : seule la décision publiée fait foi.
+        </p>
+        <ul class="space-y-3">
+          <li v-for="d in decisions" :key="d.id" class="rounded-lg border border-default p-4 space-y-2">
+            <p class="font-semibold text-highlighted">
+              {{ JURIDICTIONS[d.juridiction] ?? d.juridiction }}<template v-if="d.formation">, {{ d.formation }}</template>
+              · {{ formaterDate(d.date) }} · n° {{ d.numero }}
+            </p>
+            <p class="text-sm">
+              <span class="text-muted">Sens :</span> {{ d.sens.map((s) => SENS_DECISION[s] ?? s).join(" ; ") }}
+              <span class="text-muted"> · Articles en cause :</span>
+              {{ d.textes_concernes.find((c) => c.texte_id === id)?.articles.join(", ") }}
+            </p>
+            <p class="leading-relaxed">{{ d.resume }}</p>
+            <p class="flex flex-wrap items-center gap-2 text-sm">
+              <a
+                v-if="lienDecision(d)"
+                :href="lienDecision(d)!"
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center gap-1 underline underline-offset-2"
+              >
+                Lire la décision<UIcon name="i-lucide-external-link" class="size-4" aria-hidden="true" />
+              </a>
+              <RefsSources :ids="d.source_ids" etiquette="Source" class="inline-flex" />
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section id="sources" aria-labelledby="titre-sources" class="scroll-mt-4 space-y-3">

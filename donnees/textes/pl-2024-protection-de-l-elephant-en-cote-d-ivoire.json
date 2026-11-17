@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 11 juin 2024, au cours de sa première session ordinaire 2024, selon le tableau des projets de loi adoptés publié dans son rapport d'activités 2024 (tableau des projets de loi adoptés, pages 21-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
   "explication": null,
@@ -13,12 +13,19 @@
     "environnement-et-energie"
   ],
   "categorie_id": "environnement-mines-agriculture",
-  "sous_categorie_id": null,
-  "numero_loi": null,
-  "titre_loi": null,
+  "sous_categorie_id": "forets-faune",
+  "numero_loi": "Loi n° 2024-365",
+  "titre_loi": "Loi n° 2024-365 du 11 juin 2024 portant protection de l'éléphant en Côte d'Ivoire",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "11 spécial",
+    "date": "2024-06-19",
+    "page": "233",
+    "source_ids": [
+      "src-cndj-2024-365"
+    ]
+  },
   "vigueur": null,
   "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2024",
@@ -59,11 +66,25 @@
       "source_ids": [
         "src-senat-rapport-activites-2024"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2024-06-11",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2024-365 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2024-365"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-senat-rapport-activites-2024"
+    "src-senat-rapport-activites-2024",
+    "src-cndj-2024-365"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

@@ -1,0 +1,31 @@
+{
+  "id": "cc-2023-001-article-182-code-procedure-penale",
+  "juridiction": "conseil_constitutionnel",
+  "formation": null,
+  "numero": "CI-2023-001/DCC/11-05/CC/SG",
+  "date": "2023-05-11",
+  "sens": [
+    "sans_objet",
+    "rejet"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 182"
+      ]
+    },
+    {
+      "texte_id": "loi-2019-574-code-penal",
+      "articles": [
+        "article 564"
+      ]
+    }
+  ],
+  "resume": "Saisi par voie d'exception par une personne renvoyée devant un tribunal criminel, le Conseil juge sans objet le recours contre l'article 354 de l'ancien Code pénal, abrogé par l'article 564 du Code pénal de 2019. Il juge que l'article 182 du Code de procédure pénale, qui permet au procureur général de s'opposer à une mise en liberté par des réquisitions spécialement motivées, ne viole pas la Constitution, et rejette la requête.",
+  "page": 5,
+  "source_ids": [
+    "src-cc-decision-2023-001"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

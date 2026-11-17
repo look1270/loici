@@ -1,0 +1,53 @@
+{
+  "id": "loi-2013-546-transactions-electroniques",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2013-546 du 30 juillet 2013 relative aux transactions électroniques",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "numerique-donnees",
+  "sous_categorie_id": "donnees-personnelles",
+  "numero_loi": "Loi n° 2013-546",
+  "titre_loi": "Loi n° 2013-546 du 30 juillet 2013 relative aux transactions électroniques",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "37",
+    "date": "2013-09-12",
+    "page": "583",
+    "source_ids": [
+      "src-cndj-2013-546"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2013-546",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2013-07-30",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2013-546 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2013-546"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2013-546"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

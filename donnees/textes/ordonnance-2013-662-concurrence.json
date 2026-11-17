@@ -1,0 +1,47 @@
+{
+  "id": "ordonnance-2013-662-concurrence",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2013-662 du 20 septembre 2013 relative à la concurrence",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "concurrence-consommation",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2013-662",
+  "date_signature": "2013-09-20",
+  "reference_jo": {
+    "numero": "12 spécial",
+    "date": "2013-09-25",
+    "page": "259",
+    "source_ids": [
+      "src-cndj-2013-662"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2019-389",
+      "src-cndj-2022-158"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2013-662",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2013-662",
+    "src-cndj-2019-389",
+    "src-cndj-2022-158"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

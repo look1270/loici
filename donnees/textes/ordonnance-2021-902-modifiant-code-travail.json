@@ -1,0 +1,48 @@
+{
+  "id": "ordonnance-2021-902-modifiant-code-travail",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2021-902 du 22 décembre 2021 modifiant la loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "travail-protection-sociale",
+  "sous_categorie_id": "code-du-travail",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2021-902",
+  "date_signature": "2021-12-22",
+  "reference_jo": {
+    "numero": "7",
+    "date": "2022-01-24",
+    "page": "55",
+    "source_ids": [
+      "src-cndj-2021-902"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-2015-532-code-travail",
+      "intitule": "loi n° 2015-532 du 20 juillet 2015 portant Code du travail",
+      "source_ids": [
+        "src-cndj-2021-902"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2021-902",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2021-902"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

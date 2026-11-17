@@ -1,0 +1,24 @@
+{
+  "id": "cassation-arret-46-pe-24",
+  "juridiction": "cour_de_cassation",
+  "formation": "Chambre pénale",
+  "numero": "46.Pe/24",
+  "date": "2024-03-14",
+  "sens": [
+    "irrecevabilite"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 604"
+      ]
+    }
+  ],
+  "resume": "Contre un arrêt rendu par défaut, le délai de pourvoi ne court pour le prévenu qu'à partir du jour où l'opposition n'est plus possible (article 604 du Code de procédure pénale). Faute de preuve que l'arrêt lui a été signifié, son pourvoi est déclaré irrecevable.",
+  "page": 1,
+  "source_ids": [
+    "src-cassation-arret-46-pe-24"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

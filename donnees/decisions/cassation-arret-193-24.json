@@ -1,0 +1,24 @@
+{
+  "id": "cassation-arret-193-24",
+  "juridiction": "cour_de_cassation",
+  "formation": "Assemblée plénière",
+  "numero": "193/24",
+  "date": "2024-02-27",
+  "sens": [
+    "irrecevabilite"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 665"
+      ]
+    }
+  ],
+  "resume": "Le règlement de juges suppose que deux juridictions du même ordre soient saisies en même temps. Un tribunal correctionnel et la chambre d'instruction d'une cour d'appel n'étant pas du même ordre, les conditions de l'article 665 du Code de procédure pénale ne sont pas réunies : la requête est irrecevable.",
+  "page": 2,
+  "source_ids": [
+    "src-cassation-arret-193-24"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

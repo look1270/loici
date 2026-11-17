@@ -1,0 +1,24 @@
+{
+  "id": "cc-2025-001-article-491-code-penal",
+  "juridiction": "conseil_constitutionnel",
+  "formation": null,
+  "numero": "CI-2025-001/DCC/11-02/CC/SG",
+  "date": "2025-02-11",
+  "sens": [
+    "conformite"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2019-574-code-penal",
+      "articles": [
+        "article 491"
+      ]
+    }
+  ],
+  "resume": "Saisi par voie d'exception par des prévenus poursuivis pour destruction de récoltes, le Conseil juge que l'article 491 du Code pénal protège les récoltes et plantations, et non la propriété du sol, et que ses éléments intentionnel et matériel sont définis. Il déclare l'article conforme à la Constitution et rejette la requête.",
+  "page": 4,
+  "source_ids": [
+    "src-cc-decision-2025-001"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "loi-2019-874-ratification-ordonnance-2018-646",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-874 du 14 octobre 2019 ratifiant l'ordonnance n° 2018-646 du 1er août 2018 portant Code des investissements",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "investissements",
+  "numero_loi": "Loi n° 2019-874",
+  "titre_loi": "Loi n° 2019-874 du 14 octobre 2019 ratifiant l'ordonnance n° 2018-646 du 1er août 2018 portant Code des investissements",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "96",
+    "date": "2019-12-02",
+    "page": "1322",
+    "source_ids": [
+      "src-cndj-2019-874"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "ratifie",
+      "texte_id": "ordonnance-2018-646-code-investissements",
+      "intitule": "ordonnance n° 2018-646 du 1er août 2018 portant Code des investissements",
+      "source_ids": [
+        "src-cndj-2019-874"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2019-874",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-10-14",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-874 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2019-874"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-874"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "loi-2019-572-minorite",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-572 du 26 juin 2019 relative à la minorité",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "droit-des-personnes"
+  ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "minorite",
+  "numero_loi": "Loi n° 2019-572",
+  "titre_loi": "Loi n° 2019-572 du 26 juin 2019 relative à la minorité",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "11 spécial",
+    "date": "2019-07-16",
+    "page": "265",
+    "source_ids": [
+      "src-cndj-loi-2019-572"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-loi-2019-572",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-06-26",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-572 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2019-572"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2019-572"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

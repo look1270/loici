@@ -1,0 +1,53 @@
+{
+  "id": "loi-2019-675-code-forestier",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-675 du 23 juillet 2019 portant Code forestier",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "environnement-et-energie"
+  ],
+  "categorie_id": "environnement-mines-agriculture",
+  "sous_categorie_id": "forets-faune",
+  "numero_loi": "Loi n° 2019-675",
+  "titre_loi": "Loi n° 2019-675 du 23 juillet 2019 portant Code forestier",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "18 spécial",
+    "date": "2019-10-02",
+    "page": "313",
+    "source_ids": [
+      "src-cndj-2019-675"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2019-675",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-07-23",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-675 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2019-675"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-675"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

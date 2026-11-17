@@ -13,7 +13,7 @@
     "finances-publiques"
   ],
   "categorie_id": "finances-fiscal-douanier",
-  "sous_categorie_id": null,
+  "sous_categorie_id": "finances-publiques",
   "numero_loi": null,
   "titre_loi": null,
   "numero_acte": null,
@@ -70,5 +70,5 @@
     "src-gouv-ccm-2026-10-14",
     "src-koaci-plf-2027-caef-2026-11-10"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

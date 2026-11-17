@@ -8,7 +8,7 @@
  *   public/api/v1/  (publié tel quel par GitHub Pages ou Cloudflare Pages, licence ODbL)
  *      meta.json             date de génération, effectifs, licence
  *      textes.json           liste légère pour la recherche et les filtres
- *      textes/<id>.json      fiche complète, sources incluses
+ *      textes/<id>.json      fiche complète, décisions de référence et sources incluses
  *      parlementaires.json   parlementaires/<id>.json (avec sources)
  *      partis.json   referentiels.json
  *
@@ -41,7 +41,7 @@ async function principal() {
     const detail = erreurs.map((p) => `  - ${p.fichier}${p.champ ? ` › ${p.champ}` : ""} : ${p.message}`).join("\n");
     throw new Error(`${erreurs.length} erreur(s) dans donnees/ — lancez « npm run valider » pour le détail :\n${detail}`);
   }
-  const { sources, textes, parlementaires, partis, referentiels } = donnees;
+  const { sources, textes, parlementaires, partis, referentiels, decisions } = donnees;
   const sourcesParId = new Map(sources.map((s) => [s.id, s]));
 
   // 3. Écriture (on repart d'un dossier vide pour ne jamais publier un fichier obsolète).
@@ -53,8 +53,12 @@ async function principal() {
 
   await ecrire("textes.json", listeTextes);
   for (const t of textes) {
-    const sourcesDuTexte = Object.fromEntries(sourcesCitees(t).map((id) => [id, sourcesParId.get(id)!]));
-    await ecrire(`textes/${t.id}.json`, { ...t, sources: sourcesDuTexte });
+    const decisionsDuTexte = decisions
+      .filter((dec) => dec.textes_concernes.some((c) => c.texte_id === t.id))
+      .sort((a, b) => b.date.localeCompare(a.date));
+    const ids = [...new Set([...sourcesCitees(t), ...decisionsDuTexte.flatMap((dec) => dec.source_ids)])];
+    const sourcesDuTexte = Object.fromEntries(ids.map((id) => [id, sourcesParId.get(id)!]));
+    await ecrire(`textes/${t.id}.json`, { ...t, decisions: decisionsDuTexte, sources: sourcesDuTexte });
   }
   await ecrire("parlementaires.json", parlementaires);
   for (const p of parlementaires) {

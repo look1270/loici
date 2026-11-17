@@ -1,0 +1,39 @@
+{
+  "id": "ordonnance-2019-679-code-marches-publics",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2019-679 du 24 juillet 2019 portant Code des marchés publics",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "finances-publiques"
+  ],
+  "categorie_id": "administratif-collectivites",
+  "sous_categorie_id": "marches-publics",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2019-679",
+  "date_signature": "2019-07-24",
+  "reference_jo": {
+    "numero": "20 spécial",
+    "date": "2019-12-11",
+    "page": "465",
+    "source_ids": [
+      "src-cndj-2019-679"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2019-679",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-679"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

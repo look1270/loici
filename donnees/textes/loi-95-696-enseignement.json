@@ -1,0 +1,59 @@
+{
+  "id": "loi-95-696-enseignement",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 95-696 du 7 septembre 1995 relative à l'enseignement",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "education-et-recherche"
+  ],
+  "categorie_id": "sante-education",
+  "sous_categorie_id": "enseignement",
+  "numero_loi": "Loi n° 95-696",
+  "titre_loi": "Loi n° 95-696 du 7 septembre 1995 relative à l'enseignement",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "50",
+    "date": "1995-11-30",
+    "page": "1000",
+    "source_ids": [
+      "src-cndj-95-696"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2015-635"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-95-696",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "1995-09-07",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 95-696 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-95-696"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2015-635",
+    "src-cndj-95-696"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

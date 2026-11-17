@@ -1,0 +1,25 @@
+{
+  "id": "cassation-arret-022-pe-24",
+  "juridiction": "cour_de_cassation",
+  "formation": "Chambre pénale",
+  "numero": "022.Pe/24",
+  "date": "2024-02-15",
+  "sens": [
+    "rejet"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 621",
+        "article 633"
+      ]
+    }
+  ],
+  "resume": "Un pourvoi qui n'est accompagné d'aucun mémoire ni soutenu par aucun moyen de cassation est rejeté lorsque rien dans le dossier ne permet de remettre en cause la légalité de la décision attaquée, en application des articles 621 et 633 du Code de procédure pénale.",
+  "page": 1,
+  "source_ids": [
+    "src-cassation-arret-022-pe-24"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

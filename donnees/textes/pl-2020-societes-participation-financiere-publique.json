@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Ce projet de loi encadre les sociétés à participation financière publique. Selon l'Assemblée nationale, il améliore leur gestion en introduisant des mécanismes de gouvernance alignés sur les meilleures pratiques internationales. Le Sénat l'a amendé aux articles 52 et 53 : « Assemblée nationale » y devient « Parlement » et « la loi de règlement » devient « la loi de finance initiale ».",
   "explication": null,
@@ -13,12 +13,19 @@
     "economie-et-entreprises"
   ],
   "categorie_id": "affaires-ohada",
-  "sous_categorie_id": null,
-  "numero_loi": null,
-  "titre_loi": null,
+  "sous_categorie_id": "societes-entreprises",
+  "numero_loi": "Loi n° 2020-886",
+  "titre_loi": "Loi n° 2020-886 du 21 octobre 2020 relative aux sociétés à participation financière publique",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "97",
+    "date": "2020-12-03",
+    "page": "1429",
+    "source_ids": [
+      "src-cndj-2020-886"
+    ]
+  },
   "vigueur": null,
   "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
@@ -95,12 +102,26 @@
       "source_ids": [
         "src-assnat-pleniere-2020-10-13"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2020-10-21",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2020-886 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2020-886"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
     "src-assnat-pleniere-2020-06-25",
-    "src-assnat-pleniere-2020-10-13"
+    "src-assnat-pleniere-2020-10-13",
+    "src-cndj-2020-886"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

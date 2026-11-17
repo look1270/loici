@@ -1,0 +1,24 @@
+{
+  "id": "cassation-arret-195-24",
+  "juridiction": "cour_de_cassation",
+  "formation": "Assemblée plénière",
+  "numero": "195/24",
+  "date": "2024-02-27",
+  "sens": [
+    "irrecevabilite"
+  ],
+  "textes_concernes": [
+    {
+      "texte_id": "loi-2018-975-code-procedure-penale",
+      "articles": [
+        "article 637"
+      ]
+    }
+  ],
+  "resume": "Une demande de révision d'une condamnation pénale n'est recevable que dans les cas prévus par l'article 637 du Code de procédure pénale. Des griefs portant sur la qualification des faits et sur la motivation de l'arrêt attaqué n'en font pas partie : la demande est déclarée irrecevable.",
+  "page": 2,
+  "source_ids": [
+    "src-cassation-arret-195-24"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "decret-2019-265-consolidation-concessions-rurales",
+  "acte": "decret",
+  "titre_officiel": "Décret n° 2019-265 du 27 mars 2019 fixant la procédure de consolidation des droits des concessionnaires provisoires de terres du domaine foncier rural",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "agriculture-et-elevage"
+  ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": "foncier-rural",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2019-265",
+  "date_signature": "2019-03-27",
+  "reference_jo": {
+    "numero": "41",
+    "date": "2019-05-23",
+    "page": "514",
+    "source_ids": [
+      "src-cndj-2019-265"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2019-265",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-265"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

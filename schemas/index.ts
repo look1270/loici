@@ -10,5 +10,6 @@ export * from "./source";
 export * from "./referentiels";
 export * from "./acteurs";
 export * from "./texte";
+export * from "./decision";
 export * from "./statuts";
 export * from "./api";

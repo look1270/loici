@@ -1,0 +1,59 @@
+{
+  "id": "loi-95-15-ancien-code-travail",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 95-15 du 12 janvier 1995 portant Code du travail",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "travail-protection-sociale",
+  "sous_categorie_id": "code-du-travail",
+  "numero_loi": "Loi n° 95-15",
+  "titre_loi": "Loi n° 95-15 du 12 janvier 1995 portant Code du travail",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "8",
+    "date": "1995-02-23",
+    "page": "153",
+    "source_ids": [
+      "src-cndj-95-15"
+    ]
+  },
+  "vigueur": {
+    "etat": "abroge",
+    "source_ids": [
+      "src-cndj-2015-532"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-95-15",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "1995-01-12",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 95-15 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-95-15"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2015-532",
+    "src-cndj-95-15"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

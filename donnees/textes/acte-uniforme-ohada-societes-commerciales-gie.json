@@ -1,0 +1,53 @@
+{
+  "id": "acte-uniforme-ohada-societes-commerciales-gie",
+  "acte": "acte_uniforme",
+  "titre_officiel": "Acte uniforme relatif au droit des sociétés commerciales et du groupement d'intérêt économique",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "actes-uniformes-ohada",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": "2014-01-30",
+  "reference_jo": {
+    "numero": null,
+    "date": "2014-02-04",
+    "page": null,
+    "source_ids": [
+      "src-acte-uniforme-ohada-societes-commerciales-gie"
+    ]
+  },
+  "vigueur": {
+    "etat": "en_vigueur",
+    "source_ids": [
+      "src-acte-uniforme-ohada-societes-commerciales-gie"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "texte initial de l'Acte uniforme relatif au droit des sociétés commerciales et du groupement d'intérêt économique, du 17 avril 1997",
+      "source_ids": [
+        "src-acte-uniforme-ohada-societes-commerciales-gie"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-acte-uniforme-ohada-societes-commerciales-gie",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-acte-uniforme-ohada-societes-commerciales-gie"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

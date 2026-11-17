@@ -1,0 +1,100 @@
+{
+  "id": "loi-2019-576-code-construction-habitat",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-576 du 26 juin 2019 instituant Code de la construction et de l'habitat",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "urbanisme-et-habitat"
+  ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": "construction-habitat",
+  "numero_loi": "Loi n° 2019-576",
+  "titre_loi": "Loi n° 2019-576 du 26 juin 2019 instituant Code de la construction et de l'habitat",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "61",
+    "date": "2019-08-01",
+    "page": "765",
+    "source_ids": [
+      "src-cndj-2019-576"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2026-385"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 65-248",
+      "source_ids": [
+        "src-cndj-2019-576"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 99-478",
+      "source_ids": [
+        "src-cndj-2019-576"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 2018-575",
+      "source_ids": [
+        "src-cndj-2019-576"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 79-718",
+      "source_ids": [
+        "src-cndj-2019-576"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 2013-225",
+      "source_ids": [
+        "src-cndj-2019-576"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2019-576",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-06-26",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-576 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2019-576"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2019-576",
+    "src-cndj-2026-385"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

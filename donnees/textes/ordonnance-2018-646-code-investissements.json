@@ -1,0 +1,64 @@
+{
+  "id": "ordonnance-2018-646-code-investissements",
+  "acte": "ordonnance",
+  "titre_officiel": "Ordonnance n° 2018-646 du 1er août 2018 portant Code des investissements",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": "investissements",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2018-646",
+  "date_signature": "2018-08-01",
+  "reference_jo": {
+    "numero": "11 spécial",
+    "date": "2018-10-31",
+    "page": "118",
+    "source_ids": [
+      "src-cndj-2018-646"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2019-1088",
+      "src-cndj-2024-857"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": "ordonnance-2012-487-ancien-code-investissements",
+      "intitule": "ordonnance n° 2012-487 du 7 juin 2012 portant Code des investissements",
+      "source_ids": [
+        "src-cndj-2018-646"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "ordonnance n° 2015-714",
+      "source_ids": [
+        "src-cndj-2018-646"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2018-646",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2018-646",
+    "src-cndj-2019-1088",
+    "src-cndj-2024-857"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

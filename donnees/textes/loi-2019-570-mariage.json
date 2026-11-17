@@ -1,0 +1,78 @@
+{
+  "id": "loi-2019-570-mariage",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2019-570 du 26 juin 2019 relative au mariage",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "droit-des-personnes"
+  ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "mariage",
+  "numero_loi": "Loi n° 2019-570",
+  "titre_loi": "Loi n° 2019-570 du 26 juin 2019 relative au mariage",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "10 spécial",
+    "date": "2019-07-12",
+    "page": "253",
+    "source_ids": [
+      "src-cndj-loi-2019-570"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 64-375",
+      "source_ids": [
+        "src-cndj-loi-2019-570"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 64-381",
+      "source_ids": [
+        "src-cndj-loi-2019-570"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 83-800",
+      "source_ids": [
+        "src-cndj-loi-2019-570"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-loi-2019-570",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2019-06-26",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2019-570 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2019-570"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2019-570"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

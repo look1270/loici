@@ -1,0 +1,53 @@
+{
+  "id": "loi-2018-863-declaration-naissance",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2018-863 du 19 novembre 2018 instituant une procédure spéciale de déclaration de naissance, de rétablissement d'identité et de transcription d'acte de naissance",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "droit-des-personnes"
+  ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "etat-civil",
+  "numero_loi": "Loi n° 2018-863",
+  "titre_loi": "Loi n° 2018-863 du 19 novembre 2018 instituant une procédure spéciale de déclaration de naissance, de rétablissement d'identité et de transcription d'acte de naissance",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "101",
+    "date": "2018-12-17",
+    "page": "1287",
+    "source_ids": [
+      "src-cndj-loi-2018-863"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-loi-2018-863",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2018-11-19",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2018-863 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2018-863"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2018-863"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}
