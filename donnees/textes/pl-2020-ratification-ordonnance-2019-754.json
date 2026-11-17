@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2019-754",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance N° 2019-754 du 18 septembre 2019 portant légalisation du régime fiscal et douanier prévu par l'annexe 4.5 de la convention pour la construction, l'exploitation et le transfert de la propriété d'une centrale thermique de production d'électricité à cycle combiné de 390 MW",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance légalisant le régime fiscal et douanier prévu par l'annexe 4.5 de la convention relative à une centrale thermique à cycle combiné de 390 MW. Selon l'Assemblée nationale, l'objectif est d'accroître la production d'électricité et d'en abaisser le coût ; l'État a consenti à cette fin un abattement fiscal de 44 milliards de FCFA en faveur de la société chargée du projet.",
+  "explication": null,
   "themes": [
     "environnement-et-energie",
     "finances-publiques"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
   "acteurs": [
     {

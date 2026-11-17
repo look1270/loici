@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-code-urbanisme-domaine-foncier-urbain",
+  "acte": "loi",
   "titre_officiel": "Projet de loi instituant code de l'urbanisme et du domaine foncier urbain",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi institue un code de l'urbanisme et du domaine foncier urbain. Selon l'Assemblée nationale, il vise à réduire fortement le volume des litiges, à faire respecter les règles d'urbanisme et à mettre fin à la prolifération des quartiers précaires.",
+  "explication": null,
   "themes": [
     "urbanisme-et-habitat"
   ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
   "acteurs": [
     {

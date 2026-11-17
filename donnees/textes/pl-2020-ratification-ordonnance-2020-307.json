@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2020-307",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2020-307 du 04 mars 2020 portant légalisation du régime fiscal et douanier applicable au réseau d'évacuation associé à la Centrale Thermique de Production d'Électricité à cycle combiné de 390 MW",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance légalisant les dispositions fiscales et douanières applicables au réseau d'évacuation de l'énergie de la centrale thermique à cycle combiné de 390 MW de Taboth, à Jacqueville. L'ordonnance accorde également à Côte d'Ivoire Energie le bénéfice du régime fiscal et douanier prévu par les clauses fiscales de la convention ATINKOU.",
+  "explication": null,
   "themes": [
     "environnement-et-energie",
     "finances-publiques"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
   "acteurs": [
     {

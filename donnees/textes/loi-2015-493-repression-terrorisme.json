@@ -1,0 +1,59 @@
+{
+  "id": "loi-2015-493-repression-terrorisme",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2015-493 du 7 juillet 2015 portant répression du terrorisme",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "justice"
+  ],
+  "categorie_id": "droit-penal",
+  "sous_categorie_id": "lois-penales-speciales",
+  "numero_loi": "Loi n° 2015-493",
+  "titre_loi": "Loi n° 2015-493 du 7 juillet 2015 portant répression du terrorisme",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "10 spécial",
+    "date": "2015-08-05",
+    "page": "110",
+    "source_ids": [
+      "src-cndj-loi-2015-493"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-loi-2018-864",
+      "src-cndj-loi-2024-360"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-loi-2015-493",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2015-07-07",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2015-493 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2015-493"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2015-493"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -16,7 +16,7 @@ const fichiersApi = [
   { chemin: "/api/v1/textes/<id>.json", description: "fiche complète d'un texte, avec ses sources" },
   { chemin: "/api/v1/parlementaires.json", description: "parlementaires et leurs mandats" },
   { chemin: "/api/v1/partis.json", description: "partis politiques" },
-  { chemin: "/api/v1/referentiels.json", description: "législatures, commissions, thèmes, domaines officiels" },
+  { chemin: "/api/v1/referentiels.json", description: "législatures, commissions, thèmes, catégories, domaines officiels" },
   { chemin: "/api/v1/meta.json", description: "date de génération et effectifs" },
 ];
 </script>

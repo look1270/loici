@@ -1,5 +1,6 @@
 {
   "id": "pl-2026-plan-national-developpement-2026-2030",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant Plan National de Développement 2026-2030",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "promulgue",
   "legislature_id": null,
   "resume": "Ce texte donne valeur de loi au Plan national de développement (PND) 2026-2030, cadre de référence de la stratégie de développement du pays sur cinq ans. Selon le ministère du Plan et du Développement, il prévoit une enveloppe globale de 114 838,5 milliards de francs CFA, dont 70,2 % portés par le secteur privé, une croissance annuelle ciblée de 7,2 % et un revenu par habitant de 4 500 dollars américains à l'horizon 2030.",
+  "explication": null,
   "themes": [
     "planification-et-developpement"
   ],
+  "categorie_id": "administratif-collectivites",
+  "sous_categorie_id": null,
   "numero_loi": "Loi n° 2026-280",
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-plan-communique-2026-05-05",
   "acteurs": [
     {

@@ -29,6 +29,39 @@ const AUTEUR_ATTENDU: Record<z.infer<typeof typeTexte>, "gouvernement" | "parlem
   projet_de_loi_ratification_ordonnance: "gouvernement",
 };
 
+/**
+ * Forme de l'acte. Une loi suit un parcours au Parlement (type d'initiative, statut, étapes) ;
+ * une ordonnance ou un décret est signé par l'exécutif : ni initiative parlementaire ni statut de parcours.
+ * Un code est une loi (ex. la loi portant Code pénal) : il se range en sous-catégorie.
+ */
+export const acte = z.enum(["loi", "ordonnance", "decret"]);
+export type Acte = z.infer<typeof acte>;
+
+/** État de vigueur, seulement si une source le dit (sinon `vigueur` vaut null : « Non renseigné »). */
+export const etatVigueur = z.enum(["en_vigueur", "modifie", "abroge"]);
+
+/** Lien vers un autre texte : celui qu'il modifie, abroge, complète, ratifie ou dont il est le décret d'application. */
+export const relationTexte = z.enum(["modifie", "abroge", "complete", "ratifie", "applique"]);
+
+export const texteLie = z.strictObject({
+  relation: relationTexte,
+  /** Fiche LoiCI du texte visé ; null s'il n'est pas (encore) recensé. */
+  texte_id: identifiant.nullable(),
+  /** Intitulé du texte visé, recopié de la source. Ex. « loi n° 2018-975 du 27 décembre 2018 portant Code de procédure pénale ». */
+  intitule: libelle(5, 600),
+  source_ids: sourceIds,
+});
+
+/** Publication au Journal officiel, telle qu'indiquée par la source (ex. index du CNDJ). */
+export const referenceJo = z.strictObject({
+  /** Numéro du Journal officiel. Ex. « 76 » ou « spécial n° 10 ». */
+  numero: libelle(1, 50),
+  date: dateIso.nullable(),
+  /** Page de début. Ex. « 1892 ». */
+  page: libelle(1, 20).nullable(),
+  source_ids: sourceIds,
+});
+
 /** Nature juridique ; null si la source ne la précise pas. Liste à valider (voir questions). */
 export const natureTexte = z.enum(["ordinaire", "organique", "constitutionnelle", "finances"]);
 
@@ -204,24 +237,45 @@ export const revision = z
 export const texte = z
   .strictObject({
     id: identifiant,
+    acte,
+    /** Intitulé tel que la source l'écrit (pour une loi : celui du projet ou de la proposition). */
     titre_officiel: libelle(10, 600),
     /** Numéro de dépôt attribué par la chambre ; null si non publié. */
     numero_depot: libelle(1, 50).nullable(),
-    type: typeTexte,
+    /** Initiative d'une loi ; null pour une ordonnance ou un décret. */
+    type: typeTexte.nullable(),
     nature: natureTexte.nullable(),
-    /** Statut courant ; doit égaler le statut de la dernière étape qui en porte un (vérifié ci-dessous). */
-    statut: statutTexte,
+    /**
+     * Statut du parcours d'une loi ; doit égaler le statut de la dernière étape qui en porte un (vérifié ci-dessous).
+     * null pour une ordonnance ou un décret, qui n'ont pas de parcours parlementaire.
+     */
+    statut: statutTexte.nullable(),
     legislature_id: identifiant.nullable(),
-    /** Résumé neutre de 3 à 5 lignes (≈ 150 à 700 caractères), sans adjectif évaluatif. */
-    resume: z.string().trim().min(150).max(700),
+    /** Résumé neutre de 3 à 5 lignes (≈ 150 à 700 caractères), sans adjectif évaluatif ; null = « Résumé à rédiger ». */
+    resume: z.string().trim().min(150).max(700).nullable(),
+    /** Encadré « En bref » en langage courant, rédigé uniquement à partir du texte source ; null = « Explication à rédiger ». */
+    explication: z.string().trim().min(100).max(700).nullable(),
     themes: identifiantsUniques,
+    /** Catégorie de l'accueil (donnees/referentiels/categories.json) ; null = « Autres textes ». */
+    categorie_id: identifiant.nullable(),
+    /** Sous-catégorie de cette catégorie ; null si aucune ne convient. */
+    sous_categorie_id: identifiant.nullable(),
     /** « Loi n° … » ; uniquement si le texte est promulgué (null sinon, ou si inconnu). */
     numero_loi: libelle(3, 50).nullable(),
+    /** Titre exact de la loi promulguée, recopié de sa source ; uniquement si le texte est promulgué. */
+    titre_loi: libelle(10, 600).nullable(),
+    /** Numéro d'une ordonnance ou d'un décret. Ex. « 2026-430 ». null pour une loi (voir numero_loi). */
+    numero_acte: libelle(1, 50).nullable(),
+    /** Date de signature d'une ordonnance ou d'un décret. null pour une loi (sa date vient des étapes). */
+    date_signature: dateIso.nullable(),
+    reference_jo: referenceJo.nullable(),
+    vigueur: z.strictObject({ etat: etatVigueur, source_ids: sourceIds }).nullable(),
+    textes_lies: z.array(texteLie),
     /** Source ouverte par « Lire plus » : PDF du projet ou Journal officiel. Doit figurer dans source_ids. */
     document_principal_source_id: identifiant,
     acteurs: z.array(texteActeur),
-    /** Frise chronologique, dans l'ordre. */
-    etapes: z.array(etape).min(1, "Au moins une étape est requise"),
+    /** Frise chronologique, dans l'ordre. Au moins une pour une loi (vérifié ci-dessous). */
+    etapes: z.array(etape),
     revisions: z.array(revision),
     /** Sources du texte lui-même (titre, numéro, résumé…). */
     source_ids: sourceIds,
@@ -230,6 +284,25 @@ export const texte = z
   })
   .superRefine((t, ctx) => {
     const signaler = (message: string, path: (string | number)[]) => ctx.addIssue({ code: "custom", message, path });
+
+    // 0. Ce qui dépend de la forme de l'acte : parcours parlementaire pour une loi, signature pour le reste.
+    if (t.acte === "loi") {
+      // type null = initiative inconnue : une loi connue par le seul Journal officiel ne dit pas si elle vient d'un projet ou d'une proposition.
+      if (t.statut === null) signaler("Une loi a un statut de parcours", ["statut"]);
+      if (t.etapes.length === 0) signaler("Au moins une étape est requise pour une loi", ["etapes"]);
+      if (t.numero_acte !== null) signaler("Le numéro d'une loi s'écrit dans numero_loi", ["numero_acte"]);
+      if (t.date_signature !== null) signaler("La date d'une loi se déduit de ses étapes (promulgation)", ["date_signature"]);
+    } else {
+      if (t.type !== null) signaler(`${t.acte === "decret" ? "Un décret" : "Une ordonnance"} n'a pas d'initiative parlementaire`, ["type"]);
+      if (t.statut !== null) signaler("Seule une loi a un statut de parcours parlementaire", ["statut"]);
+      if (t.numero_loi !== null) signaler("numero_loi est réservé aux lois (voir numero_acte)", ["numero_loi"]);
+      if (t.titre_loi !== null) signaler("titre_loi est réservé aux lois", ["titre_loi"]);
+    }
+
+    // 0 bis. Une sous-catégorie n'existe qu'à l'intérieur d'une catégorie (appartenance vérifiée dans les contrôles croisés).
+    if (t.sous_categorie_id !== null && t.categorie_id === null) {
+      signaler("Sous-catégorie sans catégorie", ["sous_categorie_id"]);
+    }
 
     // 1. Identifiants d'étapes et de révisions uniques dans le texte.
     const idsEtapes = t.etapes.map((e) => e.id);
@@ -256,7 +329,7 @@ export const texte = z
     // 4. Le statut affiché est celui de la dernière étape qui en porte un (aucun statut sans étape sourcée).
     const etapesAvecStatut = t.etapes.filter((e) => e.statut !== null);
     const dernierStatut = etapesAvecStatut.at(-1)?.statut;
-    if (dernierStatut !== t.statut) {
+    if (t.acte === "loi" && dernierStatut !== t.statut) {
       signaler(`Statut « ${t.statut} » incohérent avec la dernière étape (« ${dernierStatut ?? "aucun"} »)`, ["statut"]);
     }
 
@@ -267,17 +340,21 @@ export const texte = z
     }
 
     // 6. Le numéro de loi n'existe qu'une fois la loi promulguée.
-    if (t.numero_loi !== null && t.statut !== "promulgue") {
+    if (t.acte === "loi" && t.numero_loi !== null && t.statut !== "promulgue") {
       signaler("Numéro de loi renseigné alors que le texte n'est pas promulgué", ["numero_loi"]);
     }
+    if (t.titre_loi !== null && t.statut !== "promulgue") {
+      signaler("Titre de loi renseigné alors que le texte n'est pas promulgué", ["titre_loi"]);
+    }
 
-    // 7. Au moins un auteur, et du bon genre selon le type de texte.
+    // 7. Auteur du bon genre selon le type de texte (ordonnance et décret : le Gouvernement).
+    //    Obligatoire quand l'initiative est connue ; une loi d'initiative inconnue peut n'avoir aucun auteur cité.
     const auteurs = t.acteurs.filter((a) => a.role === "auteur");
-    if (auteurs.length === 0) signaler("Au moins un acteur de rôle « auteur » est requis", ["acteurs"]);
-    const genreAttendu = AUTEUR_ATTENDU[t.type];
+    if (auteurs.length === 0 && t.type !== null) signaler("Au moins un acteur de rôle « auteur » est requis", ["acteurs"]);
+    const genreAttendu = t.type !== null ? AUTEUR_ATTENDU[t.type] : t.acte === "loi" ? null : "gouvernement";
     t.acteurs.forEach((a, i) => {
-      if (a.role === "auteur" && a.acteur.genre !== genreAttendu) {
-        signaler(`Un texte de type « ${t.type} » a pour auteur : ${genreAttendu}`, ["acteurs", i, "acteur"]);
+      if (a.role === "auteur" && genreAttendu !== null && a.acteur.genre !== genreAttendu) {
+        signaler(`Un texte de type « ${t.type ?? t.acte} » a pour auteur : ${genreAttendu}`, ["acteurs", i, "acteur"]);
       }
     });
 
@@ -324,3 +401,4 @@ export type Etape = z.infer<typeof etape>;
 export type Vote = z.infer<typeof vote>;
 export type Revision = z.infer<typeof revision>;
 export type TexteActeur = z.infer<typeof texteActeur>;
+export type TexteLie = z.infer<typeof texteLie>;

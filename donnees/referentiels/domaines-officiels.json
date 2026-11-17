@@ -14,5 +14,9 @@
   {
     "domaine": "conseil-constitutionnel.ci",
     "institution": "Conseil constitutionnel"
+  },
+  {
+    "domaine": "cndj.ci",
+    "institution": "Centre national de documentation juridique (ministère de la Justice)"
   }
 ]

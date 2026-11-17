@@ -17,7 +17,9 @@ import {
   type Referentiels,
   type Source,
   type Texte,
+  type Categorie,
   type Theme,
+  categories as schemaCategories,
   commissions as schemaCommissions,
   domainesOfficiels as schemaDomaines,
   legislatures as schemaLegislatures,
@@ -62,12 +64,15 @@ export const cheminFichier = {
   referentiel: (nom: string) => `donnees/referentiels/${nom}.json`,
 };
 
-/** Toutes les sources citées par un texte, à tous les niveaux (texte, acteurs, étapes, votes, révisions). */
+/** Toutes les sources citées par un texte, à tous les niveaux (texte, vigueur, JO, textes liés, acteurs, étapes, votes, révisions). */
 export function sourcesCitees(t: Texte): string[] {
   return [
     ...new Set([
       ...t.source_ids,
       t.document_principal_source_id,
+      ...(t.vigueur?.source_ids ?? []),
+      ...(t.reference_jo?.source_ids ?? []),
+      ...t.textes_lies.flatMap((l) => l.source_ids),
       ...t.acteurs.flatMap((a) => a.source_ids),
       ...t.etapes.flatMap((e) => [...e.source_ids, ...(e.vote?.source_ids ?? [])]),
       ...t.revisions.flatMap((r) => r.source_ids),
@@ -164,6 +169,7 @@ export async function chargerDonnees(racine: string): Promise<{ donnees: Donnees
       legislatures: ((await ref("legislatures", schemaLegislatures)) ?? []) as Legislature[],
       commissions: ((await ref("commissions", schemaCommissions)) ?? []) as Commission[],
       themes: ((await ref("themes", schemaThemes)) ?? []) as Theme[],
+      categories: ((await ref("categories", schemaCategories)) ?? []) as Categorie[],
       domaines_officiels: (await ref("domaines-officiels", schemaDomaines)) ?? [],
     },
   };

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "droit-penal",
+    "libelle": "Droit pénal",
+    "explication": "Infractions et peines, déroulement d'un procès pénal, lois pénales particulières et coopération judiciaire entre États.",
+    "sous_categories": [
+      { "id": "code-penal", "libelle": "Code pénal" },
+      { "id": "code-procedure-penale", "libelle": "Code de procédure pénale" },
+      { "id": "lois-penales-speciales", "libelle": "Lois pénales spéciales" },
+      { "id": "cooperation-penale", "libelle": "Entraide, extradition et conventions pénales" }
+    ]
+  },
+  {
+    "id": "personnes-famille",
+    "libelle": "Personnes et famille",
+    "explication": "Nom, état civil, mariage, divorce, filiation, adoption, successions et libéralités.",
+    "sous_categories": [
+      { "id": "nom", "libelle": "Nom" },
+      { "id": "etat-civil", "libelle": "État civil" },
+      { "id": "domicile", "libelle": "Domicile" },
+      { "id": "absence-disparition", "libelle": "Absence et disparition" },
+      { "id": "nationalite", "libelle": "Nationalité" },
+      { "id": "minorite", "libelle": "Minorité" },
+      { "id": "mariage", "libelle": "Mariage" },
+      { "id": "divorce", "libelle": "Divorce et séparation de corps" },
+      { "id": "filiation", "libelle": "Filiation" },
+      { "id": "adoption", "libelle": "Adoption" },
+      { "id": "successions", "libelle": "Successions" },
+      { "id": "liberalites", "libelle": "Libéralités" }
+    ]
+  },
+  {
+    "id": "droit-civil",
+    "libelle": "Droit civil et procédure civile",
+    "explication": "Contrats, biens, responsabilité civile et règles des procès civils, commerciaux et administratifs.",
+    "sous_categories": []
+  },
+  {
+    "id": "travail-protection-sociale",
+    "libelle": "Droit du travail et protection sociale",
+    "explication": "Contrat de travail, droits des salariés, sécurité sociale et retraite.",
+    "sous_categories": []
+  },
+  {
+    "id": "affaires-ohada",
+    "libelle": "Droit des affaires et OHADA",
+    "explication": "Entreprises, sociétés, investissements, commerce, transports et actes uniformes de l'OHADA.",
+    "sous_categories": []
+  },
+  {
+    "id": "foncier-immobilier",
+    "libelle": "Droit foncier et immobilier",
+    "explication": "Terres, urbanisme, construction et location de logements.",
+    "sous_categories": []
+  },
+  {
+    "id": "finances-fiscal-douanier",
+    "libelle": "Finances publiques, fiscalité et douane",
+    "explication": "Budget de l'État, lois de finances, impôts, taxes et droits de douane.",
+    "sous_categories": []
+  },
+  {
+    "id": "administratif-collectivites",
+    "libelle": "Droit administratif et collectivités",
+    "explication": "Administration, fonction publique, établissements publics, marchés publics, régions et communes.",
+    "sous_categories": []
+  },
+  {
+    "id": "constitutionnel-electoral",
+    "libelle": "Droit constitutionnel et électoral",
+    "explication": "Institutions de la République, Parlement, élections et commission électorale.",
+    "sous_categories": []
+  },
+  {
+    "id": "justice-organisation-judiciaire",
+    "libelle": "Justice et organisation judiciaire",
+    "explication": "Cours et tribunaux, magistrats et leur statut.",
+    "sous_categories": []
+  },
+  {
+    "id": "numerique-donnees",
+    "libelle": "Numérique, médias et données personnelles",
+    "explication": "Communications électroniques, presse, audiovisuel, entreprises du numérique et données personnelles.",
+    "sous_categories": []
+  },
+  {
+    "id": "environnement-mines-agriculture",
+    "libelle": "Environnement, mines, énergie et agriculture",
+    "explication": "Eau, faune, forêts, mines, pétrole et gaz, élevage et filières agricoles.",
+    "sous_categories": []
+  },
+  {
+    "id": "sante-education",
+    "libelle": "Santé, éducation et jeunesse",
+    "explication": "Professions de santé, hygiène, école, formation professionnelle, recherche et jeunesse.",
+    "sous_categories": []
+  }
+]

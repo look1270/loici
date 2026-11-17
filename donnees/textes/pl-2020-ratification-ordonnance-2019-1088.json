@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2019-1088",
+  "acte": "loi",
   "titre_officiel": "Projet de loi ratifiant l'ordonnance n° 2019-1088 du 18 décembre 2019 modifiant l'ordonnance n° 2018-646 du 1er Août 2018 portant Code des investissements",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance du 18 décembre 2019 modifiant l'ordonnance n° 2018-646 du 1er août 2018 portant Code des investissements. Selon l'Assemblée nationale, elle corrige des insuffisances relevées un an après la mise en œuvre du code de 2018 et modifie 13 de ses articles : les articles 1, 5, 13, 14, 15, 21, 23, 25, 41, 42, 44, 45 et 50.",
+  "explication": null,
   "themes": [
     "economie-et-entreprises"
   ],
+  "categorie_id": "affaires-ohada",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
   "acteurs": [
     {

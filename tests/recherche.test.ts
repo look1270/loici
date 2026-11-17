@@ -19,6 +19,13 @@ import {
 
 const base: ResumeTexte = {
   id: "a",
+  acte: "loi",
+  titre_loi: null,
+  numero_acte: null,
+  date_signature: null,
+  categorie_id: null,
+  sous_categorie_id: null,
+  vigueur: null,
   titre_officiel: "Projet de loi factice relatif à l'Économie numérique",
   numero_depot: null,
   numero_loi: "Loi n° 2099-1",

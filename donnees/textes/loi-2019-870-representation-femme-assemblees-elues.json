@@ -1,5 +1,6 @@
 {
   "id": "loi-2019-870-representation-femme-assemblees-elues",
+  "acte": "loi",
   "titre_officiel": "Loi favorisant la représentation de la femme dans les assemblées élues",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "promulgue",
   "legislature_id": null,
   "resume": "Ce texte institue des mesures pour favoriser la représentation des femmes dans les assemblées totalement ou partiellement élues : Assemblée nationale, Sénat, conseils régionaux, conseils de district et conseils municipaux. Il exige au moins 30 % de femmes parmi les candidats aux scrutins uninominaux ou de listes et impose l'alternance des sexes sur les listes. Il prévoit un financement public supplémentaire pour tout parti ou groupement politique dont la liste compte au moins 50 % de femmes candidates.",
+  "explication": null,
   "themes": [
     "elections-et-vie-politique"
   ],
+  "categorie_id": "constitutionnel-electoral",
+  "sous_categorie_id": null,
   "numero_loi": "Loi n° 2019-870",
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-loi-representation-femme-pdf",
   "acteurs": [
     {

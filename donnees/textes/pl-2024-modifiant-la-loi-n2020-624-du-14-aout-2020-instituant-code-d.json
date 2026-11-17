@@ -1,5 +1,6 @@
 {
   "id": "pl-2024-modifiant-la-loi-n2020-624-du-14-aout-2020-instituant-code-d",
+  "acte": "loi",
   "titre_officiel": "Projet de loi modifiant la loi n°2020-624 du 14 août 2020 instituant Code de l'Urbanisme et du Domaine Foncier Urbain",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 4 juin 2024, au cours de sa première session ordinaire 2024, selon le tableau des projets de loi adoptés publié dans son rapport d'activités 2024 (tableau des projets de loi adoptés, pages 21-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [
     "urbanisme-et-habitat"
   ],
+  "categorie_id": "foncier-immobilier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2024",
   "acteurs": [
     {

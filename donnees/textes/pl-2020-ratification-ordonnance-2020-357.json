@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2020-357",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance N°2020-357 du 8 avril 2020 relative aux mesures fiscales dans le cadre du plan de riposte à la pandémie de coronavirus (COVID-19)",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance relative aux mesures fiscales du plan de riposte à la pandémie de COVID-19. Ces mesures comprennent la suspension temporaire du paiement de certains impôts et taxes, l'exonération totale ou partielle d'impôts et taxes, et l'admission en charge des frais engagés dans la lutte contre la COVID-19. Elles sont estimées à 107 milliards 450 millions de francs.",
+  "explication": null,
   "themes": [
     "finances-publiques",
     "sante"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
   "acteurs": [
     {

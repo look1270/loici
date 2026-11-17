@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2019-1047",
+  "acte": "loi",
   "titre_officiel": "Projet de loi ratifiant l'ordonnance N°2019-1047 du 11 décembre 2019 portant prorogation du prélèvement compensatoire sur les importations en Côte d'Ivoire de volailles mortes de basse-cour et leurs abats comestibles frais, réfrigérés ou congelés",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance prorogeant de dix ans le prélèvement compensatoire de 1 000 FCFA par kilogramme sur les importations de viande de volaille en provenance de pays hors CEDEAO. Selon l'Assemblée nationale, ce prélèvement compense le manque de compétitivité de la filière locale face aux importations et lui garantit une part de marché.",
+  "explication": null,
   "themes": [
     "agriculture-et-elevage"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-06-25",
   "acteurs": [
     {

@@ -1,0 +1,98 @@
+{
+  "id": "loi-2018-975-code-procedure-penale",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2018-975 du 27 décembre 2018 portant Code de procédure pénale",
+  "numero_depot": null,
+  "type": "projet_de_loi",
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": "Ce texte institue un nouveau Code de procédure pénale et abroge la loi n° 60-366 du 14 novembre 1960 portant Code de procédure pénale. Selon le communiqué du Conseil des ministres du 18 juillet 2018, le projet s'inscrit dans le cadre de la réforme du système judiciaire national et de sa mise en cohérence avec les engagements nationaux et internationaux de l'État.",
+  "explication": null,
+  "themes": [
+    "justice"
+  ],
+  "categorie_id": "droit-penal",
+  "sous_categorie_id": "code-procedure-penale",
+  "numero_loi": "Loi n° 2018-975",
+  "titre_loi": "Loi n° 2018-975 du 27 décembre 2018 portant Code de procédure pénale",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "4 spécial",
+    "date": "2019-03-13",
+    "page": "49",
+    "source_ids": [
+      "src-cndj-loi-2018-975",
+      "src-policinglaw-jo-loi-2018-975"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-loi-2018-975"
+    ]
+  },
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 60-366 du 14 novembre 1960 portant Code de procédure pénale",
+      "source_ids": [
+        "src-cndj-loi-2018-975",
+        "src-policinglaw-jo-loi-2018-975"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-policinglaw-jo-loi-2018-975",
+  "acteurs": [
+    {
+      "role": "auteur",
+      "acteur": {
+        "genre": "gouvernement",
+        "ministre": null,
+        "ministere": "Ministère de la Justice et des Droits de l'Homme"
+      },
+      "commission_id": null,
+      "source_ids": [
+        "src-gouv-ccm-2018-07-18"
+      ]
+    }
+  ],
+  "etapes": [
+    {
+      "id": "conseil-des-ministres",
+      "date": "2018-07-18",
+      "statut": null,
+      "chambre": null,
+      "organe": "gouvernement",
+      "commission_id": null,
+      "libelle": "Adoption du projet de loi en Conseil des ministres",
+      "vote": null,
+      "source_ids": [
+        "src-gouv-ccm-2018-07-18"
+      ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2018-12-27",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2018-975 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-loi-2018-975",
+        "src-policinglaw-jo-loi-2018-975"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-loi-2018-975",
+    "src-policinglaw-jo-loi-2018-975",
+    "src-gouv-ccm-2018-07-18"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

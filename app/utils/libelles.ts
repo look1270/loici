@@ -49,13 +49,13 @@ export const STATUTS_INFOS: Record<CodeStatut, InfosStatut> = {
     icone: "i-lucide-landmark",
   },
   adopte_definitivement: {
-    libelle: "Adopté définitivement",
+    libelle: "Adoptée",
     explication: "Le Parlement a adopté le texte. Il attend sa promulgation.",
     couleur: "success",
     icone: "i-lucide-badge-check",
   },
   promulgue: {
-    libelle: "Promulgué",
+    libelle: "Promulguée",
     explication: "Le Président de la République a promulgué la loi.",
     couleur: "success",
     icone: "i-lucide-scroll-text",
@@ -93,6 +93,46 @@ export const TYPES_TEXTE: Record<string, { libelle: string; explication: string 
     libelle: "Ratification d'ordonnance",
     explication: "Projet de loi qui donne une valeur législative à une ordonnance.",
   },
+};
+
+/** Forme de l'acte (filtre « Type » des catégories). */
+export const ACTES: Record<string, { libelle: string; pluriel: string }> = {
+  loi: { libelle: "Loi", pluriel: "Lois" },
+  ordonnance: { libelle: "Ordonnance", pluriel: "Ordonnances" },
+  decret: { libelle: "Décret", pluriel: "Décrets" },
+};
+
+/** Libellé court de la forme d'un texte : l'initiative pour une loi (« Projet de loi »…), sinon l'acte (« Décret »). */
+export function libelleForme(t: { acte: string; type: string | null }): string {
+  if (t.type !== null) return TYPES_TEXTE[t.type]?.libelle ?? t.type;
+  return ACTES[t.acte]?.libelle ?? t.acte;
+}
+
+/**
+ * Ce qu'est le texte aujourd'hui, en tête de carte et de fiche : « Loi » une fois adoptée définitivement
+ * ou promulguée (« Loi organique », « Loi de finances » si la nature est connue), sinon l'initiative ou l'acte.
+ */
+export function natureAffichee(t: { acte: string; type: string | null; nature: string | null; statut: string | null }): string {
+  if (t.acte === "loi" && (t.statut === "promulgue" || t.statut === "adopte_definitivement")) {
+    return t.nature && t.nature !== "ordinaire" ? (NATURES_TEXTE[t.nature] ?? "Loi") : "Loi";
+  }
+  return libelleForme(t);
+}
+
+/** États de vigueur (affichés seulement si une source les atteste). */
+export const VIGUEUR: Record<string, string> = {
+  en_vigueur: "En vigueur",
+  modifie: "Modifié",
+  abroge: "Abrogé",
+};
+
+/** Relation d'un texte avec un autre (« Ce texte … »). */
+export const RELATIONS_TEXTE: Record<string, string> = {
+  modifie: "Modifie",
+  abroge: "Abroge",
+  complete: "Complète",
+  ratifie: "Ratifie",
+  applique: "Est pris pour l'application de",
 };
 
 export const NATURES_TEXTE: Record<string, string> = {

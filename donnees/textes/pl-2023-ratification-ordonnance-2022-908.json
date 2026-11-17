@@ -1,5 +1,6 @@
 {
   "id": "pl-2023-ratification-ordonnance-2022-908",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2022-908 du 30 novembre 2022 portant augmentation du plafond des avals et garanties accordés par l'Etat pour l'année 2022",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 18 décembre 2023, au cours de sa deuxième session ordinaire 2023, selon le tableau des projets de loi adoptés publié dans son rapport d'activités de la deuxième session ordinaire 2023 (tableau des projets de loi adoptés, page 20). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [
     "finances-publiques"
   ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2023-s2",
   "acteurs": [
     {

@@ -1,5 +1,6 @@
 {
   "id": "plo-2020-cour-de-cassation",
+  "acte": "loi",
   "titre_officiel": "Projet de loi organique déterminant les attributions, l'organisation et le fonctionnement de la Cour de Cassation",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi organique fixe les attributions, l'organisation et le fonctionnement de la Cour de cassation, plus haute juridiction de l'ordre judiciaire. Son président est nommé par le Président de la République pour cinq ans, renouvelables une fois. Elle statue sur les pourvois contre les décisions rendues en dernier ressort en matières civile, commerciale, sociale et pénale, et se compose de magistrats du siège.",
+  "explication": null,
   "themes": [
     "justice",
     "institutions"
   ],
+  "categorie_id": "justice-organisation-judiciaire",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
   "acteurs": [
     {

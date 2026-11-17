@@ -13,9 +13,11 @@ const liens = [
 const { depot } = useAppConfig();
 const liensGithub = liensDepot(depot);
 
-/** Lien actif : la fiche d'un texte reste rattachée à « Textes ». */
+/** Lien actif : les catégories et la fiche d'un texte restent rattachées à « Textes ». */
 const estActif = (vers: string) =>
-  vers === "/" ? route.path === "/" || route.path.startsWith("/textes") : route.path.startsWith(vers);
+  vers === "/"
+    ? route.path === "/" || route.path.startsWith("/textes") || route.path.startsWith("/categories")
+    : route.path.startsWith(vers);
 </script>
 
 <template>

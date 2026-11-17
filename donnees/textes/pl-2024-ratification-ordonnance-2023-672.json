@@ -1,5 +1,6 @@
 {
   "id": "pl-2024-ratification-ordonnance-2023-672",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2023-672 du 12 juillet 2023 instituant des dispositions dérogatoires au Code électoral par réaménagement de ses articles 107, 111, 120, 141, 142, 162, 170, 191, 199 et 203 en vue de la tenue des élections locales et sénatoriales de 2023",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 23 avril 2024, au cours de sa première session ordinaire 2024, selon le tableau des projets de loi adoptés publié dans son rapport d'activités 2024 (tableau des projets de loi adoptés, pages 21-22). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
+  "explication": null,
   "themes": [
     "elections-et-vie-politique"
   ],
+  "categorie_id": "constitutionnel-electoral",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-senat-rapport-activites-2024",
   "acteurs": [
     {

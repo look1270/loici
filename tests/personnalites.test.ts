@@ -9,6 +9,13 @@ import { listerPersonnalites, personnalitesCorrespondantes } from "../app/utils/
 
 const base: ResumeTexte = {
   id: "a",
+  acte: "loi",
+  titre_loi: null,
+  numero_acte: null,
+  date_signature: null,
+  categorie_id: null,
+  sous_categorie_id: null,
+  vigueur: null,
   titre_officiel: "Projet de loi factice A",
   numero_depot: null,
   numero_loi: null,

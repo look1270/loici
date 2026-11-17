@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-domicile",
+  "acte": "loi",
   "titre_officiel": "Projet de loi relatif au domicile",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,10 +8,19 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi définit la résidence afin de la distinguer du domicile. Il impose à toute personne physique de déclarer son domicile, dans les six mois suivant son installation, à la mairie ou à la sous-préfecture du lieu choisi, et fixe les conditions du changement de domicile.",
+  "explication": null,
   "themes": [
     "droit-des-personnes"
   ],
+  "categorie_id": "personnes-famille",
+  "sous_categorie_id": "domicile",
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-05-28",
   "acteurs": [
     {

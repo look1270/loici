@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-regime-financier-collectivites-territoriales-districts",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant régime financier des Collectivités Territoriales et des Districts Autonomes",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi fixe le régime financier des collectivités territoriales et des districts autonomes. Le Sénat y a apporté onze amendements, notamment aux articles 40 et 58, que les députés de la commission des Affaires économiques et financières ont examinés le 29 septembre 2020. L'Assemblée nationale l'a ensuite adopté en seconde lecture, à l'unanimité des députés présents, le 13 octobre 2020.",
+  "explication": null,
   "themes": [
     "collectivites-territoriales",
     "finances-publiques"
   ],
+  "categorie_id": "administratif-collectivites",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
   "acteurs": [
     {

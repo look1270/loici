@@ -1,5 +1,6 @@
 {
   "id": "plo-2020-tribunal-des-conflits",
+  "acte": "loi",
   "titre_officiel": "Projet de loi organique déterminant les attributions, l'organisation et le fonctionnement du Tribunal des conflits",
   "numero_depot": null,
   "type": "projet_de_loi",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi organique fixe les attributions, l'organisation et le fonctionnement du Tribunal des conflits, qui règle les conflits de compétence entre les juridictions de l'ordre administratif et celles de l'ordre judiciaire. Il réunit des magistrats de la Cour de cassation et du Conseil d'État et est présidé alternativement, tous les deux ans, par le président de la Cour de cassation et celui du Conseil d'État.",
+  "explication": null,
   "themes": [
     "justice",
     "institutions"
   ],
+  "categorie_id": "justice-organisation-judiciaire",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-10-13",
   "acteurs": [
     {

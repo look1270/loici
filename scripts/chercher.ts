@@ -13,7 +13,8 @@ import { existsSync } from "node:fs";
 import { join } from "node:path";
 import { FILTRES_VIDES, anneesDuTexte, filtrerTextes } from "../app/utils/recherche";
 import { listerPersonnalites, personnalitesCorrespondantes } from "../app/utils/personnalites";
-import { STATUTS_INFOS, TYPES_TEXTE } from "../app/utils/libelles";
+import { STATUTS_INFOS, libelleForme } from "../app/utils/libelles";
+import { nomAffiche } from "../app/utils/nom";
 import { chargerDonnees } from "./lib/donnees";
 import { resumerTextes } from "./lib/resume";
 
@@ -70,13 +71,13 @@ async function principal() {
 
   console.log(`${resultats.length} texte(s) sur ${textes.length}${requete ? ` pour « ${requete} »` : ""}\n`);
   for (const t of resultats) {
-    const statut = STATUTS_INFOS[t.statut]?.libelle ?? t.statut;
+    const statut = t.statut ? (STATUTS_INFOS[t.statut]?.libelle ?? t.statut) : "sans parcours parlementaire";
     const auteurs = [
       ...t.auteurs_gouvernement.map((a) => a.ministre ?? a.ministere ?? "Gouvernement"),
       ...t.parlementaires.map((p) => `${noms.get(p.id) ?? p.id} (${p.role})`),
     ];
-    console.log(`• ${t.titre_officiel}`);
-    console.log(`  ${TYPES_TEXTE[t.type]?.libelle ?? t.type} · ${statut} · ${anneesDuTexte(t).join(", ") || "année non renseignée"}`);
+    console.log(`• ${nomAffiche(t, t.date_promulgation)}`);
+    console.log(`  ${libelleForme(t)} · ${statut} · ${anneesDuTexte(t).join(", ") || "année non renseignée"}`);
     if (auteurs.length) console.log(`  Porté par : ${auteurs.join(", ")}`);
     console.log(`  donnees/textes/${t.id}.json\n`);
   }

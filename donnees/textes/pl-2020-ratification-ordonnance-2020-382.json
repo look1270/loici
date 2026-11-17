@@ -1,5 +1,6 @@
 {
   "id": "pl-2020-ratification-ordonnance-2020-382",
+  "acte": "loi",
   "titre_officiel": "Projet de loi portant ratification de l'ordonnance n°2020-382 du 15 avril 2020 portant création, attributions, organisation et fonctionnement du Fonds Spécial de Solidarité et de Soutien d'Urgence Humanitaire dénommé Fonds spécial de solidarité Covid-19",
   "numero_depot": null,
   "type": "projet_de_loi_ratification_ordonnance",
@@ -7,11 +8,20 @@
   "statut": "adopte_en_pleniere",
   "legislature_id": null,
   "resume": "Ce projet de loi ratifie l'ordonnance créant le Fonds spécial de solidarité et de soutien d'urgence humanitaire, dit Fonds spécial de solidarité Covid-19. Ce fonds finance exclusivement les interventions de solidarité du Gouvernement envers les personnes affectées par la COVID-19, notamment leur approvisionnement en vivres et non-vivres. Il est alimenté par des dotations budgétaires et par des dons de particuliers, de pays, d'institutions et d'entreprises.",
+  "explication": null,
   "themes": [
     "sante",
     "finances-publiques"
   ],
+  "categorie_id": "sante-education",
+  "sous_categorie_id": null,
   "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": null,
+  "vigueur": null,
+  "textes_lies": [],
   "document_principal_source_id": "src-assnat-pleniere-2020-08-05",
   "acteurs": [
     {

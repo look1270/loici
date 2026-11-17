@@ -34,11 +34,30 @@ const identite = computed(() => {
   if (!t) return [];
   const depot = t.etapes.find((e) => e.statut === "depose");
   const legislature = referentiels.value?.legislatures.find((l) => l.id === t.legislature_id);
+  const categorie = referentiels.value?.categories.find((c) => c.id === t.categorie_id);
   return [
-    { terme: "Type", valeur: TYPES_TEXTE[t.type]?.libelle ?? t.type, aide: TYPES_TEXTE[t.type]?.explication },
+    { terme: "Forme", valeur: libelleForme(t), aide: t.type ? TYPES_TEXTE[t.type]?.explication : undefined },
+    { terme: "Catégorie", valeur: categorie?.libelle ?? (t.categorie_id === null ? "Autres textes" : t.categorie_id) },
+    ...(categorie && categorie.sous_categories.length
+      ? [{ terme: "Sous-catégorie", valeur: categorie.sous_categories.find((s) => s.id === t.sous_categorie_id)?.libelle ?? null }]
+      : []),
     { terme: "Nature", valeur: t.nature ? NATURES_TEXTE[t.nature] : null },
     { terme: "Numéro de dépôt", valeur: t.numero_depot },
-    { terme: "Numéro de loi", valeur: t.numero_loi },
+    ...(t.acte === "loi"
+      ? [{ terme: "Numéro de loi", valeur: t.numero_loi }]
+      : [
+          { terme: "Numéro", valeur: t.numero_acte },
+          { terme: "Date de signature", valeur: formaterDate(t.date_signature) },
+        ]),
+    {
+      terme: "Journal officiel",
+      valeur: t.reference_jo
+        ? [`n° ${t.reference_jo.numero}`, t.reference_jo.date ? `du ${formaterDate(t.reference_jo.date)}` : "", t.reference_jo.page ? `p. ${t.reference_jo.page}` : ""]
+            .filter(Boolean)
+            .join(" ")
+        : null,
+    },
+    { terme: "En vigueur", valeur: t.vigueur ? VIGUEUR[t.vigueur.etat] : null },
     { terme: "Date de dépôt", valeur: formaterDate(depot?.date) },
     { terme: "Chambre de dépôt", valeur: depot?.chambre ? CHAMBRES[depot.chambre] : null },
     { terme: "Législature", valeur: legislature?.libelle ?? null },
@@ -49,7 +68,13 @@ const identite = computed(() => {
   ];
 });
 
-useHead({ title: computed(() => (fiche.value ? `${fiche.value.titre_officiel} — LoiCI` : "Texte — LoiCI")) });
+/** Nom selon l'état du texte (« Loi n° … » une fois promulguée) ; l'intitulé du projet reste dans l'historique. */
+const nom = computed(() =>
+  fiche.value ? nomAffiche(fiche.value, fiche.value.etapes.find((e) => e.statut === "promulgue")?.date ?? null) : "",
+);
+const ancienIntitule = computed(() => (fiche.value && nom.value !== fiche.value.titre_officiel ? fiche.value.titre_officiel : null));
+
+useHead({ title: computed(() => (fiche.value ? `${nom.value} — LoiCI` : "Texte — LoiCI")) });
 
 const sommaire = [
   { ancre: "resume", libelle: "Résumé" },
@@ -102,14 +127,14 @@ const sommaire = [
     <article v-if="fiche" class="space-y-8">
       <header class="space-y-4">
         <p class="text-sm text-muted">
-          {{ TYPES_TEXTE[fiche.type]?.libelle }}<template v-if="fiche.numero_loi"> · {{ fiche.numero_loi }}</template>
+          {{ natureAffichee(fiche) }}<template v-if="fiche.numero_loi && !nom.startsWith(fiche.numero_loi)"> · {{ fiche.numero_loi }}</template>
         </p>
-        <h1 class="text-2xl font-bold leading-tight text-highlighted">{{ fiche.titre_officiel }}</h1>
+        <h1 class="text-2xl font-bold leading-tight text-highlighted">{{ nom }}</h1>
         <BadgeSourceNonOfficielle v-if="!sourceOfficielle" />
-        <ProgressionStatut :statut="fiche.statut" />
+        <ProgressionStatut v-if="fiche.statut" :statut="fiche.statut" />
         <div class="flex flex-wrap items-center gap-2">
           <BoutonLirePlus v-if="documentPrincipal" :source="documentPrincipal" />
-          <BoutonSignaler :titre="fiche.titre_officiel" />
+          <BoutonSignaler :titre="nom" />
         </div>
         <RefsSources :ids="fiche.source_ids" etiquette="Sources de la fiche" />
       </header>
@@ -125,7 +150,8 @@ const sommaire = [
 
       <section id="resume" aria-labelledby="titre-resume" class="scroll-mt-4 space-y-3">
         <h2 id="titre-resume" class="text-lg font-semibold text-highlighted">Résumé</h2>
-        <p class="leading-relaxed">{{ fiche.resume }}</p>
+        <p v-if="fiche.resume" class="leading-relaxed">{{ fiche.resume }}</p>
+        <p v-else class="text-muted">Résumé à rédiger.</p>
         <dl class="grid gap-x-4 gap-y-2 text-sm sm:grid-cols-[max-content_1fr]">
           <template v-for="ligne in identite" :key="ligne.terme">
             <dt class="text-muted">{{ ligne.terme }}</dt>
@@ -135,6 +161,17 @@ const sommaire = [
             </dd>
           </template>
         </dl>
+        <div v-if="fiche.textes_lies.length" class="space-y-1">
+          <h3 class="text-sm font-semibold text-highlighted">Textes visés</h3>
+          <ul class="space-y-1 text-sm">
+            <li v-for="(l, i) in fiche.textes_lies" :key="i">
+              <span class="text-muted">{{ RELATIONS_TEXTE[l.relation] ?? l.relation }} :</span>{{ " " }}
+              <NuxtLink v-if="l.texte_id" :to="`/textes/${l.texte_id}`" class="underline underline-offset-2">{{ l.intitule }}</NuxtLink>
+              <span v-else>{{ l.intitule }}</span>
+              <RefsSources :ids="l.source_ids" etiquette="Sources" class="ml-1 inline-flex" />
+            </li>
+          </ul>
+        </div>
         <p class="text-sm text-muted">Fiche mise à jour le {{ formaterDate(fiche.mis_a_jour_le) }}.</p>
       </section>
 
@@ -151,6 +188,9 @@ const sommaire = [
 
       <section id="parcours" aria-labelledby="titre-parcours" class="scroll-mt-4 space-y-3">
         <h2 id="titre-parcours" class="text-lg font-semibold text-highlighted">Parcours et votes</h2>
+        <p v-if="ancienIntitule" class="text-sm">
+          <span class="text-muted">Intitulé pendant l'examen :</span> {{ ancienIntitule }}
+        </p>
         <FriseEtapes :etapes="fiche.etapes" :commissions="commissions" />
       </section>
 
