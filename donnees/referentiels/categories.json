@@ -71,42 +71,69 @@
     "id": "finances-fiscal-douanier",
     "libelle": "Finances publiques, fiscalité et douane",
     "explication": "Budget de l'État, lois de finances, impôts, taxes et droits de douane.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "finances-publiques", "libelle": "Finances publiques et lois de finances" },
+      { "id": "fiscalite", "libelle": "Fiscalité" },
+      { "id": "douane", "libelle": "Douane" }
+    ]
   },
   {
     "id": "administratif-collectivites",
     "libelle": "Droit administratif et collectivités",
     "explication": "Administration, fonction publique, établissements publics, marchés publics, régions et communes.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "fonction-publique", "libelle": "Fonction publique" },
+      { "id": "marches-publics", "libelle": "Marchés publics" },
+      { "id": "administration-territoriale", "libelle": "Administration territoriale et collectivités" }
+    ]
   },
   {
     "id": "constitutionnel-electoral",
     "libelle": "Droit constitutionnel et électoral",
     "explication": "Institutions de la République, Parlement, élections et commission électorale.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "constitution", "libelle": "Constitution" },
+      { "id": "elections", "libelle": "Élections et commission électorale" },
+      { "id": "institutions", "libelle": "Institutions de la République" }
+    ]
   },
   {
     "id": "justice-organisation-judiciaire",
     "libelle": "Justice et organisation judiciaire",
     "explication": "Cours et tribunaux, magistrats et leur statut.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "juridictions", "libelle": "Juridictions" },
+      { "id": "magistrature", "libelle": "Magistrature" }
+    ]
   },
   {
     "id": "numerique-donnees",
     "libelle": "Numérique, médias et données personnelles",
     "explication": "Communications électroniques, presse, audiovisuel, entreprises du numérique et données personnelles.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "communications-electroniques", "libelle": "Communications électroniques et numérique" },
+      { "id": "donnees-personnelles", "libelle": "Données personnelles et transactions électroniques" },
+      { "id": "presse-audiovisuel", "libelle": "Presse et audiovisuel" }
+    ]
   },
   {
     "id": "environnement-mines-agriculture",
     "libelle": "Environnement, mines, énergie et agriculture",
     "explication": "Eau, faune, forêts, mines, pétrole et gaz, élevage et filières agricoles.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "environnement-eau", "libelle": "Environnement et eau" },
+      { "id": "forets-faune", "libelle": "Forêts et faune" },
+      { "id": "mines-energie", "libelle": "Mines, pétrole et énergie" },
+      { "id": "agriculture-elevage", "libelle": "Agriculture et élevage" }
+    ]
   },
   {
     "id": "sante-education",
     "libelle": "Santé, éducation et jeunesse",
     "explication": "Professions de santé, hygiène, école, formation professionnelle, recherche et jeunesse.",
-    "sous_categories": []
+    "sous_categories": [
+      { "id": "sante", "libelle": "Santé" },
+      { "id": "enseignement", "libelle": "Enseignement et recherche" }
+    ]
   }
 ]

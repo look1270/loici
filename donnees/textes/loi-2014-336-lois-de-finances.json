@@ -1,0 +1,86 @@
+{
+  "id": "loi-2014-336-lois-de-finances",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2014-336 du 5 juin 2014 relative aux lois de finances",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "finances-publiques"
+  ],
+  "categorie_id": "finances-fiscal-douanier",
+  "sous_categorie_id": "finances-publiques",
+  "numero_loi": "Loi n° 2014-336",
+  "titre_loi": "Loi n° 2014-336 du 5 juin 2014 relative aux lois de finances",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "07 spécial",
+    "date": "2014-06-06",
+    "page": "153",
+    "source_ids": [
+      "src-cndj-2014-336"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 59-249",
+      "source_ids": [
+        "src-cndj-2014-336"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 60-434",
+      "source_ids": [
+        "src-cndj-2014-336"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 67-588",
+      "source_ids": [
+        "src-cndj-2014-336"
+      ]
+    },
+    {
+      "relation": "abroge",
+      "texte_id": null,
+      "intitule": "loi n° 70-214",
+      "source_ids": [
+        "src-cndj-2014-336"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2014-336",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2014-06-05",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2014-336 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2014-336"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2014-336"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

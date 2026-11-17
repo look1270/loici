@@ -1,0 +1,53 @@
+{
+  "id": "loi-2013-450-donnees-personnelles",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "economie-et-entreprises"
+  ],
+  "categorie_id": "numerique-donnees",
+  "sous_categorie_id": "donnees-personnelles",
+  "numero_loi": "Loi n° 2013-450",
+  "titre_loi": "Loi n° 2013-450 du 19 juin 2013 relative à la protection des données à caractère personnel",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "32",
+    "date": "2013-08-08",
+    "page": "474",
+    "source_ids": [
+      "src-cndj-2013-450"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2013-450",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2013-06-19",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2013-450 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2013-450"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2013-450"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

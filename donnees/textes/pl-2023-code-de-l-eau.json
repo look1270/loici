@@ -5,7 +5,7 @@
   "numero_depot": null,
   "type": "projet_de_loi",
   "nature": null,
-  "statut": "adopte_en_pleniere",
+  "statut": "promulgue",
   "legislature_id": null,
   "resume": "Le Sénat a adopté ce texte en séance plénière le 23 novembre 2023, au cours de sa deuxième session ordinaire 2023, selon le tableau des projets de loi adoptés publié dans son rapport d'activités de la deuxième session ordinaire 2023 (tableau des projets de loi adoptés, page 20). Ce tableau ne donne que l'intitulé du texte et sa date d'adoption : son contenu n'est pas encore résumé dans LoiCI.",
   "explication": null,
@@ -13,14 +13,30 @@
     "environnement-et-energie"
   ],
   "categorie_id": "environnement-mines-agriculture",
-  "sous_categorie_id": null,
-  "numero_loi": null,
-  "titre_loi": null,
+  "sous_categorie_id": "environnement-eau",
+  "numero_loi": "Loi n° 2023-902",
+  "titre_loi": "Loi n° 2023-902 du 23 novembre 2023 portant Code de l'eau",
   "numero_acte": null,
   "date_signature": null,
-  "reference_jo": null,
+  "reference_jo": {
+    "numero": "05",
+    "date": "2024-01-15",
+    "page": "117",
+    "source_ids": [
+      "src-cndj-2023-902"
+    ]
+  },
   "vigueur": null,
-  "textes_lies": [],
+  "textes_lies": [
+    {
+      "relation": "abroge",
+      "texte_id": "loi-98-755-ancien-code-eau",
+      "intitule": "loi n° 98-755 du 23 décembre 1998 portant Code de l'eau",
+      "source_ids": [
+        "src-cndj-2023-902"
+      ]
+    }
+  ],
   "document_principal_source_id": "src-senat-rapport-activites-2023-s2",
   "acteurs": [
     {
@@ -59,11 +75,25 @@
       "source_ids": [
         "src-senat-rapport-activites-2023-s2"
       ]
+    },
+    {
+      "id": "promulgation",
+      "date": "2023-11-23",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2023-902 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2023-902"
+      ]
     }
   ],
   "revisions": [],
   "source_ids": [
-    "src-senat-rapport-activites-2023-s2"
+    "src-senat-rapport-activites-2023-s2",
+    "src-cndj-2023-902"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

@@ -14,7 +14,7 @@
     "finances-publiques"
   ],
   "categorie_id": "finances-fiscal-douanier",
-  "sous_categorie_id": null,
+  "sous_categorie_id": "fiscalite",
   "numero_loi": null,
   "titre_loi": null,
   "numero_acte": null,
@@ -66,5 +66,5 @@
   "source_ids": [
     "src-assnat-pleniere-2020-10-13"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

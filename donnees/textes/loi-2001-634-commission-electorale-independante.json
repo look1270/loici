@@ -1,0 +1,59 @@
+{
+  "id": "loi-2001-634-commission-electorale-independante",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2001-634 du 9 octobre 2001 portant composition, organisation, attributions et fonctionnement de la Commission électorale indépendante",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "elections-et-vie-politique"
+  ],
+  "categorie_id": "constitutionnel-electoral",
+  "sous_categorie_id": "elections",
+  "numero_loi": "Loi n° 2001-634",
+  "titre_loi": "Loi n° 2001-634 du 9 octobre 2001 portant composition, organisation, attributions et fonctionnement de la Commission électorale indépendante",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "41",
+    "date": "2001-10-11",
+    "page": "857",
+    "source_ids": [
+      "src-cndj-2001-634"
+    ]
+  },
+  "vigueur": {
+    "etat": "modifie",
+    "source_ids": [
+      "src-cndj-2022-886"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-2001-634",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2001-10-09",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2001-634 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2001-634"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2001-634",
+    "src-cndj-2022-886"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

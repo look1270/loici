@@ -1,0 +1,60 @@
+{
+  "id": "loi-98-755-ancien-code-eau",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 98-755 du 23 décembre 1998 portant Code de l'eau",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "environnement-et-energie"
+  ],
+  "categorie_id": "environnement-mines-agriculture",
+  "sous_categorie_id": "environnement-eau",
+  "numero_loi": "Loi n° 98-755",
+  "titre_loi": "Loi n° 98-755 du 23 décembre 1998 portant Code de l'eau",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "07",
+    "date": "1999-02-18",
+    "page": "102",
+    "source_ids": [
+      "src-cndj-98-755"
+    ]
+  },
+  "vigueur": {
+    "etat": "abroge",
+    "source_ids": [
+      "src-cndj-98-755",
+      "src-cndj-2023-902"
+    ]
+  },
+  "textes_lies": [],
+  "document_principal_source_id": "src-cndj-98-755",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "1998-12-23",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 98-755 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-98-755"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2023-902",
+    "src-cndj-98-755"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

@@ -14,7 +14,7 @@
     "institutions"
   ],
   "categorie_id": "justice-organisation-judiciaire",
-  "sous_categorie_id": null,
+  "sous_categorie_id": "magistrature",
   "numero_loi": null,
   "titre_loi": null,
   "numero_acte": null,
@@ -66,5 +66,5 @@
   "source_ids": [
     "src-senat-rapport-activites-2022"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

@@ -13,7 +13,7 @@
     "agriculture-et-elevage"
   ],
   "categorie_id": "environnement-mines-agriculture",
-  "sous_categorie_id": null,
+  "sous_categorie_id": "agriculture-elevage",
   "numero_loi": null,
   "titre_loi": null,
   "numero_acte": null,
@@ -65,5 +65,5 @@
   "source_ids": [
     "src-assnat-pleniere-2020-08-05"
   ],
-  "mis_a_jour_le": "2026-11-14"
+  "mis_a_jour_le": "2026-11-17"
 }

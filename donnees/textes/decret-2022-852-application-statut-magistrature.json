@@ -1,0 +1,48 @@
+{
+  "id": "decret-2022-852-application-statut-magistrature",
+  "acte": "decret",
+  "titre_officiel": "Décret n° 2022-852 du 9 novembre 2022 portant application de la loi n° 2022-194 du 11 mars 2022 portant Statut de la magistrature",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": null,
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "justice"
+  ],
+  "categorie_id": "justice-organisation-judiciaire",
+  "sous_categorie_id": "magistrature",
+  "numero_loi": null,
+  "titre_loi": null,
+  "numero_acte": "2022-852",
+  "date_signature": "2022-11-09",
+  "reference_jo": {
+    "numero": "102",
+    "date": "2022-12-22",
+    "page": "1556",
+    "source_ids": [
+      "src-cndj-2022-852"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "applique",
+      "texte_id": "pl-2022-statut-de-la-magistrature",
+      "intitule": "loi n° 2022-194 du 11 mars 2022 portant Statut de la magistrature",
+      "source_ids": [
+        "src-cndj-2022-852"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2022-852",
+  "acteurs": [],
+  "etapes": [],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2022-852"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}

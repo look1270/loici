@@ -1,0 +1,62 @@
+{
+  "id": "loi-2020-348-modifiant-constitution",
+  "acte": "loi",
+  "titre_officiel": "Loi n° 2020-348 du 19 mars 2020 modifiant la loi n° 2016-886 du 8 novembre 2016 portant Constitution de la République de Côte d'Ivoire",
+  "numero_depot": null,
+  "type": null,
+  "nature": null,
+  "statut": "promulgue",
+  "legislature_id": null,
+  "resume": null,
+  "explication": null,
+  "themes": [
+    "institutions"
+  ],
+  "categorie_id": "constitutionnel-electoral",
+  "sous_categorie_id": "constitution",
+  "numero_loi": "Loi n° 2020-348",
+  "titre_loi": "Loi n° 2020-348 du 19 mars 2020 modifiant la loi n° 2016-886 du 8 novembre 2016 portant Constitution de la République de Côte d'Ivoire",
+  "numero_acte": null,
+  "date_signature": null,
+  "reference_jo": {
+    "numero": "23",
+    "date": "2020-03-19",
+    "page": "329",
+    "source_ids": [
+      "src-cndj-2020-348"
+    ]
+  },
+  "vigueur": null,
+  "textes_lies": [
+    {
+      "relation": "modifie",
+      "texte_id": "loi-2016-886-constitution",
+      "intitule": "loi n° 2016-886 du 8 novembre 2016 portant Constitution de la République de Côte d'Ivoire",
+      "source_ids": [
+        "src-cndj-2020-348"
+      ]
+    }
+  ],
+  "document_principal_source_id": "src-cndj-2020-348",
+  "acteurs": [],
+  "etapes": [
+    {
+      "id": "promulgation",
+      "date": "2020-03-19",
+      "statut": "promulgue",
+      "chambre": null,
+      "organe": "presidence",
+      "commission_id": null,
+      "libelle": "Promulgation de la loi n° 2020-348 par le Président de la République",
+      "vote": null,
+      "source_ids": [
+        "src-cndj-2020-348"
+      ]
+    }
+  ],
+  "revisions": [],
+  "source_ids": [
+    "src-cndj-2020-348"
+  ],
+  "mis_a_jour_le": "2026-11-17"
+}
